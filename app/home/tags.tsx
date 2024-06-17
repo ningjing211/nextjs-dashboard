@@ -1,4 +1,10 @@
-export default function Tags({tag}) {
+import React from 'react';
+
+interface TagsProps {
+    tag: string; // Adjust the type based on your requirements (e.g., string, number, etc.)
+  }
+
+export default function Tags({ tag }: TagsProps) {
     return (
         <div className="ml-4 text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 rounded-full bg-white text-gray-700 border">
             <svg
