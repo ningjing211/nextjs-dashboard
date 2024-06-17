@@ -6,6 +6,8 @@ import Vision from '@/app/home/vision';
 import Work from '@/app/home/work';
 import GetInTouch from '@/app/home/getintouch';
 import Service from '@/app/home/service';
+import Parallax from '@/app/home/parallax';
+
 
 export default function Header() {
     return (
@@ -16,8 +18,9 @@ export default function Header() {
                 <a href="#philosophy" data-anchor="philosophy">Philosophy</a>
                 <a href="#vision" data-anchor="vision">Vision</a>
                 <a href="#work" data-anchor="work">Work</a>
-                <a href="#service" data-anchor="service">Service</a>
-                <a href="#getintouch" data-anchor="getintouch">Getintouch</a>
+                
+                {/* <a href="#service" data-anchor="service">Service</a>
+                <a href="#getintouch" data-anchor="getintouch">Getintouch</a> */}
                 <div className="progress-bar"></div>
             </nav>
 
@@ -25,6 +28,9 @@ export default function Header() {
             <section id="video" className="videoSection">
                 <Video />
             </section>
+            
+            <Parallax />
+            
 
             <section id="philosophy">
                 <Philosophy />
@@ -37,14 +43,14 @@ export default function Header() {
             <section id="work">
                 <Work />
             </section>
-
+{/* 
             <section id="service">
                 <Service />
             </section>
             
             <section id="getintouch">
                 <GetInTouch />
-            </section>
+            </section> */}
 
         </div>
     );
