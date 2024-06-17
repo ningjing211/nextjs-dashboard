@@ -1,6 +1,6 @@
 import SideNav from '@/app/ui/dashboard/sidenav';
 import Header from '@/app/home/header';
-import Footer from '@/app/home/footer';
+// import Footer from '@/app/home/footer';
 
 
 export default function Layout({ children }: { children: React.ReactNode }) {
