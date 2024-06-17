@@ -12,7 +12,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
 
       <div className="w-full md:overflow-y-auto">{children}</div>
 
-      <Footer />
+      {/* <Footer /> */}
 
     </div>
   );
