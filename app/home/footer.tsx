@@ -704,7 +704,7 @@ export default function Footer() {
             ZobaZoba
           </a>
           <a href="#">
-           Green bay
+           Green Bay
           </a>
         </div>
         <div>
@@ -718,7 +718,7 @@ export default function Footer() {
             C-Fans
           </a>
           <a href="#">
-            Line POS
+            Line POS System
           </a>
           <a href="#">
             Line core 360
@@ -744,7 +744,7 @@ export default function Footer() {
           className="image"
           href="https://codepen.io/z-"
           style={{
-            backgroundImage: 'url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/199011/happy.svg")'
+            backgroundImage: 'url("/milkshake.png")'
           }}
           target="_blank"
         />

@@ -24,6 +24,11 @@ body:has(#video:target) a[data-anchor=video]:before {
   visibility: visible;
   translate: 0 0;
 }
+body:has(#origin:target) a[data-anchor=origin]:before {
+  opacity: 1;
+  visibility: visible;
+  translate: 0 0;
+}
 body:has(#philosophy:target) a[data-anchor=philosophy]:before {
   opacity: 1;
   visibility: visible;
@@ -39,7 +44,7 @@ body:has(#work:target) a[data-anchor=work]:before {
   visibility: visible;
   translate: 0 0;
 }
-body:has(#service:target) a[data-anchor=service]:before {
+/* body:has(#service:target) a[data-anchor=service]:before {
   opacity: 1;
   visibility: visible;
   translate: 0 0;
@@ -48,7 +53,7 @@ body:has(#getintouch:target) a[data-anchor=getintouch]:before {
   opacity: 1;
   visibility: visible;
   translate: 0 0;
-}
+} */
 
 nav {
   position: fixed;
@@ -141,20 +146,18 @@ section h1 {
   /* Photo by Chris Leggat for Unsplash */
 }
 
-#service {
+/* #service {
 	background-image: url('https://images.unsplash.com/photo-1579954115545-a95591f28bfc?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
-	/* Photo by Chris Leggat for Unsplash */
 }
 
 #getintouch {
 	background-image: url('https://images.unsplash.com/photo-1512658740823-0ebb97b3b86e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
-/* Photo by Chris Leggat for Unsplash */
-}  
+}   */
 
 @keyframes showText {
   from {
     opacity: 0;
-    translate: 0 0.3rem;
+    translate: 0 0.35rem;
   }
   to {
     opacity: 1;

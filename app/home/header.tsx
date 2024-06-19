@@ -14,7 +14,8 @@ export default function Header() {
         <div className="w-full h-full"> 
 
             <nav>
-                <a href="#video" data-anchor="video">Video</a>
+                <a href="#video" data-anchor="video">show</a>
+                <a href="#origin" data-anchor="origin">Origin</a>
                 <a href="#philosophy" data-anchor="philosophy">Philosophy</a>
                 <a href="#vision" data-anchor="vision">Vision</a>
                 <a href="#work" data-anchor="work">Work</a>
@@ -28,8 +29,10 @@ export default function Header() {
             <section id="video" className="videoSection">
                 <Video />
             </section>
+
             
             <Parallax />
+            
             
 
             <section id="philosophy">

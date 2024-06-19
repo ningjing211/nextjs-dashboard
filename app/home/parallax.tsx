@@ -10,7 +10,7 @@ export default function Parallax() {
             <h1>萬萬沒想到</h1>
           </div>
         </section>
-        <section>
+        <section id="origin">
           <div className="parallax-one">
             <h2>Origin</h2>
           </div>
