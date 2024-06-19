@@ -6,7 +6,7 @@ export default function Parallax() {
         <div id="parallax-world-of-ugg">
         <section>
           <div className="title">
-            <h3>One's group</h3>
+            <h3>Ever Changing</h3>
             <h1>萬萬沒想到</h1>
           </div>
         </section>

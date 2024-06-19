@@ -37,12 +37,14 @@ body .footer .content {
 body .footer .content a, body .footer .content p {
     color: #f5f7fa;
     text-decoration: none;
+    font-family: "Cormorant Garamond", serif;
 }
 body .footer .content b {
     color: white;
 }
 body .footer .content p {
     margin: 0;
+    font-family: "Cormorant Garamond", serif;
     font-size: 0.3rem;
 }
 body .footer .content > div {

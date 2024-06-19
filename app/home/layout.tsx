@@ -1,6 +1,6 @@
 import SideNav from '@/app/ui/dashboard/sidenav';
 import Header from '@/app/home/header';
-// import Footer from '@/app/home/footer';
+import Footer from '@/app/home/footer';
 
 
 export default function Layout({ children }: { children: React.ReactNode }) {
@@ -12,7 +12,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
 
       <div className="w-full md:overflow-y-auto">{children}</div>
 
-      {/* <Footer /> */}
+      <Footer />
 
     </div>
   );
