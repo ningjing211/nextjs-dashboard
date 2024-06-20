@@ -14,12 +14,7 @@ export default function Page() {
               <meta charSet="utf-8" />
               <meta name="viewport" content="initial-scale=1.0, width=device-width" />
             </Head>
-          <Script
-            src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"
-          />
-          <Script
-            src="/portfolio.js"
-          />
+
           <Hero />
 
            

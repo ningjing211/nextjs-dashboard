@@ -1,6 +1,5 @@
-import Tags from '@/app/home/tags';
-import '@/app/ui/btn.css';
-import '@/app/ui/philosophy.css';
+import Tags from '@/app/origin/tags';
+
 
 
 export default function Philosophy() {

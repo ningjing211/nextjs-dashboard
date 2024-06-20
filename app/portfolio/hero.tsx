@@ -48,7 +48,7 @@ export default function Hero() {
                 id="tab-es6"
                 >
                 <h1>
-                    Origin
+                    <a href="/origin">Origin</a>
                 </h1>
                 <h3>
                     something about

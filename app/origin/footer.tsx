@@ -1,5 +1,5 @@
 import React from 'react';
-import '@/app/home/footer.css';
+import '@/app/origin/footer.css';
 
 export default function Footer() {
     return (
@@ -689,8 +689,8 @@ export default function Footer() {
       />
     </div>
     <div className="content">
-      <div>
-        <div>
+      {/* <div> */}
+        {/* <div>
           <b>
             集團新創
           </b>
@@ -737,8 +737,8 @@ export default function Footer() {
           <a href="#">
             Golflink innovation
           </a>
-        </div>
-      </div>
+        </div> */}
+      {/* </div> */}
       <div>
         <a
           className="image"

@@ -24,26 +24,26 @@ body:has(#video:target) a[data-anchor=video]:before {
   visibility: visible;
   translate: 0 0;
 }
+body:has(#brand:target) a[data-anchor=brand]:before {
+  opacity: 1;
+  visibility: visible;
+  translate: 0 0;
+}
 body:has(#origin:target) a[data-anchor=origin]:before {
   opacity: 1;
   visibility: visible;
   translate: 0 0;
 }
-body:has(#philosophy:target) a[data-anchor=philosophy]:before {
+body:has(#story:target) a[data-anchor=story]:before {
   opacity: 1;
   visibility: visible;
   translate: 0 0;
 }
-body:has(#vision:target) a[data-anchor=vision]:before {
+/* body:has(#work:target) a[data-anchor=work]:before {
   opacity: 1;
   visibility: visible;
   translate: 0 0;
-}
-body:has(#work:target) a[data-anchor=work]:before {
-  opacity: 1;
-  visibility: visible;
-  translate: 0 0;
-}
+} */
 /* body:has(#service:target) a[data-anchor=service]:before {
   opacity: 1;
   visibility: visible;
@@ -60,17 +60,18 @@ nav {
   top: 0.3rem;
   left: 0;
   right: 0;
-  width: 90%;
+  width: 95%;
   margin: auto;
   padding: 0.1rem 1rem;
-  box-shadow: 0 0 10px #000 5;
+  box-shadow: 0 0 10px #000 50;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 0.7rem;
-  border-radius: 0.5rem;
+  border-radius: 0.05rem;
   backdrop-filter: blur(10px);
-  background-color: #fff 2;
+  /* background-color: #fff 2; */
+  background-color: #79797952;
   overflow: hidden;
   z-index: 100;
 }

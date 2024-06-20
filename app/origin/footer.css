@@ -1,11 +1,12 @@
 body .footer {
     z-index: 1;
     /* --footer-background: #ed5565; */
-    --footer-background: #6352bb;
+    --footer-background: linear-gradient(332deg, rgba(241,112,242,0.9416141456582633) 0%, rgba(255,161,114,0.8827906162464986) 79%, rgba(124,0,255,0.6306897759103641) 100%);
+    /* background: linear-gradient(#e66465, #9198e5); */
     display: grid;
     position: relative;
     grid-area: footer;
-    min-height: 4rem;
+    min-height: 2rem;
 }
 body .footer .bubbles {
     position: absolute;
@@ -31,7 +32,7 @@ body .footer .content {
     /* grid-gap: 4rem; */
     grid-gap: 0;
     /* padding: 2rem; */
-    padding: 2rem 1rem;
+    padding: 6rem 1rem 3rem 1rem;
     background: var(--footer-background);
 }
 body .footer .content a, body .footer .content p {
@@ -62,14 +63,14 @@ body .footer .content > div .image {
     align-self: center;
     width: 2rem;
     height: 2rem;
-    margin: 2rem 0 0.25rem 0;
+    margin: 0.25rem 0 0.25rem 0;
     background-size: cover;
     background-position: center;
 }
 @keyframes bubble-size {
     0%, 75% {
-        width: var(--size, 4rem);
-        height: var(--size, 4rem);
+        width: var(--size, 1.5rem);
+        height: var(--size, 1.5rem);
    }
     100% {
         width: 0rem;
@@ -78,7 +79,7 @@ body .footer .content > div .image {
 }
 @keyframes bubble-move {
     0% {
-        bottom: -4rem;
+        bottom: 0rem;
    }
     100% {
         bottom: var(--distance, 10rem);
