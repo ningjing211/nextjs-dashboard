@@ -1,15 +1,14 @@
-'use client';
+'user client';
 
 import Head from 'next/head';
 import Script from 'next/script';
-import '@/app/animate/styles.css';
-import App from './App';
+import Hero from '@/app/portfolio/hero';
+import '@/app/ui/portfolio.css';
 
-import '@/app/ui/animate-page.css';
 
 export default function Page() {
     return (
-          <div className="animate-page"> 
+          <div> 
             <Head>
               <title>This page has a title 🤔</title>
               <meta charSet="utf-8" />
@@ -18,7 +17,11 @@ export default function Page() {
           <Script
             src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"
           />
-          {/* <App /> */}
+          <Script
+            src="/portfolio.js"
+          />
+          <Hero />
+
            
           </div>
     );

@@ -40,7 +40,7 @@ export default function Header() {
             </section>
             
             <section id="vision">
-                <Vision />
+                {/* <Vision /> */}
             </section>
 
             <section id="work">
