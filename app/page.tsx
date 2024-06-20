@@ -12,7 +12,16 @@ export default function Page() {
         src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"
       />
       <Script
+        src="https://codepen.io/z-/pen/a8e37caf2a04602ea5815e5acedab458.js"
+      />
+      <Script
         src="/portfolio.js"
+      />
+      <Script
+        src="/work-pre.js"
+      />
+      <Script
+        src="/work.js"
       />
     <main className="flex min-h-screen flex-col p-6">
       <div className="flex h-20 shrink-0 items-end rounded-lg bg-blue-500 p-4 md:h-52">
