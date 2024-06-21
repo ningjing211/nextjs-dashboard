@@ -33,7 +33,7 @@ export default function Join() {
               <h2 className="Card__heading">
                 <a
                   className="Card__link"
-                  href="#"
+                  href="/join/fund"
                 >
                   韓國瑜面紙擦拭計畫
                 </a>
