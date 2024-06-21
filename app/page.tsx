@@ -17,12 +17,12 @@ export default function Page() {
       <Script
         src="/portfolio.js"
       />
-      <Script
+      {/* <Script
         src="/work-pre.js"
-      />
-      <Script
+      /> */}
+      {/* <Script
         src="/work.js"
-      />
+      /> */}
     <main className="flex min-h-screen flex-col p-6">
       <div className="flex h-20 shrink-0 items-end rounded-lg bg-blue-500 p-4 md:h-52">
         <AcmeLogo />
