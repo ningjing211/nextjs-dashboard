@@ -11,7 +11,7 @@ export default function Hero() {
                 <div className="et-hero-tabs-container">
                 <a
                     className="et-hero-tab"
-                    href="#tab-es6"
+                    href="/origin"
                 >
                     Origin
                 </a>
@@ -29,13 +29,13 @@ export default function Hero() {
                 </a>
                 <a
                     className="et-hero-tab"
-                    href="#tab-angular"
+                    href="/menu"
                 >
                     Menu
                 </a>
                 <a
                     className="et-hero-tab"
-                    href="#tab-other"
+                    href="/join"
                 >
                     Join
                 </a>
@@ -94,7 +94,9 @@ export default function Hero() {
                 id="tab-other"
                 >
                 <h1>
-                    Join
+                    <a href="/join">
+                        Join
+                    </a>
                 </h1>
                 <h3>
                     something about 
