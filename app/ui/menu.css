@@ -198,7 +198,7 @@ body.dark {
 }
 @media (prefers-color-scheme: dark) {
   body:not(.light) {
-    background: #232223;
+    background: linear-gradient(45deg, rgba(250,181,197,1) 10%, rgba(255,246,210,1) 16%, rgba(211,255,210,1) 56%, rgba(155,161,231,1) 86%);;
     color: white;
   }
 }

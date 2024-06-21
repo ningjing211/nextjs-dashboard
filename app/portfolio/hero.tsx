@@ -31,7 +31,7 @@ export default function Hero() {
                     className="et-hero-tab"
                     href="#tab-angular"
                 >
-                    Work
+                    Menu
                 </a>
                 <a
                     className="et-hero-tab"
@@ -81,7 +81,9 @@ export default function Hero() {
                 id="tab-angular"
                 >
                 <h1>
-                    Work
+                    <a href="/menu">
+                        Menu
+                    </a>
                 </h1>
                 <h3>
                     something about
