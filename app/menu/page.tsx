@@ -2,8 +2,8 @@
 
 import Head from 'next/head';
 import Script from 'next/script';
-import Work from '@/app/work/work';
-// import '@/app/ui/work.css';
+import Menu from '@/app/menu/menu';
+import '@/app/ui/menu.css';
 
 
 export default function Page() {
@@ -33,7 +33,7 @@ export default function Page() {
               src="/work.js"
             />
 
-          {/* <Work /> */}
+          <Menu />
 
            
           </div>

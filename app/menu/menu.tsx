@@ -1,13 +1,4 @@
-import React from 'react';
-
-// Define a custom CSS properties interface
-interface CustomCSSProperties extends React.CSSProperties {
-  'background': string;
-}
-
-
-
-export default function Work() {
+export default function Menu() {
     return (
         <div>
         <div className="options">
