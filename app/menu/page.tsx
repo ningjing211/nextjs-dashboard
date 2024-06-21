@@ -27,10 +27,10 @@ export default function Page() {
               src="https://codepen.io/z-/pen/a8e37caf2a04602ea5815e5acedab458.js"
             />
             <Script
-              src="/work-pre.js"
+              src="/menu-pre.js"
             />
             <Script
-              src="/work.js"
+              src="/menu.js"
             />
 
           <Menu />

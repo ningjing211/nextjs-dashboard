@@ -213,8 +213,8 @@ body .options {
   flex-direction: row;
   align-items: stretch;
   overflow: hidden;
-  min-width: 1200px;
-  max-width: 1800px;
+  min-width: 1000px;
+  max-width: 1600px;
   width: calc(100% - 100px);
   height: 800px;
 }
@@ -253,7 +253,7 @@ body .options {
 body .options .option {
   position: relative;
   overflow: hidden;
-  min-width: 60px;
+  min-width: 120px;
   margin: 10px;
   background: var(--optionBackground, var(--defaultBackground, #E6E9ED));
   background-size: auto 120%;

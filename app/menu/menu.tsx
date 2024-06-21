@@ -5,20 +5,20 @@ export default function Menu() {
           <div
             className="option active"
             style={{
-              'background': 'url(https://66.media.tumblr.com/6fb397d822f4f9f4596dff2085b18f2e/tumblr_nzsvb4p6xS1qho82wo1_1280.jpg)'
+              'backgroundImage': 'url(https://images.unsplash.com/photo-1501746877-14782df58970?q=80&w=2835&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)'
             }}
           >
             <div className="shadow" />
             <div className="label">
               <div className="icon">
-                <i className="fas fa-walking" />
+                <i className="fas fa-lemon" />
               </div>
               <div className="info">
                 <div className="main">
-                  Blonkisoaz
+                芒果胡蘿蔔奶昔
                 </div>
                 <div className="sub">
-                  Omuke trughte a otufta
+                新鮮芒果、胡蘿蔔泥、椰奶、蜂蜜
                 </div>
               </div>
             </div>
@@ -26,7 +26,7 @@ export default function Menu() {
           <div
             className="option"
             style={{
-              'background': 'url(https://66.media.tumblr.com/8b69cdde47aa952e4176b4200052abf4/tumblr_o51p7mFFF21qho82wo1_1280.jpg)'
+              'backgroundImage': 'url(https://images.unsplash.com/photo-1514517315590-0ea51442327c?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)'
             }}
           >
             <div className="shadow" />
@@ -36,10 +36,10 @@ export default function Menu() {
               </div>
               <div className="info">
                 <div className="main">
-                  Oretemauw
+                火龍果菠菜奶昔
                 </div>
                 <div className="sub">
-                  Omuke trughte a otufta
+                紅心火龍果、菠菜、香蕉、椰奶
                 </div>
               </div>
             </div>
@@ -47,7 +47,7 @@ export default function Menu() {
           <div
             className="option"
             style={{
-              'background': 'url(https://66.media.tumblr.com/5af3f8303456e376ceda1517553ba786/tumblr_o4986gakjh1qho82wo1_1280.jpg)'
+              'backgroundImage': 'url(https://images.unsplash.com/photo-1554795808-3231c32711cf?q=80&w=2836&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)'
             }}
           >
             <div className="shadow" />
@@ -57,10 +57,10 @@ export default function Menu() {
               </div>
               <div className="info">
                 <div className="main">
-                  Iteresuselle
+                藍莓羽衣甘藍奶昔
                 </div>
                 <div className="sub">
-                  Omuke trughte a otufta
+                藍莓、羽衣甘藍、椰奶、希臘優格
                 </div>
               </div>
             </div>
@@ -68,7 +68,7 @@ export default function Menu() {
           <div
             className="option"
             style={{
-              'background': 'url(https://66.media.tumblr.com/5516a22e0cdacaa85311ec3f8fd1e9ef/tumblr_o45jwvdsL11qho82wo1_1280.jpg)'
+              'backgroundImage': 'url(https://images.unsplash.com/photo-1618897996318-5a901fa6ca71?q=80&w=2864&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)'
             }}
           >
             <div className="shadow" />
@@ -78,10 +78,10 @@ export default function Menu() {
               </div>
               <div className="info">
                 <div className="main">
-                  Idiefe
+                奇異果小松菜奶昔
                 </div>
                 <div className="sub">
-                  Omuke trughte a otufta
+                奇異果、小松菜、香蕉、椰奶
                 </div>
               </div>
             </div>
@@ -89,7 +89,7 @@ export default function Menu() {
           <div
             className="option"
             style={{
-              'background': 'url(https://66.media.tumblr.com/f19901f50b79604839ca761cd6d74748/tumblr_o65rohhkQL1qho82wo1_1280.jpg)'
+              'backgroundImage': 'url(https://plus.unsplash.com/premium_photo-1688671925019-783bb9483076?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)'
             }}
           >
             <div className="shadow" />
@@ -99,10 +99,10 @@ export default function Menu() {
               </div>
               <div className="info">
                 <div className="main">
-                  Inatethi
+                櫻桃甜菜根奶昔
                 </div>
                 <div className="sub">
-                  Omuke trughte a otufta
+                櫻桃、甜菜根泥、椰奶、蜂蜜
                 </div>
               </div>
             </div>
@@ -110,10 +110,10 @@ export default function Menu() {
         </div>
         <a
           className="credit"
-          href="http://victorofvalencia-blog.tumblr.com"
-          target="_blank"
+          href="#"
+          target=""
         >
-          Menu Coming Soon
+          More Menu Coming Soon
         </a>
       </div>
     )};
