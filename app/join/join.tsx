@@ -5,7 +5,7 @@ export default function Join() {
         className="Main"
       >
         <h1 className="join-title">
-          募資計畫
+          希望之籽行動
         </h1>
         <section
           className="Carousel"
@@ -25,7 +25,7 @@ export default function Join() {
                 className="Card__image"
                 height="480"
                 loading="lazy"
-                src="https://images.unsplash.com/photo-1621160471147-c5be030e199b?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYyMzMxMTEzMw&ixlib=rb-1.2.1&q=85&height=480"
+                src="https://images.unsplash.com/photo-1607778417094-1fef13315e6e?q=80&w=2873&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 width="480"
               />
             </div>
@@ -35,11 +35,11 @@ export default function Join() {
                   className="Card__link"
                   href="#"
                 >
-                  Prefer 1/1 aspect ratio
+                  韓國瑜面紙擦拭計畫
                 </a>
               </h2>
               <p>
-                This is a generic card pattern.
+                募資金額: 1,000,000 NT$
               </p>
             </div>
           </article>
@@ -53,7 +53,7 @@ export default function Join() {
                 className="Card__image"
                 height="480"
                 loading="lazy"
-                src="https://images.unsplash.com/photo-1493246507139-91e8fad9978e?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYyMzMxMTE5MA&ixlib=rb-1.2.1&q=85&height=480"
+                src="https://images.unsplash.com/photo-1552083375-1447ce886485?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 width="720"
               />
             </div>
@@ -63,11 +63,11 @@ export default function Join() {
                   className="Card__link"
                   href="#"
                 >
-                  Prefer 16/9 aspect ratio
+                  大山大海環繞世界計畫
                 </a>
               </h2>
               <p>
-                This is a generic card pattern.
+              募資金額: 2,000,000 NT$
               </p>
             </div>
           </article>
@@ -91,11 +91,11 @@ export default function Join() {
                   className="Card__link"
                   href="#"
                 >
-                  Prefer 3/4 aspect ratio
+                  Zobazoba吉祥物認領
                 </a>
               </h2>
               <p>
-                This is a generic card pattern.
+              募資金額: 500,000 NT$
               </p>
             </div>
           </article>
@@ -109,7 +109,7 @@ export default function Join() {
                 className="Card__image"
                 height="480"
                 loading="lazy"
-                src="https://images.unsplash.com/photo-1622176835604-e644073b0eab?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYyMzMxMTA3OQ&ixlib=rb-1.2.1&q=85&height=480"
+                src="https://images.unsplash.com/photo-1533408874882-397bf377a8c2?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 width="708"
               />
             </div>
@@ -119,11 +119,11 @@ export default function Join() {
                   className="Card__link"
                   href="#"
                 >
-                  Prefer 4/3 aspect ratio
+                  賽博龐克虛擬賽車計畫
                 </a>
               </h2>
               <p>
-                This is a generic card pattern.
+              募資金額: 1,500,000 NT$
               </p>
             </div>
           </article>
@@ -137,7 +137,7 @@ export default function Join() {
                 className="Card__image"
                 height="480"
                 loading="lazy"
-                src="https://images.unsplash.com/photo-1622987437805-5c6f7c2609d7?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYyMzMxOTA3NA&ixlib=rb-1.2.1&q=85&height=480"
+                src="https://images.unsplash.com/photo-1576059620175-9b608f96797b?q=80&w=2865&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 width="480"
               />
             </div>
@@ -147,11 +147,11 @@ export default function Join() {
                   className="Card__link"
                   href="#"
                 >
-                  Prefer 1/1 aspect ratio
+                  南極冰洞體驗營
                 </a>
               </h2>
               <p>
-                This is a generic card pattern.
+              募資金額: 1,700,000 NT$
               </p>
             </div>
           </article>
@@ -165,7 +165,7 @@ export default function Join() {
                 className="Card__image"
                 height="480"
                 loading="lazy"
-                src="https://images.unsplash.com/photo-1607935911096-f31f85819be7?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYyMzMyNTI1NA&ixlib=rb-1.2.1&q=85&height=480"
+                src="https://images.unsplash.com/photo-1508432220397-de86d2cd666e?q=80&w=2944&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 width="720"
               />
             </div>
@@ -175,11 +175,11 @@ export default function Join() {
                   className="Card__link"
                   href="#"
                 >
-                  Prefer 16/9 aspect ratio
+                  植接交易室內軟裝規劃
                 </a>
               </h2>
               <p>
-                This is a generic card pattern.
+                募資金額: 1,200,000 NT$
               </p>
             </div>
           </article>
@@ -193,7 +193,7 @@ export default function Join() {
                 className="Card__image"
                 height="480"
                 loading="lazy"
-                src="https://images.unsplash.com/photo-1622595522218-f318265a40f4?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYyMzMxOTE1Ng&ixlib=rb-1.2.1&q=85&height=480"
+                src="https://images.unsplash.com/photo-1520434087499-0fa48ffb40c9?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 width="360"
               />
             </div>
@@ -203,11 +203,11 @@ export default function Join() {
                   className="Card__link"
                   href="#"
                 >
-                  Prefer 3/4 aspect ratio
+                  薑是老的辣傳遞計畫
                 </a>
               </h2>
               <p>
-                This is a generic card pattern.
+              募資金額: 6,060,000 NT$
               </p>
             </div>
           </article>
