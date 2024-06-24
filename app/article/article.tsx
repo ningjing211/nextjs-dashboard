@@ -9,7 +9,7 @@ export default function Article() {
                 <div className="grid">
                     <div className="column-xs-12 column-sm-8">
                     <p id="logo">
-                        韓國瑜面紙擦拭計畫
+                        眾人之事募資計畫
                     </p>
                     </div>
                     <div className="column-xs-12 column-sm-4">
@@ -19,11 +19,11 @@ export default function Article() {
                             About
                         </a>
                         </li>
-                        <li>
+                        {/* <li>
                         <a href="#blog">
                             Blog
                         </a>
-                        </li>
+                        </li> */}
                         <li>
                         <a href="#">
                             Contact
@@ -40,16 +40,16 @@ export default function Article() {
                     <div className="column-xs-12 column-md-4">
                     <div className="info">
                         <h1>
-                        Alright Han
+                        Instant Disk Audio CP2
                         </h1>
                         <p className="lead">
-                        Lorem ipsum dolor amet palo santo polaroid readymade coffee.
+                        致敬CD唱片美學，受到全世界樂迷好評推薦的CD Player系列推出第2代，增加了外放喇叭的設計，讓音樂在視覺跟聽覺都能成為生活的一部分。
                         </p>
                         <a
                         className="btn fill"
                         href="#"
                         >
-                        Learn more
+                        瞭解更多
                         </a>
                     </div>
                     </div>
@@ -61,7 +61,7 @@ export default function Article() {
                         />
                         <img
                         className="main-img"
-                        src="https://images.unsplash.com/photo-1503149779833-1de50ebe5f8a?q=80&w=2448&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        src="https://images.unsplash.com/photo-1613822225803-a59e181d2a96?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                         />
                     </div>
                     </div>
@@ -80,18 +80,21 @@ export default function Article() {
                         className="image-block"
                         data-aos="reveal-bottom"
                         />
-                        <img src="https://images.unsplash.com/photo-1476231682828-37e571bc172f?q=80&w=2874&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
+                        <img src="https://images.unsplash.com/photo-1626585974582-05b8c6560e90?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
                     </div>
                     </div>
                     <div className="column-xs-12 column-md-6">
                     <h2>
-                        Model, Actress, & Business Woman.
+                        展示相框設計，讓CD封面宛如藝術品般可被欣賞
                     </h2>
                     <p>
-                        Photo booth cold-pressed air plant iceland actually single-origin coffee. Tacos kitsch tattooed, trust fund vaporware woke letterpress messenger bag photo booth viral. Vice 8-bit live-edge, iceland scenester next level affogato heirloom banh mi fingerstache you probably haven't heard of them schlitz fashion axe pok pok helvetica. Knausgaard post-ironic ramps mustache lo-fi. Knausgaard subway tile vegan banh mi hoodie VHS wayfarers direct trade williamsburg raclette schlitz enamel pin.
+                        日本km5公司在研發設計推出「 Instant Disk Audio-CP1 」後，其透過簡約設計使大眾目光再次回到CD以及專輯設計本身，讓CD融入室內家居日常生活，【致敬CD美學】的理念引起廣大樂迷共鳴，在日本、台灣、歐美地區皆獲得熱烈迴響。
                     </p>
+                    <h2>
+                    革新第二代：27mm薄型音響喇叭
+                    </h2>
                     <p>
-                        Pug venmo tattooed, fanny pack roof party neutra humblebrag put a bird on it glossier semiotics vexillologist cold-pressed. Austin +1 kale chips authentic bespoke sustainable wayfarers normcore palo santo. Tacos, pok pok affogato organic cronut tbh ennui craft beer. Chia fanny pack bicycle rights fashion axe, pickled post-ironic twee jean shorts cold-pressed leggings.
+                    本次因應樂迷的迴響，增加搭載音響的「 Instant Disk Audio-CP2 」，最主要的困難點在於如何維持輕巧的機型及極簡外觀設計。在經過開發團隊與工廠多次來回討論設計，最終實現了設計性與實用性兼具、厚度僅27mm的薄型喇叭音響。
                     </p>
                     </div>
                 </section>
@@ -101,13 +104,13 @@ export default function Article() {
                 >
                     <div className="column-xs-12 text-center">
                     <h2>
-                        Recent Blog Posts
+                        相關報導
                     </h2>
                     </div>
                     <div className="column-xs-12 column-sm-4">
                     <a href="#">
                         <figure>
-                        <img src="https://images.unsplash.com/photo-1614732414444-096e5f1122d5?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
+                        <img src="https://images.unsplash.com/photo-1551242032-0846083c870a?q=80&w=1976&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
                         <figcaption>
                             <h4 className="category">
                             Fashion
@@ -122,7 +125,7 @@ export default function Article() {
                     <div className="column-xs-12 column-sm-4">
                     <a href="#">
                         <figure>
-                        <img src="https://images.unsplash.com/photo-1614730321146-b6fa6a46bcb4?q=80&w=2874&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
+                        <img src="https://images.unsplash.com/photo-1627421367074-0735f6ddc254?q=80&w=1936&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
                         <figcaption>
                             <h4 className="category">
                             Life
@@ -137,7 +140,7 @@ export default function Article() {
                     <div className="column-xs-12 column-sm-4">
                     <a href="#">
                         <figure>
-                        <img src="https://images.unsplash.com/photo-1614728894747-a83421e2b9c9?q=80&w=2874&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
+                        <img src="https://images.unsplash.com/photo-1558584609-4f40c370b7ec?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
                         <figcaption>
                             <h4 className="category">
                             Travel
@@ -154,7 +157,7 @@ export default function Article() {
                         className="btn outline"
                         href="#"
                     >
-                        Read more
+                        即刻加入
                     </a>
                     </div>
                 </section>
