@@ -1,0 +1,124 @@
+.padding-global {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+}
+
+.container-medium, .container-small, .container-large {
+    margin-right: auto !important;
+    margin-left: auto !important;
+}
+
+.container-large {
+    width: 100%;
+    max-width: 120rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.padding-section-medium {
+    padding-top: 4.5rem;
+    padding-bottom: 4.5rem;
+}
+
+
+.max-width-xlarge {
+    width: 100%;
+    max-width: 64rem;
+}
+
+.intro-title {
+    letter-spacing: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: SuisseIntl Medium, Arial, sans-serif;
+    font-size: 5.25rem;
+    font-weight: 500;
+    line-height: 105%;
+}
+
+.spacer-small {
+    width: 100%;
+    padding-top: 1.5rem;
+}
+
+.max-width-medium {
+    width: 100%;
+    max-width: 52rem;
+}
+
+.text-size-large {
+    font-size: 1.5rem;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: .3em;
+}
+
+.button-group {
+    grid-column-gap: .75rem;
+    grid-row-gap: .75rem;
+    flex-wrap: wrap;
+    align-items: center;
+    display: flex;
+}
+
+.button-regular {
+    grid-column-gap: 6px;
+    grid-row-gap: 6px;
+    background-color: #f0f0f0;
+    color: var(--faded-black);
+    border-radius: 1000px;
+    align-items: center;
+    padding: 20px 0 20px 22px;
+    font-family: SuisseIntl Book, Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1;
+    text-decoration: none;
+    display: flex;
+    padding-right: 16px;
+}
+
+.w-inline-block {
+    max-width: 100%;
+    display: inline-block;
+}
+
+.w-inline-block-another {
+    max-width: 100%;
+}
+
+
+@media screen and (max-width: 991px) {
+    .padding-global {
+        padding-left: 1.25rem;
+        padding-right: 1.25rem;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .padding-section-medium {
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .padding-section-medium {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .spacer-small {
+        padding-top: 1.25rem;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .text-size-large {
+        font-size: 1.125rem;
+    }
+}

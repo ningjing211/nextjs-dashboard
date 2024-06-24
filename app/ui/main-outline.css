@@ -34,7 +34,7 @@ body:has(#origin:target) a[data-anchor=origin]:before {
   visibility: visible;
   translate: 0 0;
 }
-body:has(#story:target) a[data-anchor=story]:before {
+body:has(#philosophy:target) a[data-anchor=philosophy]:before {
   opacity: 1;
   visibility: visible;
   translate: 0 0;
