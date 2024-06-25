@@ -269,7 +269,7 @@ export default function Feature() {
                         </div>
                         </div>
                     </div>
-                    {/* <div
+                    <div
                         className="gallery_item is-hover w-dyn-item"
                         role="listitem"
                     >
@@ -376,8 +376,8 @@ export default function Feature() {
                             </div>
                         </div>
                         </div>
-                    </div> */}
-                    {/* <div
+                    </div>
+                    <div
                         className="gallery_item is-hover w-dyn-item"
                         role="listitem"
                     >
@@ -476,8 +476,8 @@ export default function Feature() {
                             </div>
                         </div>
                         </div>
-                    </div> */}
-                    {/* <div
+                    </div>
+                    <div
                         className="gallery_item is-hover w-dyn-item"
                         role="listitem"
                     >
@@ -576,7 +576,7 @@ export default function Feature() {
                             </div>
                         </div>
                         </div>
-                    </div> */}
+                    </div>
                     </div>
                 </div>
                 {/* <div className="spacer-medium" /> */}

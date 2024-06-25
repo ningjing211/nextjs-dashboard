@@ -123,17 +123,16 @@ h2 {
     height: 100%;
     padding-top: 56.25%;
     position: relative;
-    filter: grayscale(100%);
 }
 
-.gallery_link {
+/* .gallery_link {
     -webkit-filter:   contrast(80%) grayscale(100%) hue-rotate(0deg) invert(0%) opacity(100%) saturate(100%) sepia(0%);
     filter:   contrast(80%) grayscale(100%) hue-rotate(0deg) invert(0%) opacity(100%) saturate(100%) sepia(0%);
 mix-blend-mode: none;
 -webkit-filter:   contrast(110%) grayscale(100%) hue-rotate(0deg) invert(0%) opacity(100%) saturate(100%) sepia(0%);
             filter:   contrast(120%) grayscale(100%) hue-rotate(0deg) invert(0%) opacity(100%) saturate(100%) sepia(0%);
     mix-blend-mode: multiply;
-}
+} */
 
 
 
