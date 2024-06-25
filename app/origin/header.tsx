@@ -38,9 +38,9 @@ export default function Header() {
             
             
 
-             <section id="philosophy">
+             {/* <section id="philosophy">
                 <Philosophy />
-            </section>
+            </section> */}
 
             
             {/* <section id="vision">

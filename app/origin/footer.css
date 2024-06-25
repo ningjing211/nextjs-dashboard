@@ -1,9 +1,9 @@
 body .footer {
     z-index: 1;
     /* --footer-background: #ed5565; */
-    --footer-background: linear-gradient(332deg, rgba(241,112,242,0.9416141456582633) 0%, rgba(255,161,114,0.8827906162464986) 79%, rgba(124,0,255,0.6306897759103641) 100%);
+    /* --footer-background: linear-gradient(332deg, rgba(241,112,242,0.9416141456582633) 0%, rgba(255,161,114,0.8827906162464986) 79%, rgba(124,0,255,0.6306897759103641) 100%); */
     /* background: linear-gradient(#e66465, #9198e5); */
-    display: grid;
+    --footer-background: linear-gradient(90deg, rgba(206,206,206,1) 0%, rgba(121,121,121,1) 14%, rgba(229,229,229,1) 62%, rgba(207,207,207,1) 87%, rgba(207,207,207,1) 99%);    display: grid;
     position: relative;
     grid-area: footer;
     min-height: 2rem;
@@ -33,7 +33,7 @@ body .footer .content {
     grid-gap: 0;
     /* padding: 2rem; */
     padding: 6rem 1rem 3rem 1rem;
-    background: var(--footer-background);
+    background: linear-gradient(90deg, rgba(206,206,206,1) 0%, rgba(121,121,121,0.2049194677871149) 14%, rgba(229,229,229,1) 62%, rgba(207,207,207,1) 87%, rgba(207,207,207,1) 99%);
 }
 body .footer .content a, body .footer .content p {
     color: #f5f7fa;
