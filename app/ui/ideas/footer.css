@@ -149,6 +149,10 @@
     .address {
       line-height: 22px;
     }
+    .footer {
+      border-radius: 14px;
+      margin: 20px 0;
+    }
 }
 
   @media screen and (max-width: 520px) {
@@ -160,10 +164,7 @@
       line-height: 24px;
     }
 
-    .footer {
-      border-radius: 14px;
-      margin: 20px 0;
-    }
+    
     
     .legalword {
       margin-bottom: 8px;
