@@ -160,7 +160,14 @@
       line-height: 24px;
     }
 
-
+    .footer {
+      border-radius: 14px;
+      margin: 20px 0;
+    }
+    
+    .legalword {
+      margin-bottom: 8px;
+    }
     
 }
 

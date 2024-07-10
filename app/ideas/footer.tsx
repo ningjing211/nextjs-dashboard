@@ -101,7 +101,7 @@ export default function Footer() {
                 </li>
                 </ul>
                 <div className="legal">
-                <p>
+                <p className="legalword">
                     © 2024 Ever Changing All rights reserved.
                 </p>
                 <div className="legal__links">

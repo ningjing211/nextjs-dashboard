@@ -328,3 +328,8 @@ video {
     
 }
 
+@media screen and (max-width: 767px) {
+    .gallery_item {
+        width: 100%;
+    }
+}
