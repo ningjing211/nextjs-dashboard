@@ -31,7 +31,7 @@
     margin-top: 0;
     margin-bottom: 0;
     font-family: SuisseIntl Medium, Arial, sans-serif;
-    font-size: 5.25rem;
+    font-size: 4.75rem;
     font-weight: 500;
     line-height: 105%;
 }
@@ -43,11 +43,13 @@
 
 .max-width-medium {
     width: 100%;
-    max-width: 52rem;
+    max-width: 70rem;
 }
 
 .text-size-large {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    letter-spacing: 3px;
 }
 
 p {
@@ -66,7 +68,7 @@ p {
 .button-regular {
     grid-column-gap: 6px;
     grid-row-gap: 6px;
-    background-color: #f0f0f0;
+    background-color: #cdcdcd;
     color: var(--faded-black);
     border-radius: 1000px;
     align-items: center;
@@ -95,6 +97,9 @@ p {
         padding-left: 1.25rem;
         padding-right: 1.25rem;
     }
+    .intro-title {
+        font-size: 3rem;;
+    }
 }
 
 @media screen and (max-width: 991px) {
@@ -109,6 +114,9 @@ p {
         padding-top: 3rem;
         padding-bottom: 3rem;
     }
+    .intro-title {
+        font-size: 2.5rem;;
+    }
 }
 
 @media screen and (max-width: 767px) {
@@ -120,5 +128,18 @@ p {
 @media screen and (max-width: 767px) {
     .text-size-large {
         font-size: 1.125rem;
+    }
+}
+
+@media screen and (max-width: 494px) {
+    .padding-section-medium {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+    .intro-title {
+        font-size: 1.8rem;;
+    }
+    .text-size-large {
+        font-size: 1rem;
     }
 }

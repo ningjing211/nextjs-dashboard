@@ -18,7 +18,7 @@ export default function Header() {
                     className="header-menu-link"
                     href=""
                     >
-                    Books
+                    Philosophy
                     </a>
                 </li>
                 <li>
@@ -26,7 +26,7 @@ export default function Header() {
                     className="header-menu-link"
                     href=""
                     >
-                    Courses
+                    Core Value
                     </a>
                 </li>
                 <li>
@@ -34,7 +34,7 @@ export default function Header() {
                     className="header-menu-link"
                     href=""
                     >
-                    Webinars
+                    Origin
                     </a>
                 </li>
                 <li>
@@ -42,7 +42,7 @@ export default function Header() {
                     className="header-menu-link"
                     href=""
                     >
-                    Blog
+                    Vision
                     </a>
                 </li>
                 </ul>

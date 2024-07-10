@@ -8,6 +8,7 @@ import Intro from '@/app/ideas/intro';
 import Featured from '@/app/ideas/featured';
 import Footer from '@/app/ideas/footer';
 
+
 export default function Page() {
     return (
           <div> 

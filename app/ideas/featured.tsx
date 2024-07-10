@@ -3,13 +3,13 @@ import '@/app/ui/ideas/featured.css';
 export default function Feature() {
     return (
         <div>
-            <div className="padding-section-medium">
+            <div className="padding-section-medium special-section">
                 <div className="heading-style-h6">
-                    Work
+                    Streets 
                 </div>
                 <div className="spacer-tiny" />
                 <h2 className="heading-style-h4">
-                    Featured Projects
+                   Perceived | Present | Pioneering
                 </h2>
                 <div className="spacer-medium" />
                 <div className="home-work_gallery w-dyn-list">
@@ -23,7 +23,7 @@ export default function Feature() {
                     >
                         <a
                         className="gallery_link w-inline-block"
-                        href="/work/stalder"
+                        href="/philosophy"
                         >
                         <img
                             alt="Stalder Coaching"
@@ -149,7 +149,7 @@ export default function Feature() {
                     >
                         <a
                         className="gallery_link w-inline-block"
-                        href="/work/janine-wachsmann"
+                        href="/core_value"
                         >
                         <img
                             alt="Janine Wachsmann"
@@ -205,7 +205,7 @@ export default function Feature() {
                         </div>
                         </a>
                         <div className="work_tag-container">
-                        <div
+                        {/* <div
                             className="tag is-white"
                             style={{
                             rotate: 'none',
@@ -217,7 +217,7 @@ export default function Feature() {
                             <div>
                             Architecture
                             </div>
-                        </div>
+                        </div> */}
                         <div className="w-dyn-list">
                             <div
                             className="services-tags w-dyn-items"
@@ -275,7 +275,7 @@ export default function Feature() {
                     >
                         <a
                         className="gallery_link w-inline-block"
-                        href="/work/a-labs"
+                        href="/origin"
                         >
                         <img
                             alt="Alignment Labs"
@@ -331,11 +331,11 @@ export default function Feature() {
                         </div>
                         </a>
                         <div className="work_tag-container">
-                        <div className="tag is-white">
+                        {/* <div className="tag is-white">
                             <div>
                             Saas
                             </div>
-                        </div>
+                        </div> */}
                         <div className="w-dyn-list">
                             <div
                             className="services-tags w-dyn-items"
@@ -365,14 +365,14 @@ export default function Feature() {
                                 Marketing
                                 </div>
                             </div>
-                            <div
+                            {/* <div
                                 className="tag w-dyn-item"
                                 role="listitem"
                             >
                                 <div>
                                 Ecosystems
                                 </div>
-                            </div>
+                            </div> */}
                             </div>
                         </div>
                         </div>
@@ -383,7 +383,7 @@ export default function Feature() {
                     >
                         <a
                         className="gallery_link w-inline-block"
-                        href="/work/inme"
+                        href="/vision"
                         >
                         <img
                             alt="INME Wellness"
@@ -477,106 +477,7 @@ export default function Feature() {
                         </div>
                         </div>
                     </div>
-                    <div
-                        className="gallery_item is-hover w-dyn-item"
-                        role="listitem"
-                    >
-                        <a
-                        className="gallery_link w-inline-block"
-                        href="/work/academy-of-solar-excellence"
-                        >
-                        <img
-                            alt="Academy of Solar Excellence"
-                            className="gallery_image w-dyn-bind-empty"
-                            loading="lazy"
-                            src=""
-                        />
-                        <div className="gallery_video hide-mobile-landscape w-embed">
-                            <div
-                            className="w-background-video w-background-video-atom hero_media-item-video"
-                            data-autoplay="true"
-                            data-loop="true"
-                            data-video-url="https://s3.amazonaws.com/webflow-prod-assets/622a4648cd061df13d6df135/661f1a4c1ca63e6eb6d633ab_andhuman_academy-of-solar-excellence-16.mp4"
-                            data-wf-ignore="true"
-                            >
-                            <video
-                                autoPlay
-                                data-object-fit="cover"
-                                data-wf-ignore="true"
-                                loop
-                                muted
-                                playsInline
-                            >
-                                <source
-                                data-wf-ignore="true"
-                                src="https://s3.amazonaws.com/webflow-prod-assets/622a4648cd061df13d6df135/661f1a4c1ca63e6eb6d633ab_andhuman_academy-of-solar-excellence-16.mp4"
-                                />
-                            </video>
-                            </div>
-                        </div>
-                        <div className="gallery_video is-mobile w-embed">
-                            <div
-                            className="w-background-video w-background-video-atom hero_media-item-video"
-                            data-autoplay="true"
-                            data-loop="true"
-                            data-video-url="https://s3.amazonaws.com/webflow-prod-assets/622a4648cd061df13d6df135/661f1a4c1ca63e6eb6d633ab_andhuman_academy-of-solar-excellence-16.mp4"
-                            data-wf-ignore="true"
-                            >
-                            <video
-                                autoPlay
-                                data-object-fit="cover"
-                                data-wf-ignore="true"
-                                loop
-                                muted
-                                playsInline
-                            >
-                                <source
-                                data-wf-ignore="true"
-                                src="https://s3.amazonaws.com/webflow-prod-assets/622a4648cd061df13d6df135/661f1a4c1ca63e6eb6d633ab_andhuman_academy-of-solar-excellence-16.mp4"
-                                />
-                            </video>
-                            </div>
-                        </div>
-                        </a>
-                        <div className="work_tag-container">
-                        <div className="tag is-white">
-                            <div>
-                            Education
-                            </div>
-                        </div>
-                        <div className="w-dyn-list">
-                            <div
-                            className="services-tags w-dyn-items"
-                            role="list"
-                            >
-                            <div
-                                className="tag w-dyn-item"
-                                role="listitem"
-                            >
-                                <div>
-                                Branding
-                                </div>
-                            </div>
-                            <div
-                                className="tag w-dyn-item"
-                                role="listitem"
-                            >
-                                <div>
-                                Design
-                                </div>
-                            </div>
-                            <div
-                                className="tag w-dyn-item"
-                                role="listitem"
-                            >
-                                <div>
-                                Websites
-                                </div>
-                            </div>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
+  
                     </div>
                 </div>
                 {/* <div className="spacer-medium" /> */}
