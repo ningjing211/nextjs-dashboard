@@ -6,13 +6,13 @@ export default function Parallax() {
         <div id="parallax-world-of-ugg">
         <section>
           <div id="brand" className="title">
-            <h3>Ever Changing</h3>
-            <h1>萬萬沒想到</h1>
+            {/* <h3>Ever Changing</h3> */}
+            <h1>萬萬的信仰是什麼, 宣揚倡議什麼文化?</h1>
           </div>
         </section>
         <section id="origin">
           <div className="parallax-one">
-            <h2>Origin</h2>
+            <h2>Philosophy</h2>
           </div>
         </section>
         
