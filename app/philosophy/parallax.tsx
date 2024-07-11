@@ -16,7 +16,7 @@ export default function Parallax() {
           </div>
         </section>
         
-        <section>
+        <section  className="section-words">
           <div id="story" className="block">
             <p>
               <span className="first-character ny">萬
@@ -31,7 +31,7 @@ export default function Parallax() {
           </div>
         </section>
 
-        <section>
+        <section  className="section-words">
           <div className="block">
             <p><span className="first-character ny">怎</span>怎麼樣才能讓奶昔不僅僅是一杯飲品，而是成為生活中的藝術品和互動的橋樑。於是，萬萬誕生了。我們的信仰是：每個人都有無限的創意潛力，每杯奶昔都是你個性與創意的完美展現。</p>
            </div>
@@ -43,7 +43,7 @@ export default function Parallax() {
           </div>
         </section>
 
-        <section>
+        <section  className="section-words">
           <div className="block">
             <p><span className="first-character ny">愛</span>
 調皮是一種最深沉的樂趣與動力，
