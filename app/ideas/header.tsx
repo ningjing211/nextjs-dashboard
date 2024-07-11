@@ -32,9 +32,9 @@ export default function Header() {
                 <li>
                     <a
                     className="header-menu-link"
-                    href="/origin"
+                    href="/roots"
                     >
-                    Origin
+                    Roots
                     </a>
                 </li>
                 <li>

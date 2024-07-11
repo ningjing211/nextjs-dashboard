@@ -44,8 +44,8 @@ export default function Footer() {
                         </a>
                     </li>
                     <li>
-                        <a href="/origin">
-                        Origin
+                        <a href="/roots">
+                        Roots
                         </a>
                     </li>
                     <li>
