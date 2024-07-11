@@ -2,8 +2,8 @@
 
 import Head from 'next/head';
 import Script from 'next/script';
-import Header from '@/app/philosophy/header';
-import Footer from '@/app/philosophy/footer';
+import Header from '@/app/ideas/header';
+import Footer from '@/app/ideas/footer';
 import Philosophy from '@/app/philosophy/philosophy';
 
 export default function Page() {

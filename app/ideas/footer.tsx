@@ -6,7 +6,9 @@ export default function Footer() {
             <footer className="footer">
                 <div className="footer__addr">
                 <h1 className="footer__logo">
+                <a href="/ideas">
                     萬萬想不到
+                </a>
                 </h1>
                 <h2>
                     Contact
@@ -32,22 +34,22 @@ export default function Footer() {
                     </h2>
                     <ul className="nav__ul">
                     <li>
-                        <a href="#">
+                        <a href="/philosophy">
                         Philosophy
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="/core_value">
                         Core Value
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="/origin">
                         Origin
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="/vision">
                         Vision
                         </a>
                     </li>

@@ -7,7 +7,7 @@ export default function Header() {
                 <h1 className="logo">
                 <a
                     className="logo-link"
-                    href="#"
+                    href="/ideas"
                 >
                     萬萬想不到
                 </a>
@@ -16,7 +16,7 @@ export default function Header() {
                 <li>
                     <a
                     className="header-menu-link"
-                    href=""
+                    href="/philosophy"
                     >
                     Philosophy
                     </a>
@@ -24,7 +24,7 @@ export default function Header() {
                 <li>
                     <a
                     className="header-menu-link"
-                    href=""
+                    href="/core_value"
                     >
                     Core Value
                     </a>
@@ -32,7 +32,7 @@ export default function Header() {
                 <li>
                     <a
                     className="header-menu-link"
-                    href=""
+                    href="/origin"
                     >
                     Origin
                     </a>
@@ -40,7 +40,7 @@ export default function Header() {
                 <li>
                     <a
                     className="header-menu-link"
-                    href=""
+                    href="/vision"
                     >
                     Vision
                     </a>
