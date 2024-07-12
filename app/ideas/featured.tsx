@@ -21,6 +21,51 @@ export default function Feature() {
                         className="gallery_item is-hover w-dyn-item"
                         role="listitem"
                     >
+                        <div className="text">
+                            <svg>
+                                <defs>
+                                <mask
+                                    height="100%"
+                                    id="mask"
+                                    width="100%"
+                                    x="0"
+                                    y="0"
+                                >
+                                    <rect
+                                    height="100%"
+                                    id="alpha"
+                                    width="100%"
+                                    x="0"
+                                    y="0"
+                                    />
+                                    <text
+                                    dy="1.58em"
+                                    id="title"
+                                    x="50%"
+                                    y="0"
+                                    >
+                                    philosophy
+                                    </text>
+                                    <text
+                                    dy="9.8em"
+                                    id="subtitle"
+                                    x="50%"
+                                    y="0"
+                                    >
+                                    that we hold on
+                                    </text>
+                                </mask>
+                                </defs>
+                                <rect
+                                height="100%"
+                                id="base"
+                                width="100%"
+                                x="0"
+                                y="0"
+                                />
+                            </svg>
+                        </div>
+
                         <a
                         className="gallery_link w-inline-block"
                         href="/philosophy"
@@ -89,7 +134,7 @@ export default function Feature() {
                             }}
                         >
                             <div>
-                            Wellness
+                            Belief
                             </div>
                         </div>
                         <div className="w-dyn-list">
@@ -108,7 +153,7 @@ export default function Feature() {
                                 }}
                             >
                                 <div>
-                                Branding
+                                Knowledge
                                 </div>
                             </div>
                             <div
@@ -122,10 +167,10 @@ export default function Feature() {
                                 }}
                             >
                                 <div>
-                                Websites
+                                Culture
                                 </div>
                             </div>
-                            <div
+                            {/* <div
                                 className="tag w-dyn-item"
                                 role="listitem"
                                 style={{
@@ -138,7 +183,7 @@ export default function Feature() {
                                 <div>
                                 Consulting
                                 </div>
-                            </div>
+                            </div> */}
                             </div>
                         </div>
                         </div>
@@ -147,6 +192,51 @@ export default function Feature() {
                         className="gallery_item is-hover w-dyn-item"
                         role="listitem"
                     >
+                        <div className="text">
+                            <svg>
+                                <defs>
+                                <mask
+                                    height="100%"
+                                    id="mask2"
+                                    width="100%"
+                                    x="0"
+                                    y="0"
+                                >
+                                    <rect
+                                    height="100%"
+                                    id="alpha2"
+                                    width="100%"
+                                    x="0"
+                                    y="0"
+                                    />
+                                    <text
+                                    dy="1.58em"
+                                    id="title2"
+                                    x="50%"
+                                    y="0"
+                                    >
+                                    Value
+                                    </text>
+                                    <text
+                                    dy="9.8em"
+                                    id="subtitle2"
+                                    x="50%"
+                                    y="0"
+                                    >
+                                    the core we are
+                                    </text>
+                                </mask>
+                                </defs>
+                                <rect
+                                height="100%"
+                                id="base2"
+                                width="100%"
+                                x="0"
+                                y="0"
+                                />
+                            </svg>
+                        </div>
+
                         <a
                         className="gallery_link w-inline-block"
                         href="/core_value"
@@ -262,7 +352,7 @@ export default function Feature() {
                                 }}
                             >
                                 <div>
-                                Websites
+                                Value
                                 </div>
                             </div>
                             </div>
@@ -273,6 +363,50 @@ export default function Feature() {
                         className="gallery_item is-hover w-dyn-item"
                         role="listitem"
                     >
+                        <div className="text">
+                            <svg>
+                                <defs>
+                                <mask
+                                    height="100%"
+                                    id="mask3"
+                                    width="100%"
+                                    x="0"
+                                    y="0"
+                                >
+                                    <rect
+                                    height="100%"
+                                    id="alpha3"
+                                    width="100%"
+                                    x="0"
+                                    y="0"
+                                    />
+                                    <text
+                                    dy="1.58em"
+                                    id="title3"
+                                    x="50%"
+                                    y="0"
+                                    >
+                                    Roots
+                                    </text>
+                                    <text
+                                    dy="9.8em"
+                                    id="subtitle3"
+                                    x="50%"
+                                    y="0"
+                                    >
+                                    burst out of surprise
+                                    </text>
+                                </mask>
+                                </defs>
+                                <rect
+                                height="100%"
+                                id="base3"
+                                width="100%"
+                                x="0"
+                                y="0"
+                                />
+                            </svg>
+                        </div>
                         <a
                         className="gallery_link w-inline-block"
                         href="/origin"
@@ -288,7 +422,7 @@ export default function Feature() {
                             className="w-background-video w-background-video-atom hero_media-item-video"
                             data-autoplay="true"
                             data-loop="true"
-                            data-video-url="left-down-positive-lifestyle.webm"
+                            data-video-url="left-down-fireworks.webm"
                             data-wf-ignore="true"
                             >
                             <video
@@ -301,7 +435,7 @@ export default function Feature() {
                             >
                                 <source
                                 data-wf-ignore="true"
-                                src="left-down-positive-lifestyle.webm"
+                                src="left-down-fireworks.webm"
                                 />
                             </video>
                             </div>
@@ -311,7 +445,7 @@ export default function Feature() {
                             className="w-background-video w-background-video-atom hero_media-item-video"
                             data-autoplay="true"
                             data-loop="true"
-                            data-video-url="left-down-positive-lifestyle.webm"
+                            data-video-url="left-down-fireworks.webm"
                             data-wf-ignore="true"
                             >
                             <video
@@ -324,7 +458,7 @@ export default function Feature() {
                             >
                                 <source
                                 data-wf-ignore="true"
-                                src="left-down-positive-lifestyle.webm"
+                                src="left-down-fireworks.webm"
                                 />
                             </video>
                             </div>
@@ -381,6 +515,51 @@ export default function Feature() {
                         className="gallery_item is-hover w-dyn-item"
                         role="listitem"
                     >
+                        <div className="text">
+                            <svg>
+                                <defs>
+                                <mask
+                                    height="100%"
+                                    id="mask4"
+                                    width="100%"
+                                    x="0"
+                                    y="0"
+                                >
+                                    <rect
+                                    height="100%"
+                                    id="alpha4"
+                                    width="100%"
+                                    x="0"
+                                    y="0"
+                                    />
+                                    <text
+                                    dy="1.58em"
+                                    id="title4"
+                                    x="50%"
+                                    y="0"
+                                    >
+                                    Vision
+                                    </text>
+                                    <text
+                                    dy="9.8em"
+                                    id="subtitle4"
+                                    x="50%"
+                                    y="0"
+                                    >
+                                    Thinking ahead deeply
+                                    </text>
+                                </mask>
+                                </defs>
+                                <rect
+                                height="100%"
+                                id="base4"
+                                width="100%"
+                                x="0"
+                                y="0"
+                                />
+                            </svg>
+                        </div>
+
                         <a
                         className="gallery_link w-inline-block"
                         href="/vision"
@@ -441,7 +620,7 @@ export default function Feature() {
                         <div className="work_tag-container">
                         <div className="tag is-white">
                             <div>
-                            Wellness
+                            Inovation
                             </div>
                         </div>
                         <div className="w-dyn-list">
@@ -454,7 +633,7 @@ export default function Feature() {
                                 role="listitem"
                             >
                                 <div>
-                                Branding
+                                Milestone
                                 </div>
                             </div>
                             <div
@@ -462,17 +641,17 @@ export default function Feature() {
                                 role="listitem"
                             >
                                 <div>
-                                Design
+                                Co-create
                                 </div>
                             </div>
-                            <div
+                            {/* <div
                                 className="tag w-dyn-item"
                                 role="listitem"
                             >
                                 <div>
                                 Marketing
                                 </div>
-                            </div>
+                            </div> */}
                             </div>
                         </div>
                         </div>

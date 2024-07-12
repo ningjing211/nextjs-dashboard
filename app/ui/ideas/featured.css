@@ -333,3 +333,70 @@ video {
         width: 100%;
     }
 }
+
+
+
+
+ .text {
+	 position: absolute;
+	 bottom: 0;
+	 left: 0;
+	 width: 100%;
+	 height: 270px;
+	 z-index: 10;
+}
+ svg {
+	 width: 100%;
+	 height: inherit;
+}
+ svg text {
+	 text-anchor: middle;
+}
+ svg #alpha {
+    fill: #868686;
+ }
+ svg #alpha2 {
+    fill: #767676;  
+ }
+ svg #alpha3 {
+    fill: #5bc7eb;
+ }
+ svg #alpha4 {
+	 fill: #4cde4e;
+}
+ svg #title,
+ svg #title2,
+ svg #title3,
+ svg #title4 {
+	 letter-spacing: -2px;
+	 font-size: 6em;
+	 font-weight: 800;
+}
+ svg #subtitle,
+ svg #subtitle2,
+ svg #subtitle3,
+ svg #subtitle4 {
+	 letter-spacing: 8px;
+	 font-size: 1.2em;
+	 font-weight: 300;
+	 text-transform: uppercase;
+}
+ svg #base {
+	 fill: black;
+	 mask: url(#mask);
+}
+
+svg #base2 {
+    fill: #fff;
+    mask: url(#mask2);
+}
+
+svg #base3 {
+    fill: #fff;
+    mask: url(#mask3);
+}
+
+svg #base4 {
+    fill: #fff;
+    mask: url(#mask4);
+}
