@@ -40,7 +40,7 @@ export default function Footer() {
                     </li>
                     <li>
                         <a href="/core_value">
-                        Core Value
+                        Value
                         </a>
                     </li>
                     <li>

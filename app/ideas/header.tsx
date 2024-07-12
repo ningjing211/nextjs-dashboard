@@ -26,7 +26,7 @@ export default function Header() {
                     className="header-menu-link"
                     href="/core_value"
                     >
-                    Core Value
+                    Value
                     </a>
                 </li>
                 <li>

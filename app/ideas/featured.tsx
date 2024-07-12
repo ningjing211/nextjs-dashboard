@@ -21,50 +21,7 @@ export default function Feature() {
                         className="gallery_item is-hover w-dyn-item"
                         role="listitem"
                     >
-                        <div className="text">
-                            <svg>
-                                <defs>
-                                <mask
-                                    height="100%"
-                                    id="mask"
-                                    width="100%"
-                                    x="0"
-                                    y="0"
-                                >
-                                    <rect
-                                    height="100%"
-                                    id="alpha"
-                                    width="100%"
-                                    x="0"
-                                    y="0"
-                                    />
-                                    <text
-                                    dy="1.58em"
-                                    id="title"
-                                    x="50%"
-                                    y="0"
-                                    >
-                                    philosophy
-                                    </text>
-                                    <text
-                                    dy="9.8em"
-                                    id="subtitle"
-                                    x="50%"
-                                    y="0"
-                                    >
-                                    that we hold on
-                                    </text>
-                                </mask>
-                                </defs>
-                                <rect
-                                height="100%"
-                                id="base"
-                                width="100%"
-                                x="0"
-                                y="0"
-                                />
-                            </svg>
-                        </div>
+                        
 
                         <a
                         className="gallery_link w-inline-block"
@@ -121,6 +78,50 @@ export default function Feature() {
                                 />
                             </video>
                             </div>
+                        </div>
+                        <div className="text">
+                            <svg>
+                                <defs>
+                                <mask
+                                    height="100%"
+                                    id="mask"
+                                    width="100%"
+                                    x="0"
+                                    y="0"
+                                >
+                                    <rect
+                                    height="100%"
+                                    id="alpha"
+                                    width="100%"
+                                    x="0"
+                                    y="0"
+                                    />
+                                    <text
+                                    dy="1.58em"
+                                    id="title"
+                                    x="50%"
+                                    y="0"
+                                    >
+                                    philosophy
+                                    </text>
+                                    <text
+                                    dy="9.8em"
+                                    id="subtitle"
+                                    x="50%"
+                                    y="0"
+                                    >
+                                    that we hold on
+                                    </text>
+                                </mask>
+                                </defs>
+                                <rect
+                                height="100%"
+                                id="base"
+                                width="100%"
+                                x="0"
+                                y="0"
+                                />
+                            </svg>
                         </div>
                         </a>
                         <div className="work_tag-container">
@@ -192,50 +193,7 @@ export default function Feature() {
                         className="gallery_item is-hover w-dyn-item"
                         role="listitem"
                     >
-                        <div className="text">
-                            <svg>
-                                <defs>
-                                <mask
-                                    height="100%"
-                                    id="mask2"
-                                    width="100%"
-                                    x="0"
-                                    y="0"
-                                >
-                                    <rect
-                                    height="100%"
-                                    id="alpha2"
-                                    width="100%"
-                                    x="0"
-                                    y="0"
-                                    />
-                                    <text
-                                    dy="1.58em"
-                                    id="title2"
-                                    x="50%"
-                                    y="0"
-                                    >
-                                    Value
-                                    </text>
-                                    <text
-                                    dy="9.8em"
-                                    id="subtitle2"
-                                    x="50%"
-                                    y="0"
-                                    >
-                                    the core we own
-                                    </text>
-                                </mask>
-                                </defs>
-                                <rect
-                                height="100%"
-                                id="base2"
-                                width="100%"
-                                x="0"
-                                y="0"
-                                />
-                            </svg>
-                        </div>
+                        
 
                         <a
                         className="gallery_link w-inline-block"
@@ -292,6 +250,50 @@ export default function Feature() {
                                 />
                             </video>
                             </div>
+                        </div>
+                        <div className="text">
+                            <svg>
+                                <defs>
+                                <mask
+                                    height="100%"
+                                    id="mask2"
+                                    width="100%"
+                                    x="0"
+                                    y="0"
+                                >
+                                    <rect
+                                    height="100%"
+                                    id="alpha2"
+                                    width="100%"
+                                    x="0"
+                                    y="0"
+                                    />
+                                    <text
+                                    dy="1.58em"
+                                    id="title2"
+                                    x="50%"
+                                    y="0"
+                                    >
+                                    Value
+                                    </text>
+                                    <text
+                                    dy="9.8em"
+                                    id="subtitle2"
+                                    x="50%"
+                                    y="0"
+                                    >
+                                    the core we own
+                                    </text>
+                                </mask>
+                                </defs>
+                                <rect
+                                height="100%"
+                                id="base2"
+                                width="100%"
+                                x="0"
+                                y="0"
+                                />
+                            </svg>
                         </div>
                         </a>
                         <div className="work_tag-container">
@@ -363,53 +365,10 @@ export default function Feature() {
                         className="gallery_item is-hover w-dyn-item"
                         role="listitem"
                     >
-                        <div className="text">
-                            <svg>
-                                <defs>
-                                <mask
-                                    height="100%"
-                                    id="mask3"
-                                    width="100%"
-                                    x="0"
-                                    y="0"
-                                >
-                                    <rect
-                                    height="100%"
-                                    id="alpha3"
-                                    width="100%"
-                                    x="0"
-                                    y="0"
-                                    />
-                                    <text
-                                    dy="1.58em"
-                                    id="title3"
-                                    x="50%"
-                                    y="0"
-                                    >
-                                    Roots
-                                    </text>
-                                    <text
-                                    dy="9.8em"
-                                    id="subtitle3"
-                                    x="50%"
-                                    y="0"
-                                    >
-                                    burst out of surprise
-                                    </text>
-                                </mask>
-                                </defs>
-                                <rect
-                                height="100%"
-                                id="base3"
-                                width="100%"
-                                x="0"
-                                y="0"
-                                />
-                            </svg>
-                        </div>
+                        
                         <a
                         className="gallery_link w-inline-block"
-                        href="/origin"
+                        href="/roots"
                         >
                         <img
                             alt="Alignment Labs"
@@ -463,6 +422,50 @@ export default function Feature() {
                             </video>
                             </div>
                         </div>
+                        <div className="text">
+                            <svg>
+                                <defs>
+                                <mask
+                                    height="100%"
+                                    id="mask3"
+                                    width="100%"
+                                    x="0"
+                                    y="0"
+                                >
+                                    <rect
+                                    height="100%"
+                                    id="alpha3"
+                                    width="100%"
+                                    x="0"
+                                    y="0"
+                                    />
+                                    <text
+                                    dy="1.58em"
+                                    id="title3"
+                                    x="50%"
+                                    y="0"
+                                    >
+                                    Roots
+                                    </text>
+                                    <text
+                                    dy="9.8em"
+                                    id="subtitle3"
+                                    x="50%"
+                                    y="0"
+                                    >
+                                    burst out of surprise
+                                    </text>
+                                </mask>
+                                </defs>
+                                <rect
+                                height="100%"
+                                id="base3"
+                                width="100%"
+                                x="0"
+                                y="0"
+                                />
+                            </svg>
+                        </div>
                         </a>
                         <div className="work_tag-container">
                         {/* <div className="tag is-white">
@@ -514,52 +517,7 @@ export default function Feature() {
                     <div
                         className="gallery_item is-hover w-dyn-item"
                         role="listitem"
-                    >
-                        <div className="text">
-                            <svg>
-                                <defs>
-                                <mask
-                                    height="100%"
-                                    id="mask4"
-                                    width="100%"
-                                    x="0"
-                                    y="0"
-                                >
-                                    <rect
-                                    height="100%"
-                                    id="alpha4"
-                                    width="100%"
-                                    x="0"
-                                    y="0"
-                                    />
-                                    <text
-                                    dy="1.58em"
-                                    id="title4"
-                                    x="50%"
-                                    y="0"
-                                    >
-                                    Vision
-                                    </text>
-                                    <text
-                                    dy="9.8em"
-                                    id="subtitle4"
-                                    x="50%"
-                                    y="0"
-                                    >
-                                    Thinking ahead like daily
-                                    </text>
-                                </mask>
-                                </defs>
-                                <rect
-                                height="100%"
-                                id="base4"
-                                width="100%"
-                                x="0"
-                                y="0"
-                                />
-                            </svg>
-                        </div>
-
+                    >                        
                         <a
                         className="gallery_link w-inline-block"
                         href="/vision"
@@ -615,6 +573,50 @@ export default function Feature() {
                                 />
                             </video>
                             </div>
+                        </div>
+                        <div className="text">
+                            <svg>
+                                <defs>
+                                <mask
+                                    height="100%"
+                                    id="mask4"
+                                    width="100%"
+                                    x="0"
+                                    y="0"
+                                >
+                                    <rect
+                                    height="100%"
+                                    id="alpha4"
+                                    width="100%"
+                                    x="0"
+                                    y="0"
+                                    />
+                                    <text
+                                    dy="1.58em"
+                                    id="title4"
+                                    x="50%"
+                                    y="0"
+                                    >
+                                    Vision
+                                    </text>
+                                    <text
+                                    dy="9.8em"
+                                    id="subtitle4"
+                                    x="50%"
+                                    y="0"
+                                    >
+                                    Thinking ahead like daily
+                                    </text>
+                                </mask>
+                                </defs>
+                                <rect
+                                height="100%"
+                                id="base4"
+                                width="100%"
+                                x="0"
+                                y="0"
+                                />
+                            </svg>
                         </div>
                         </a>
                         <div className="work_tag-container">
