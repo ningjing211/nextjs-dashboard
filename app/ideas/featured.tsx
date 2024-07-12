@@ -36,7 +36,7 @@ export default function Feature() {
                             className="w-background-video w-background-video-atom hero_media-item-video"
                             data-autoplay="true"
                             data-loop="true"
-                            data-video-url="https://s3.amazonaws.com/webflow-prod-assets/622a4648cd061df13d6df135/661f13048898de448c93399a_andhuman_stalder-2a.mp4"
+                            data-video-url="/left-top-motorcycle.webm"
                             data-wf-ignore="true"
                             >
                             <video
@@ -49,7 +49,7 @@ export default function Feature() {
                             >
                                 <source
                                 data-wf-ignore="true"
-                                src="https://s3.amazonaws.com/webflow-prod-assets/622a4648cd061df13d6df135/661f13048898de448c93399a_andhuman_stalder-2a.mp4"
+                                src="/left-top-motorcycle.webm"
                                 />
                             </video>
                             </div>
@@ -59,7 +59,7 @@ export default function Feature() {
                             className="w-background-video w-background-video-atom hero_media-item-video"
                             data-autoplay="true"
                             data-loop="true"
-                            data-video-url="https://s3.amazonaws.com/webflow-prod-assets/622a4648cd061df13d6df135/661f13048898de448c93399a_andhuman_stalder-3a.mp4"
+                            data-video-url="/left-top-motorcycle.webm"
                             data-wf-ignore="true"
                             >
                             <video
@@ -72,7 +72,7 @@ export default function Feature() {
                             >
                                 <source
                                 data-wf-ignore="true"
-                                src="https://s3.amazonaws.com/webflow-prod-assets/622a4648cd061df13d6df135/661f13048898de448c93399a_andhuman_stalder-3a.mp4"
+                                src="/left-top-motorcycle.webm"
                                 />
                             </video>
                             </div>
@@ -162,7 +162,7 @@ export default function Feature() {
                             className="w-background-video w-background-video-atom hero_media-item-video"
                             data-autoplay="true"
                             data-loop="true"
-                            data-video-url="https://s3.amazonaws.com/webflow-prod-assets/622a4648cd061df13d6df135/661f0ea67511c08ac3dd9a9d_andhuman_janine-wachsmann-3a.mp4"
+                            data-video-url="/right-top-forest.webm"
                             data-wf-ignore="true"
                             >
                             <video
@@ -175,7 +175,7 @@ export default function Feature() {
                             >
                                 <source
                                 data-wf-ignore="true"
-                                src="https://s3.amazonaws.com/webflow-prod-assets/622a4648cd061df13d6df135/661f0ea67511c08ac3dd9a9d_andhuman_janine-wachsmann-3a.mp4"
+                                src="/right-top-forest.webm"
                                 />
                             </video>
                             </div>
@@ -185,7 +185,7 @@ export default function Feature() {
                             className="w-background-video w-background-video-atom hero_media-item-video"
                             data-autoplay="true"
                             data-loop="true"
-                            data-video-url="https://s3.amazonaws.com/webflow-prod-assets/622a4648cd061df13d6df135/661f0ea67511c08ac3dd9a9d_andhuman_janine-wachsmann-3a.mp4"
+                            data-video-url="/right-top-forest.webm"
                             data-wf-ignore="true"
                             >
                             <video
@@ -198,7 +198,7 @@ export default function Feature() {
                             >
                                 <source
                                 data-wf-ignore="true"
-                                src="https://s3.amazonaws.com/webflow-prod-assets/622a4648cd061df13d6df135/661f0ea67511c08ac3dd9a9d_andhuman_janine-wachsmann-3a.mp4"
+                                src="/right-top-forest.webm"
                                 />
                             </video>
                             </div>
@@ -288,7 +288,7 @@ export default function Feature() {
                             className="w-background-video w-background-video-atom hero_media-item-video"
                             data-autoplay="true"
                             data-loop="true"
-                            data-video-url="https://s3.amazonaws.com/webflow-prod-assets/622a4648cd061df13d6df135/661f1cdbfb2ae2d81cdcbd8e_andhuman_a-labs-2a.mp4"
+                            data-video-url="left-down-positive-lifestyle.webm"
                             data-wf-ignore="true"
                             >
                             <video
@@ -301,7 +301,7 @@ export default function Feature() {
                             >
                                 <source
                                 data-wf-ignore="true"
-                                src="https://s3.amazonaws.com/webflow-prod-assets/622a4648cd061df13d6df135/661f1cdbfb2ae2d81cdcbd8e_andhuman_a-labs-2a.mp4"
+                                src="left-down-positive-lifestyle.webm"
                                 />
                             </video>
                             </div>
@@ -311,7 +311,7 @@ export default function Feature() {
                             className="w-background-video w-background-video-atom hero_media-item-video"
                             data-autoplay="true"
                             data-loop="true"
-                            data-video-url="https://s3.amazonaws.com/webflow-prod-assets/622a4648cd061df13d6df135/661f1cdbfb2ae2d81cdcbd8e_andhuman_a-labs-2a.mp4"
+                            data-video-url="left-down-positive-lifestyle.webm"
                             data-wf-ignore="true"
                             >
                             <video
@@ -324,7 +324,7 @@ export default function Feature() {
                             >
                                 <source
                                 data-wf-ignore="true"
-                                src="https://s3.amazonaws.com/webflow-prod-assets/622a4648cd061df13d6df135/661f1cdbfb2ae2d81cdcbd8e_andhuman_a-labs-2a.mp4"
+                                src="left-down-positive-lifestyle.webm"
                                 />
                             </video>
                             </div>
@@ -396,7 +396,7 @@ export default function Feature() {
                             className="w-background-video w-background-video-atom hero_media-item-video"
                             data-autoplay="true"
                             data-loop="true"
-                            data-video-url="https://s3.amazonaws.com/webflow-prod-assets/622a4648cd061df13d6df135/661f151ec626dfd8f654d88e_andhuman_inme-13.mp4"
+                            data-video-url="/left-down-positive-lifestyle.webm"
                             data-wf-ignore="true"
                             >
                             <video
@@ -409,7 +409,7 @@ export default function Feature() {
                             >
                                 <source
                                 data-wf-ignore="true"
-                                src="https://s3.amazonaws.com/webflow-prod-assets/622a4648cd061df13d6df135/661f151ec626dfd8f654d88e_andhuman_inme-13.mp4"
+                                src="/left-down-positive-lifestyle.webm"
                                 />
                             </video>
                             </div>
@@ -419,7 +419,7 @@ export default function Feature() {
                             className="w-background-video w-background-video-atom hero_media-item-video"
                             data-autoplay="true"
                             data-loop="true"
-                            data-video-url="https://s3.amazonaws.com/webflow-prod-assets/622a4648cd061df13d6df135/663d7f5c2b96c054480a015e_andhuman_inme-16.mp4"
+                            data-video-url="/right-down.webm"
                             data-wf-ignore="true"
                             >
                             <video
@@ -432,7 +432,7 @@ export default function Feature() {
                             >
                                 <source
                                 data-wf-ignore="true"
-                                src="https://s3.amazonaws.com/webflow-prod-assets/622a4648cd061df13d6df135/663d7f5c2b96c054480a015e_andhuman_inme-16.mp4"
+                                src="/right-down.webm"
                                 />
                             </video>
                             </div>
