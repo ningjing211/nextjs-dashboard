@@ -195,6 +195,11 @@ img {
     height: 500px;
     position: relative;
     overflow: hidden;
+    filter: contrast(0.7);
+}
+
+.video-fix4 {
+    filter: brightness(0.35);
 }
 
 .w-background-video>video {
@@ -369,10 +374,11 @@ html {
     fill: #767676;  
  }
  svg #alpha3 {
-    fill: #5bc7eb;
+    fill: #ade085;
  }
  svg #alpha4 {
-	 fill: #4cde4e;
+	 fill: #7bc653;
+     /* fill: #767676;   */
 }
  svg #title,
  svg #title2,

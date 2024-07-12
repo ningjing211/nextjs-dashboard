@@ -530,7 +530,7 @@ export default function Feature() {
                         />
                         <div className="gallery_video hide-mobile-landscape w-embed">
                             <div
-                            className="w-background-video w-background-video-atom hero_media-item-video"
+                            className="w-background-video w-background-video-atom hero_media-item-video video-fix4"
                             data-autoplay="true"
                             data-loop="true"
                             data-video-url="/left-down-positive-lifestyle.webm"
@@ -553,7 +553,7 @@ export default function Feature() {
                         </div>
                         <div className="gallery_video is-mobile w-embed">
                             <div
-                            className="w-background-video w-background-video-atom hero_media-item-video"
+                            className="w-background-video w-background-video-atom hero_media-item-video video-fix4"
                             data-autoplay="true"
                             data-loop="true"
                             data-video-url="/right-down.webm"
