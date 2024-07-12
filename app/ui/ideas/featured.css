@@ -335,6 +335,16 @@ video {
 }
 
 
+html {
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizelegibility;
+  }
+  
+  html,
+  body{
+    height: 100%;
+  }
+
 
 
  .text {
