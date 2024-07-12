@@ -223,7 +223,7 @@ export default function Feature() {
                                     x="50%"
                                     y="0"
                                     >
-                                    the core we are
+                                    the core we own
                                     </text>
                                 </mask>
                                 </defs>
@@ -546,7 +546,7 @@ export default function Feature() {
                                     x="50%"
                                     y="0"
                                     >
-                                    Thinking ahead deeply
+                                    Thinking ahead like daily
                                     </text>
                                 </mask>
                                 </defs>

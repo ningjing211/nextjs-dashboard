@@ -11,7 +11,7 @@ export default function Parallax() {
           </div>
         </section>
         <section  id="origin">
-          <div className="parallax-one">
+          <div className="parallax-vision-one">
             <h2>Inovation</h2>
           </div>
         </section>
@@ -118,7 +118,7 @@ export default function Parallax() {
 </div>
 
         <section>
-          <div className="parallax-two">
+          <div className="parallax-vision-two">
             <h2>未來航行</h2>
           </div>
         </section>
@@ -130,7 +130,7 @@ export default function Parallax() {
         </section>
 
         <section  >
-          <div className="parallax-three">
+          <div className="parallax-vision-three">
             <h2>期盼夥伴的加入</h2>
           </div>
         </section>

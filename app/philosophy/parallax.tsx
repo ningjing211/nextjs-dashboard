@@ -11,7 +11,7 @@ export default function Parallax() {
           </div>
         </section>
         <section id="origin">
-          <div className="parallax-one">
+          <div className="parallax-philosophy-one">
             <h2>Philosophy</h2>
           </div>
         </section>
@@ -26,7 +26,7 @@ export default function Parallax() {
         </section>
         
         <section>
-          <div className="parallax-two">
+          <div className="parallax-philosophy-two">
             <h2>Culture</h2>
           </div>
         </section>
@@ -38,7 +38,7 @@ export default function Parallax() {
         </section>
 
         <section>
-          <div className="parallax-three">
+          <div className="parallax-philosophy-three">
             <h2>What we believe</h2>
           </div>
         </section>
