@@ -79,7 +79,8 @@ export default function Feature() {
                             </video>
                             </div>
                         </div>
-                        <div className="text">
+                        <div className="entry-link-title">Philosophy</div>
+                        {/* <div className="text">
                             <svg>
                                 <defs>
                                 <mask
@@ -122,7 +123,7 @@ export default function Feature() {
                                 y="0"
                                 />
                             </svg>
-                        </div>
+                        </div> */}
                         </a>
                         <div className="work_tag-container">
                         <div
@@ -251,7 +252,8 @@ export default function Feature() {
                             </video>
                             </div>
                         </div>
-                        <div className="text">
+                        <div className="entry-link-title">Value</div>
+                        {/* <div className="text">
                             <svg>
                                 <defs>
                                 <mask
@@ -294,7 +296,7 @@ export default function Feature() {
                                 y="0"
                                 />
                             </svg>
-                        </div>
+                        </div> */}
                         </a>
                         <div className="work_tag-container">
                         {/* <div
@@ -329,7 +331,7 @@ export default function Feature() {
                                 Branding
                                 </div>
                             </div>
-                            <div
+                            {/* <div
                                 className="tag w-dyn-item"
                                 role="listitem"
                                 style={{
@@ -342,7 +344,7 @@ export default function Feature() {
                                 <div>
                                 Design
                                 </div>
-                            </div>
+                            </div> */}
                             <div
                                 className="tag w-dyn-item"
                                 role="listitem"
@@ -354,7 +356,7 @@ export default function Feature() {
                                 }}
                             >
                                 <div>
-                                Value
+                                Core
                                 </div>
                             </div>
                             </div>
@@ -422,7 +424,8 @@ export default function Feature() {
                             </video>
                             </div>
                         </div>
-                        <div className="text">
+                        <div className="entry-link-title">Roots</div>
+                        {/* <div className="text">
                             <svg>
                                 <defs>
                                 <mask
@@ -465,7 +468,7 @@ export default function Feature() {
                                 y="0"
                                 />
                             </svg>
-                        </div>
+                        </div> */}
                         </a>
                         <div className="work_tag-container">
                         {/* <div className="tag is-white">
@@ -530,7 +533,7 @@ export default function Feature() {
                         />
                         <div className="gallery_video hide-mobile-landscape w-embed">
                             <div
-                            className="w-background-video w-background-video-atom hero_media-item-video video-fix4"
+                            className="w-background-video w-background-video-atom hero_media-item-video video-fix"
                             data-autoplay="true"
                             data-loop="true"
                             data-video-url="/left-down-positive-lifestyle.webm"
@@ -553,7 +556,7 @@ export default function Feature() {
                         </div>
                         <div className="gallery_video is-mobile w-embed">
                             <div
-                            className="w-background-video w-background-video-atom hero_media-item-video video-fix4"
+                            className="w-background-video w-background-video-atom hero_media-item-video video-fix"
                             data-autoplay="true"
                             data-loop="true"
                             data-video-url="/right-down.webm"
@@ -574,7 +577,8 @@ export default function Feature() {
                             </video>
                             </div>
                         </div>
-                        <div className="text">
+                        <div className="entry-link-title">Vision</div>
+                        {/* <div className="text">
                             <svg>
                                 <defs>
                                 <mask
@@ -617,7 +621,7 @@ export default function Feature() {
                                 y="0"
                                 />
                             </svg>
-                        </div>
+                        </div> */}
                         </a>
                         <div className="work_tag-container">
                         <div className="tag is-white">

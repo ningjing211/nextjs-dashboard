@@ -371,7 +371,7 @@ html {
     fill: rgba(250,250,250, .3);
  }
  svg #alpha2 {
-    /* fill: rgba(250,250,250, .3);   */
+    fill: #767676;  
  }
  svg #alpha3 {
     fill: #769588;
@@ -415,4 +415,13 @@ svg #base3 {
 svg #base4 {
     fill: #fff;
     mask: url(#mask4);
+}
+
+.entry-link-title {
+    position: absolute;
+    bottom: 7%;
+    right: 6%;
+    font-size: 3rem;
+    color: rgba(240, 240, 240, 0.9);
+    z-index: 1;
 }
