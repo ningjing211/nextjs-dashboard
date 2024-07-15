@@ -14,9 +14,22 @@ export default function Footer() {
                     Contact
                 </h2>
                 <br/>
+                <h2>
+                    總管理部
+                </h2>
                 <address className="address">
                     高雄市鼓山區明誠四路288號6樓 
                     +886 (07) 555-0123
+                    <br />
+                    <br/>
+
+                </address>
+                <h2>
+                    示範店
+                </h2>
+                <address className="address">
+                    高雄市三民區博愛路190號1樓 
+                    
                     <br />
                     <br/>
                     <a
@@ -26,6 +39,7 @@ export default function Footer() {
                     Email Us
                     </a>
                 </address>
+                
                 </div>
                 <ul className="footer__nav">
                 <li className="nav__item">

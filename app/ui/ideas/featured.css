@@ -368,13 +368,13 @@ html {
 	 text-anchor: middle;
 }
  svg #alpha {
-    fill: #868686;
+    fill: rgba(250,250,250, .3);
  }
  svg #alpha2 {
-    fill: #767676;  
+    /* fill: rgba(250,250,250, .3);   */
  }
  svg #alpha3 {
-    fill: #69867a;
+    fill: #769588;
  }
  svg #alpha4 {
 	 fill: #7bc653;

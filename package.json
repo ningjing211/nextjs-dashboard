@@ -8,6 +8,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.5.2",
     "@heroicons/react": "^2.0.18",
     "@react-three/drei": "^9.107.0",
     "@react-three/fiber": "^8.16.8",
