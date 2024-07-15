@@ -139,11 +139,13 @@
     transition: opacity 0.25s;
 }
 
+
 .discover > p,
 .design > p,
 .implement > p,
 .develop > p,
 .deliver > p {
+    color: white;
     font-size: 1rem !important;
     line-height: 2rem !important;
 }
