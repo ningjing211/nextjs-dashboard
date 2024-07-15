@@ -1,7 +1,7 @@
 /* CSS Variables */
 :root {
-  --primary: #c6e95e;
-  --dark: #7584c7;
+  --primary: #e6f5b9;
+  --dark: #5993c0;
   --light: #ffffff;
   --shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
 }
@@ -17,6 +17,11 @@ body {
   padding: 1.2rem 1.4rem;
   text-decoration: none;
   border: 0;
+  transition: all 0.3s ease;
+
+}
+.btn:hover {
+    background: rgb(120, 111, 224);
 }
 
 img {
@@ -67,7 +72,7 @@ img {
 .showcase {
   grid-area: showcase;
   min-height: 400px;
-  background: url(https://images.unsplash.com/photo-1614728263952-84ea256f9679?q=80&w=2016&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background: url(https://images.unsplash.com/photo-1560252030-9fc63cb78dac?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
   background-size: cover;
   background-position: center;
   padding: 4rem;
@@ -128,6 +133,31 @@ img {
   color: rgb(255, 255, 232);  /* icon */
 }
 
+
+.box h3 {
+    margin-top: 12px;
+    font-weight: 700;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+}
+
+.box p {
+    color: white;
+    font-weight: 700;
+    font-size: 1rem;
+    text-align: left;
+}
+
+.box-1 {
+    background: #f5b9bd;
+}
+.box-2 {
+    background: #bab9f5;
+}
+.box-3 {
+    background: #84d6b3;
+}
+
 /* Info */
 .info {
   background: var(--primary);
@@ -150,14 +180,6 @@ img {
   box-shadow: var(--shadow);
 }
 
-/* Footer */
-footer {
-  margin-top: 2rem;
-  background: var(--dark);
-  color: var(--light);
-  text-align: center;
-  padding: 1rem;
-}
 
 /* Media Queries */
 @media (max-width: 700px) {
