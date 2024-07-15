@@ -30,7 +30,7 @@ export default function Parallax() {
         
         <section>
           <div className="parallax-roots-two">
-            <h2>我們的團隊</h2>
+            <h2>擁抱世界的愛</h2>
           </div>
         </section>
 
