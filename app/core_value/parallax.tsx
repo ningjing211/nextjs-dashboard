@@ -12,7 +12,7 @@ export default function Parallax() {
         </section>
         <section  id="origin">
           <div className="parallax-core_value-one">
-            <h2>數位CRM系統</h2>
+            <h2>自主資訊系統</h2>
           </div>
         </section>
         
