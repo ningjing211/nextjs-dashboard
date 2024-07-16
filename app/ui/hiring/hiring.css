@@ -387,4 +387,20 @@ img {
     grid-template-columns: auto;
   }
 
+  .showcase-title {
+    margin-bottom: 12px;
+  }
+
+  .showcase-title strong {
+    line-height: 5rem;
+  }
+
+  .showcase {
+    padding: 2.3rem;
+  }
+
+  .showcase p { 
+    width: 100%;
+  }
+
 }
