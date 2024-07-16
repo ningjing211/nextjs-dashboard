@@ -170,9 +170,11 @@ img {
 
 .box-1 {
     background: #d1947c;
+    background-image: linear-gradient(to left, #e5a895 0%, #cf919a 100%);
 }
 .box-2 {
     background: #4d4d99;
+    background-image: linear-gradient(to right, #6a85b6 0%, #949fb1 100%);
 }
 .box-3 {
     background: #84d6b3;
