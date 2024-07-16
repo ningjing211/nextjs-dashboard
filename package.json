@@ -36,6 +36,7 @@
     "postcss": "8.4.31",
     "postprocessing": "^6.35.5",
     "react": "^18.2.0",
+    "react-countup": "^6.5.3",
     "react-day-picker": "^8.10.1",
     "react-dom": "^18.2.0",
     "react-icon-cloud": "^4.1.4",
