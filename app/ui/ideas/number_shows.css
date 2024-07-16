@@ -10,6 +10,26 @@
     font-size: 1.1rem;
 }
 
+.count-group {
+    display: flex;
+    align-items: center;
+}
+
+.icon-word {
+    padding-bottom: 12px;
+}
+
+.icon-word,
+.count-item {
+    display: inline-flex;
+    align-items: center;
+}
+
+.icon-word {
+    margin-right: 12px;
+}
+
+
 /* 泡泡 */
 
 .cards .container {
@@ -18,7 +38,7 @@ font-family: "Source Sans Pro", sans-serif;
   margin: 0 auto;
   padding: 2rem;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   place-items: center;
   gap: 5rem;
 }
@@ -108,6 +128,9 @@ font-family: "Source Sans Pro", sans-serif;
 }
 
 @media screen and (max-width: 1200px) {
+  .count-section {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
   .cards .container {
     grid-template-columns: 1fr 1fr;
   }
