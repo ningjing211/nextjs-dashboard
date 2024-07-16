@@ -29,7 +29,7 @@ export default function Page() {
         {/* <Script 
             src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js"
         /> */}
-w
+
         <Script 
             src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"
         />
