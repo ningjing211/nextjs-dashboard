@@ -131,7 +131,9 @@ export default function Parallax() {
 
         <section  >
           <div className="parallax-vision-three">
-            <h2>期盼夥伴的加入</h2>
+            <a href="/hiring">
+              <h2>期盼夥伴的加入</h2>
+            </a>
           </div>
         </section>
 

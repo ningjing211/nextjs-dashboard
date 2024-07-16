@@ -29,7 +29,8 @@ export default function Hiring() {
                     <section className="boxes">
                     <div className="box box-1">
                         <i className="fas fa-chart-pie fa-4x" />
-                        <SparklesText text="現場服務人員" className="job-sec-caption" sparklesCount={4}/>
+                        <h1 className="job-sec-caption">現場服務人員</h1>
+                        {/* <SparklesText text="現場服務人員" className="job-sec-caption" sparklesCount={4}/> */}
                         
                         <div className="job-sec-title">工作內容</div>
                         <div className="job-sec">
@@ -66,7 +67,8 @@ export default function Hiring() {
                     </div>
                     <div className="box box-2">
                         <i className="fas fa-globe fa-4x" />
-                        <SparklesText text="萬萬執行店長" className="job-sec-caption" sparklesCount={7}/>
+                        <h1 className="job-sec-caption">萬萬執行店長</h1>
+                        {/* <SparklesText text="萬萬執行店長" className="job-sec-caption" sparklesCount={7}/> */}
                         <div className="job-sec-title">工作內容</div>
                         <div className="job-sec">
                             <p>
