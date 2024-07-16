@@ -362,7 +362,7 @@ html {
 }
  svg {
 	 width: 100%;
-	 height: inherit;
+	 /* height: inherit; */
 }
  svg text {
 	 text-anchor: middle;
