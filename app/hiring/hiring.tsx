@@ -1,6 +1,9 @@
 import '@/app/ui/hiring/hiring.css';
 import Parallax from '@/app/hiring/parallax';
 import { library, icon } from '@fortawesome/fontawesome-svg-core';
+import SparklesTextDemo from '@/app/hiring/magicUI';
+import SparklesText from "@/components/magicui/sparkles-text";
+
 
 export default function Hiring() {
     return (
@@ -10,9 +13,11 @@ export default function Hiring() {
 
                     <section className="top-container">
                     <header className="showcase">
-                        <h1>
+                        {/* <h1>
                         我們正在尋找夥伴
-                        </h1>
+                        </h1> */}
+                        {/* <SparklesTextDemo /> */}
+                        <SparklesText text="我們正在尋找夥伴" colors={{first: '#edd790', second: '#8efc7b'}} className="showcase-title" sparklesCount={7} />;
                         <p>
                         致敬品牌概念美感與文化美學，結合當代AI技術的新創公司，不僅在視覺和技術上追求卓越，更以美感和文化為核心，傳遞一種生活方式和態度。
 公司有獨特的薪酬結構，包含三個薪水袋，鼓勵員工多樣化發展和全方位成長。每個薪水袋代表不同的激勵方向，包括基本薪資、績效獎金以及創新愛的激勵。這樣的結構不僅激勵員工在專業領域內精益求精，還鼓勵跨領域學習和創新，實現個人和公司的共同成長，還包含教練的愛。
@@ -24,10 +29,8 @@ export default function Hiring() {
                     <section className="boxes">
                     <div className="box box-1">
                         <i className="fas fa-chart-pie fa-4x" />
-                        <h3 className="job-sec-caption">
-                       現場服務人員
-                        </h3>
-
+                        <SparklesText text="現場服務人員" className="job-sec-caption" sparklesCount={4}/>
+                        
                         <div className="job-sec-title">工作內容</div>
                         <div className="job-sec">
                             <p>
@@ -63,10 +66,7 @@ export default function Hiring() {
                     </div>
                     <div className="box box-2">
                         <i className="fas fa-globe fa-4x" />
-                        <h3 className="job-sec-caption">
-                        萬萬執行店長
-                        </h3>
-
+                        <SparklesText text="萬萬執行店長" className="job-sec-caption" sparklesCount={7}/>
                         <div className="job-sec-title">工作內容</div>
                         <div className="job-sec">
                             <p>

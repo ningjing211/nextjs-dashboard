@@ -88,6 +88,12 @@ img {
   filter: brightness(0.95);
 }
 
+.showcase-title {
+  font-size: 4rem;
+  margin-bottom: 18px;
+  color: var(--light);
+}
+
 .showcase h1 {
   font-size: 4rem;
   margin-bottom: 18px;
@@ -142,8 +148,8 @@ img {
 
 
 .job-sec-caption {
-  font-size: 1.4rem;
-  margin-top: 12px;
+  font-size: 1.8rem;
+  margin-top: 20px;
   font-weight: 700;
   letter-spacing: 1px;
   margin-bottom: 28px
@@ -170,11 +176,11 @@ img {
 
 .box-1 {
     background: #d1947c;
-    background-image: linear-gradient(to left, #e5a895 0%, #cf919a 100%);
+    background-image: linear-gradient(to left, #d3999c 0%, #cf91c3 100%);
 }
 .box-2 {
     background: #4d4d99;
-    background-image: linear-gradient(to right, #6a85b6 0%, #949fb1 100%);
+    background-image: linear-gradient(to right, #6a85b6 0%, #92a1ba 100%);
 }
 .box-3 {
     background: #84d6b3;
