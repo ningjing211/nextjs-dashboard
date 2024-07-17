@@ -42,6 +42,7 @@ export default function NumberShows() {
                             <CountUp
                             start={0}
                             end={365}
+                            delay={2}
                             duration={3}
                             separator=" "
                             decimals={0}
@@ -51,10 +52,10 @@ export default function NumberShows() {
                             onEnd={() => console.log('Ended! 👏')}
                             onStart={() => console.log('    Started! 💨')}
                             >
-                            {({ countUpRef, start }) => (
+                            {({ countUpRef }) => (
                                 <div className="count-piece">
                                 <span ref={countUpRef} />
-                                <button onClick={start}></button>
+                                <button ></button>
                                 </div>
                             )}
                             </CountUp>
@@ -74,6 +75,7 @@ export default function NumberShows() {
                             start={0}
                             end={9366}
                             duration={3}
+                            delay={2}
                             separator=" "
                             decimals={0}
                             decimal=","
@@ -82,10 +84,10 @@ export default function NumberShows() {
                             onEnd={() => console.log('Ended! 👏')}
                             onStart={() => console.log('    Started! 💨')}
                             >
-                            {({ countUpRef, start }) => (
+                            {({ countUpRef }) => (
                                 <div className="count-piece">
                                 <span ref={countUpRef} />
-                                <button onClick={start}></button>
+                                <button ></button>
                                 </div>
                             )}
                             </CountUp>
