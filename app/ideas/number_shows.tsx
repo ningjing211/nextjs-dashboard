@@ -45,7 +45,6 @@ export default function NumberShows() {
                             <CountUp
                             start={0}
                             end={365}
-                            delay={2}
                             duration={90}
                             separator=" "
                             decimals={0}
@@ -55,10 +54,10 @@ export default function NumberShows() {
                             onEnd={() => console.log('Ended! 👏')}
                             onStart={() => console.log('    Started! 💨')}
                             >
-                            {({ countUpRef }) => (
+                            {({ countUpRef, start }) => (
                                 <div className="count-piece">
                                 <span ref={countUpRef} />
-                                <button ></button>
+                                <button onClick={start}>start</button>
                                 </div>
                             )}
                             </CountUp>
