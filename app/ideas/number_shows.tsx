@@ -46,7 +46,7 @@ export default function NumberShows() {
                             start={0}
                             end={365}
                             delay={2}
-                            duration={3}
+                            duration={90}
                             separator=" "
                             decimals={0}
                             decimal=","
@@ -77,7 +77,7 @@ export default function NumberShows() {
                             <CountUp
                             start={0}
                             end={9366}
-                            duration={3}
+                            duration={90}
                             delay={2}
                             separator=" "
                             decimals={0}
@@ -110,7 +110,7 @@ export default function NumberShows() {
                                 <CountUp
                                 start={0}
                                 end={770}
-                                duration={3}
+                                duration={90}
                                 delay={2}
                                 separator=" "
                                 decimals={0}
