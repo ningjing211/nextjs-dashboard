@@ -5,7 +5,7 @@ import { library, icon } from '@fortawesome/fontawesome-svg-core';
 export default function Item() {
     return (
         <div>
-            <div className="report-title"><sub className="report-sub">News</sub>我們的報導</div>
+            <div id="report" className="report-title"><sub className="report-sub">News</sub>我們的報導</div>
             <div
             className="wrapper"
             id="news"
