@@ -2,6 +2,8 @@
 
 import Head from 'next/head';
 import Script from 'next/script';
+import Header from '@/app/ideas/header';
+import Footer from '@/app/ideas/footer';
 import Article from '@/app/article/article';
 import '@/app/ui/article.css';
 
@@ -25,9 +27,8 @@ export default function Page() {
             <Script
               src="/article.js"
             />
-          
-          <Article />
 
+          <Article />
            
           </div>
     );
