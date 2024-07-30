@@ -17,7 +17,7 @@ export default function Hiring() {
                         我們正在尋找夥伴
                         </h1> */}
                         {/* <SparklesTextDemo /> */}
-                        <SparklesText text="我們正在尋找夥伴" colors={{first: '#edd790', second: '#8efc7b'}} className="showcase-title" sparklesCount={7} />;
+                        <SparklesText text="我們揪你作夥" colors={{first: '#edd790', second: '#8efc7b'}} className="showcase-title" sparklesCount={7} />;
                         <p>
                         致敬品牌概念美感與文化美學，結合當代AI技術的新創公司，不僅在視覺和技術上追求卓越，更以美感和文化為核心，傳遞一種生活方式和態度。
 公司有獨特的薪酬結構，包含三個薪水袋，鼓勵員工多樣化發展和全方位成長。每個薪水袋代表不同的激勵方向，包括基本薪資、績效獎金以及創新愛的激勵。這樣的結構不僅激勵員工在專業領域內精益求精，還鼓勵跨領域學習和創新，實現個人和公司的共同成長，還包含教練的愛。
