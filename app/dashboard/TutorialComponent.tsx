@@ -5,7 +5,14 @@ import introJs from 'intro.js';
 import 'intro.js/introjs.css'; // Default theme
 import 'intro.js/themes/introjs-modern.css'; // Dark theme
 
-const steps = [
+// 手动定义 Step 类型
+type Step = {
+  element: string;
+  intro: string;
+  position?: 'right' | 'left' | 'bottom' | 'top';
+};
+
+const steps: Step[] = [
   {
     element: '#header',
     intro: 'This is the header section',
@@ -26,11 +33,14 @@ const steps = [
 ];
 
 const TutorialComponent: React.FC = () => {
-  const intro = useRef(introJs());
+  const intro = useRef<any>(null);
 
   useEffect(() => {
-    intro.current.setOptions({ steps });
-    intro.current.start();
+    if (typeof document !== 'undefined') {
+      intro.current = introJs();
+      intro.current.setOptions({ steps });
+      intro.current.start();
+    }
   }, []);
 
   return (
