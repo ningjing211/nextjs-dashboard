@@ -1,0 +1,6 @@
+{
+    "redirects": [
+      { "source": "/(.*)", "destination": "https://oneone.global/$1", "permanent": true }
+    ]
+  }
+  
