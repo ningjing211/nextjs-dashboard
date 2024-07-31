@@ -3,6 +3,7 @@
 import Head from 'next/head';
 import Script from 'next/script';
 
+import TutorialComponent from '@/app/dashboard/TutorialComponent';
 
 export default function Page() {
     return (
@@ -18,15 +19,16 @@ export default function Page() {
           <Script
             src="https://unpkg.com/zdog@1.1.3/dist/zdog.dist.min.js"
           />
-          <Script
+          {/* <Script
             src="/warp.js"
-          />
-          <canvas
+          /> */}
+          {/* <canvas
             style={{ display: "block", inlineSize: "100%", maxInlineSize: 400 }}
             width={400}
             height={400}
-          />
+          /> */}
           <p>Dashboard Page</p>
+          <TutorialComponent />
             
           </div>
     );

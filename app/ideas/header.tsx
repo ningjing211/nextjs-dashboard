@@ -7,7 +7,7 @@ export default function Header() {
                 <h1 className="logo">
                 <a
                     className="logo-link"
-                    href="/ideas"
+                    href="/"
                 >
                     萬萬想不到
                 </a>

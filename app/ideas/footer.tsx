@@ -6,7 +6,7 @@ export default function Footer() {
             <footer className="footer">
                 <div className="footer__addr">
                 <h1 className="footer__logo">
-                <a href="/ideas">
+                <a href="/">
                     萬萬想不到
                 </a>
                 </h1>

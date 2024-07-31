@@ -11,6 +11,8 @@ import Parallax from '@/app/origin/parallax';
 import '@/app/ui/btn.css';
 import '@/app/ui/philosophy.css';
 
+
+
 export default function Header() {
     return (
         <div className="w-full h-full"> 
