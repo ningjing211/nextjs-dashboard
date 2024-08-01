@@ -8,7 +8,7 @@ export default function Intro() {
                     <div className="padding-section-medium">
                     <div className="max-width-xlarge">
                         <div className="intro-title">
-                        搖一搖，就會改變你的世界！
+                        搖一搖，改變你的世界！
                         </div>
                         <div className="spacer-small" />
                         <div className="max-width-medium">
