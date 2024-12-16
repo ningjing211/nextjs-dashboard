@@ -48,7 +48,6 @@ img{
 p{
   color: var(--gray-color);
   font-size: 1.3em;
-  letter-spacing: 1px;
   hyphens: auto;
   line-height: 1.75;
   margin: 1em 0;

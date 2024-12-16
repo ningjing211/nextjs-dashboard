@@ -79,7 +79,7 @@ export default function Feature() {
                             </video>
                             </div>
                         </div>
-                        <div className="entry-link-title first-link">Philosophy</div>
+                        <div className="entry-link-title">Philosophy</div>
                         {/* <div className="text">
                             <svg>
                                 <defs>
@@ -489,14 +489,14 @@ export default function Feature() {
                                 Branding
                                 </div>
                             </div>
-                            {/* <div
+                            <div
                                 className="tag w-dyn-item"
                                 role="listitem"
                             >
                                 <div>
                                 Websites
                                 </div>
-                            </div> */}
+                            </div>
                             <div
                                 className="tag w-dyn-item"
                                 role="listitem"

@@ -42,7 +42,9 @@ export default function Item() {
                 常說圓心代表位於我們存在最深處的核心，圓周待表我們的外部覺知。我們試著把注意力定念在擇、沖、放、裹每一個細小的支線與行動上，無思無想的從容，讓純淨的品質可以流露，我們長期聆聽自身內心的聲音，開創出荒野間靜候的小徑。一種生活的態度截然展開。
                 <br/>
                 <br/>
-                一杯手裡觸碰的徐徐暖風，和藹敦厚，親密佳人，蜜魂戀情，又像是你常說的，一段靜默的旅程，隨著香氣散逸到鼻息的入口時，新的世界正要開始。
+                一杯手裡觸碰的徐徐暖風，和藹敦厚，親密佳人，蜜魂戀情，
+                又像是你常說的，一段靜默的旅程，隨著香氣散逸到鼻息的入口時，新的世界正要開始。
+                
                 {' '}
                 </p>
                 <p className="item-btn">
@@ -75,7 +77,9 @@ export default function Item() {
                 咖啡啊
                 </h2>
                 <p>
-                城市的訊號間，作為一個私密的代理人，從選豆的上流，烘培流至萃取的溪邊，一座河流無私的開放出冥想殿堂，從肌膚的表裡往內核心丹韻裡凝聚，萬千世界就此在你的心室中心變回一顆咖啡豆母，真空般的私密和喜悅，愛乘載著日常的地心引力。{' '}
+                城市的訊號間，作為一個私密的代理人，從選豆的上流，烘培流至萃取的溪邊，一
+                座河流無私的開放出冥想殿堂，從肌膚的表裡往內核心丹韻裡凝聚，萬千世界就此在你的心
+                室中心變回一顆咖啡豆母，真空般的私密和喜悅，愛乘載著日常的地心引力。{' '}
                 </p>
                 <p className="item-btn">
                 <a href="#">
@@ -88,10 +92,10 @@ export default function Item() {
                 20 June 2024
                 </p>
                 <h2 className="item-title">
-                茶
+                全方位照顧身心靈，健康愛運動的熱血單車團隊
                 </h2>
                 <p >
-                東方的柔美呼吸，謙卑的傳遞者。枝葉團團如蓋，新條從其上隱身，時光在枝葉上寫史，上古的顏色才褪去，嶙峋的當代卻已活潑到來，芳香的老枝抽出粉嫩的新芽，而又相安無事的一叢樹，翠綠的梯田，柴火人家的孩童嬉鬧。但願孩子只熟記現在的名字。
+                Praesent aliquet tellus lectus, sed convallis lectus rhoncus eu. Mauris vel quam et libero pretium consequat ac non orci. Aliquam vel urna pharetra, pretium risus ut, molestie purus. Quisque tempus ipsum magna.
                 </p>
                 <p className="item-btn">
                 <a href="#">

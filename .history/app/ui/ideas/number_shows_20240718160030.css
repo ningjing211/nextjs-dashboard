@@ -44,11 +44,6 @@ font-family: "Source Sans Pro", sans-serif;
   gap: 5rem;
 }
 
-.drop p {
-  font-size: 0.875rem;
-  letter-spacing: initial;
-}
-
 .cards .drop {
   width: 350px;
   height: 350px;

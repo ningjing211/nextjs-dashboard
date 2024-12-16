@@ -419,12 +419,9 @@ svg #base4 {
 
 .entry-link-title {
     position: absolute;
-    top: 10%;
+    bottom: 10%;
     right: 6%;
     font-size: 3rem;
     color: rgba(240, 240, 240, 0.9);
     z-index: 1;
-}
-.first-link {
-    color: rgb(78 78 78 / 90%);
 }

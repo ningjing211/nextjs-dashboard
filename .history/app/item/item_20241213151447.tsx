@@ -91,7 +91,7 @@ export default function Item() {
                 茶
                 </h2>
                 <p >
-                東方的柔美呼吸，謙卑的傳遞者。枝葉團團如蓋，新條從其上隱身，時光在枝葉上寫史，上古的顏色才褪去，嶙峋的當代卻已活潑到來，芳香的老枝抽出粉嫩的新芽，而又相安無事的一叢樹，翠綠的梯田，柴火人家的孩童嬉鬧。但願孩子只熟記現在的名字。
+                Praesent aliquet tellus lectus, sed convallis lectus rhoncus eu. Mauris vel quam et libero pretium consequat ac non orci. Aliquam vel urna pharetra, pretium risus ut, molestie purus. Quisque tempus ipsum magna.
                 </p>
                 <p className="item-btn">
                 <a href="#">

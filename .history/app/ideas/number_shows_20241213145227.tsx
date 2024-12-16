@@ -91,7 +91,7 @@ export default function NumberShows() {
                                 }}
                             </CountUp>
 
-                            <p>每一天仔細地寫下日常的細節。</p>
+                            <p>每一天我們都仔細地打造日常的細節。</p>
                             <p>清潔梳理，照顧空間與人的需要</p>
                         </div>
 

@@ -417,6 +417,10 @@ svg #base4 {
     mask: url(#mask4);
 }
 
+.entry-link-title .first-link {
+    color: rgb(78 78 78 / 90%);
+}
+
 .entry-link-title {
     position: absolute;
     top: 10%;
@@ -424,7 +428,4 @@ svg #base4 {
     font-size: 3rem;
     color: rgba(240, 240, 240, 0.9);
     z-index: 1;
-}
-.first-link {
-    color: rgb(78 78 78 / 90%);
 }

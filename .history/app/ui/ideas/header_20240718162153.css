@@ -47,10 +47,9 @@ img{
 }
 p{
   color: var(--gray-color);
-  font-size: 1.3em;
-  letter-spacing: 1px;
+  font-size: .875em;
   hyphens: auto;
-  line-height: 1.75;
+  line-height: 1.5;
   margin: 1em 0;
 }
 
