@@ -559,7 +559,7 @@ export default function Feature() {
                             className="w-background-video w-background-video-atom hero_media-item-video video-fix"
                             data-autoplay="true"
                             data-loop="true"
-                            data-video-url="/right-down.webm"
+                            data-video-url="/right-down-man.webm"
                             data-wf-ignore="true"
                             >
                             <video
@@ -572,7 +572,7 @@ export default function Feature() {
                             >
                                 <source
                                 data-wf-ignore="true"
-                                src="/right-down.webm"
+                                src="/right-down-man.webm"
                                 />
                             </video>
                             </div>

@@ -51,7 +51,7 @@ export default function Page() {
             <Video />
             <Intro />
             <NumberShows />
-            <Items />
+            {/* <Items /> */}
             <Featured />
             <Footer />
           </div>
