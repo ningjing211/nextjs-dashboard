@@ -154,6 +154,16 @@
       border-radius: 14px;
       margin: 20px 0;
     }
+    .page-nav-group {
+      display: none;
+    }
+    p.legalword {
+      display: none;
+    }
+    .legal {
+      border: 1px solid #b0b0b0;
+      padding: 12px;
+    }
 }
 
   @media screen and (max-width: 520px) {

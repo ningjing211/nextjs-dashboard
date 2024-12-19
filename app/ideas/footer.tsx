@@ -18,9 +18,10 @@ export default function Footer() {
                     總管理部
                 </h2>
                 <address className="address">
-                    高雄市鼓山區明誠四路288號6樓 
-                    +886 (07) 555-0123
+                    高雄市鼓山區明誠四路288號6樓
                     <br />
+                    +886 (07) 555-0123
+                    
                     <br/>
 
                 </address>
@@ -42,7 +43,7 @@ export default function Footer() {
                 
                 </div>
                 <ul className="footer__nav">
-                <li className="nav__item">
+                <li className="nav__item page-nav-group">
                     <h2 className="nav__title">
                     Pages
                     </h2>

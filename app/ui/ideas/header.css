@@ -186,3 +186,22 @@ p{
     margin-top: 15vh;
   }
 }
+
+@media screen and (max-width: 767px) {
+  .header-menu {
+    width: 100%;
+  }
+  .header-menu li {
+    width: 25%;
+    font-size: 12px;
+    padding: 1.5em 0 1em 0;
+  }
+  .header-menu-link {
+    padding: 0;
+    text-align: right;
+    width: 100%;
+  }
+  .header-nav {
+    padding: 1em 0.3em;
+  }
+}

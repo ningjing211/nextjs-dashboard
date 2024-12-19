@@ -46,7 +46,7 @@ export default function Intro() {
                             data-w-id="18ae716d-9bfe-5214-9b70-a60da53bfeb4"
                             href="/work"
                         >
-                            <div>
+                            <div className="see-work">
                             See our work
                             </div>
                             <div className="button-arrow w-embed">

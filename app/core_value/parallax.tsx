@@ -39,7 +39,7 @@ export default function Parallax() {
 
         <section  >
           <div className="parallax-core_value-three">
-            <h2>One One 的靈魂</h2>
+            <h2>我們的靈魂</h2>
           </div>
         </section>
 

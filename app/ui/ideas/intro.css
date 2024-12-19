@@ -117,15 +117,16 @@ p {
     .intro-title {
         font-size: 2.5rem;;
     }
-}
-
-@media screen and (max-width: 767px) {
     .spacer-small {
         padding-top: 1.25rem;
     }
-}
-
-@media screen and (max-width: 767px) {
+    .button-group {
+        .see-work {
+            width: 100%;
+        }
+        width: 180px;
+        flex-direction: row;
+    }
     .text-size-large {
         font-size: 1.125rem;
     }

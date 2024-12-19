@@ -27,7 +27,7 @@ export default function Parallax() {
         
         <div>
   <div className="frame" />
-  <section className="section grey">
+  {/* <section className="section grey">
     <div className="split-vision">
       <div className="column column-left">
         <div className="content">
@@ -114,7 +114,7 @@ export default function Parallax() {
         </p>
       </div>
     </div>
-  </section>
+  </section> */}
 </div>
 
         <section>
