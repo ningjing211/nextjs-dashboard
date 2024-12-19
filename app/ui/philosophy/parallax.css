@@ -56,19 +56,33 @@
 /**************************/
 #parallax-world-of-ugg .line-break {border-bottom:1px solid black; width: 150px; margin:0 auto;}
 
+.sub-title { font-weight: 500; font-size: 24px;}
 /* Media Queries */
 /**************************/
 @media screen and (max-width: 959px) and (min-width: 768px) {
   #parallax-world-of-ugg .block {padding: 40px; width:620px;}
 }
 @media screen and (max-width: 767px) {
+  #parallax-world-of-ugg .parallax-philosophy-one,
+  #parallax-world-of-ugg .parallax-philosophy-two,
+  #parallax-world-of-ugg .parallax-philosophy-three,
+  #parallax-world-of-ugg .parallax-philosophy-four
+  {
+    padding-top: 125px;
+    padding-bottom: 125px;
+  }
+  
+  .sub-title {
+    font-size: 18px;
+  }
+
   #parallax-world-of-ugg .title {
     background-color: #dbdbdb;
-    padding: 32px;
+    padding: 24px;
   }
   #parallax-world-of-ugg .title h1 {
-    font-size: 24px;
-    line-height: 42px;
+    font-size: 21px;
+    line-height: 32px;
     text-align: left;
   }
 
@@ -98,5 +112,3 @@
     line-height: 36px;
   }
 }
-
-.sub-title { font-weight: 500; font-size: 24px;}

@@ -136,7 +136,7 @@ export default function Feature() {
                             }}
                         >
                             <div>
-                            Belief
+                            Culture
                             </div>
                         </div>
                         <div className="w-dyn-list">
@@ -155,7 +155,7 @@ export default function Feature() {
                                 }}
                             >
                                 <div>
-                                Knowledge
+                                Believe
                                 </div>
                             </div>
                             <div
@@ -169,7 +169,7 @@ export default function Feature() {
                                 }}
                             >
                                 <div>
-                                Culture
+                                Imagine
                                 </div>
                             </div>
                             {/* <div
@@ -328,7 +328,7 @@ export default function Feature() {
                                 }}
                             >
                                 <div>
-                                Branding
+                                Team
                                 </div>
                             </div>
                             {/* <div
@@ -356,7 +356,21 @@ export default function Feature() {
                                 }}
                             >
                                 <div>
-                                Core
+                                Soul
+                                </div>
+                            </div>
+                            <div
+                                className="tag w-dyn-item"
+                                role="listitem"
+                                style={{
+                                rotate: 'none',
+                                scale: 'none',
+                                transform: 'translate(0px, 0px)',
+                                translate: 'none'
+                                }}
+                            >
+                                <div>
+                                AI
                                 </div>
                             </div>
                             </div>
@@ -486,7 +500,7 @@ export default function Feature() {
                                 role="listitem"
                             >
                                 <div>
-                                Branding
+                                Life
                                 </div>
                             </div>
                             {/* <div
@@ -502,7 +516,15 @@ export default function Feature() {
                                 role="listitem"
                             >
                                 <div>
-                                Marketing
+                                Love
+                                </div>
+                            </div>
+                            <div
+                                className="tag w-dyn-item"
+                                role="listitem"
+                            >
+                                <div>
+                                Essense
                                 </div>
                             </div>
                             {/* <div
@@ -647,7 +669,7 @@ export default function Feature() {
                                 role="listitem"
                             >
                                 <div>
-                                Co-create
+                                Partner
                                 </div>
                             </div>
                             {/* <div

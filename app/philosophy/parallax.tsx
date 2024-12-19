@@ -20,7 +20,7 @@ export default function Parallax() {
           <div id="story" className="block">
             <p>
               <span className="first-character ny">萬
-              </span>萬是一家超酷的奶昔店，但我們不只是賣奶昔。我們相信創意無限，每杯奶昔都是你的個性化作品。我們的店裡充滿了藝術，和各種潮流藝術家合作，讓每個角落都超有感。用我們的App，你可以即時追蹤奶昔製作過程，還能跟朋友分享你的獨特配方。萬萬就是這麼不拘一格，結合了創意、美學、科技和社群，帶你體驗無邊界的奶昔世界。來吧，加入我們，讓你的生活多點調皮和龐克味！
+              </span>每一杯奶昔都是調皮的小精靈，帶著獨特風味和趣味，準備驚喜你味蕾。萬萬不僅僅是一個名字，而是一種生活態度。每個細節都灑滿美學追求，從店內設計到產品包裝，每一吋都展現我們對生活的熱愛。 萬萬願是一個無邊界整合典範。將生活中的豐富元素融入產品中。與藝術家合作，展示他們對生命的摯愛，讓街道間也充滿藝術氣息。來到「萬萬想不到」，你會發現這裡不僅僅是喝奶昔的地方，更是一個充滿創意和靈感的異世界。
             </p>
           </div>
         </section>
@@ -46,7 +46,7 @@ export default function Parallax() {
 
         <section>
           <div className="parallax-philosophy-three">
-            <h2>What we believe</h2>
+            <h2>Believe</h2>
           </div>
         </section>
 
@@ -68,7 +68,7 @@ export default function Parallax() {
 
         <section>
           <div className="parallax-philosophy-four">
-            <h2>What we imagine</h2>
+            <h2>Imagine</h2>
           </div>
         </section>
 
