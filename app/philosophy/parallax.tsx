@@ -7,7 +7,7 @@ export default function Parallax() {
         <section>
           <div id="brand" className="title">
             {/* <h3>Ever Changing</h3> */}
-            <h1>萬萬的信仰是什麼, 宣揚倡議什麼價值?</h1>
+            <h1>萬萬的信仰與價值</h1>
           </div>
         </section>
         <section id="origin">

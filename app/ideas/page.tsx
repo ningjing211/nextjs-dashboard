@@ -46,7 +46,7 @@ export default function Page() {
             src="/number_shows.js"
           />
 
-          <div>
+          <div className="front-page-div">
             <Header />
             <Video />
             <Intro />
