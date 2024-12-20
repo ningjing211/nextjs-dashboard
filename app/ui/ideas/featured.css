@@ -334,6 +334,10 @@ video {
 }
 
 @media screen and (max-width: 767px) {
+    .work_gallery {
+        padding-left: 1.2rem;
+        padding-right: 1.2rem;
+    }
     .gallery_item {
         width: 100%;
     }
