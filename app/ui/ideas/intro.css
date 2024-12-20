@@ -110,6 +110,7 @@ p {
 }
 
 @media screen and (max-width: 767px) {
+
     .padding-section-medium {
         padding-top: 3rem;
         padding-bottom: 3rem;
@@ -121,11 +122,11 @@ p {
         padding-top: 1.25rem;
     }
     .button-group {
+        width: 160px;
+        flex-direction: row;
         .see-work {
             width: 100%;
         }
-        width: 180px;
-        flex-direction: row;
     }
     .text-size-large {
         font-size: 1.125rem;
@@ -133,13 +134,20 @@ p {
 }
 
 @media screen and (max-width: 494px) {
+    .intro-title {
+        font-size: 1.5rem;
+    }
+
+    .padding-global {
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
+    }
+
     .padding-section-medium {
         padding-top: 3rem;
         padding-bottom: 3rem;
     }
-    .intro-title {
-        font-size: 1.8rem;;
-    }
+
     .text-size-large {
         font-size: 1rem;
     }

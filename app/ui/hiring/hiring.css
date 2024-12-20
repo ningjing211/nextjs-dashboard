@@ -73,7 +73,7 @@ img {
   width: 100%;
   grid-area: showcase;
   min-height: 600px;
-  background: url(https://images.unsplash.com/photo-1560252030-9fc63cb78dac?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background: url(https://images.unsplash.com/photo-1543773407-ebc74e2bc7ff?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
   background-size: cover;
   background-position: center;
   padding: 4rem;
@@ -387,20 +387,30 @@ img {
     grid-template-columns: auto;
   }
 
+  .job-sec-caption {
+    font-size: 1.3rem;
+  }
+
   .showcase-title {
     margin-bottom: 12px;
+    font-size: 1.7rem;
   }
 
   .showcase-title strong {
-    line-height: 5rem;
+    line-height: 2rem;
   }
 
   .showcase {
     padding: 2.3rem;
   }
 
-  .showcase p { 
+  .showcase p {
+    font-size: 1.2rem;
+  
     width: 100%;
   }
 
+  .get-in-touch .title {
+    font-size: 24px;
+  }
 }

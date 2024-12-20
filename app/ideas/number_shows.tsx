@@ -37,7 +37,7 @@ export default function NumberShows() {
                                 separator=" "
                                 decimals={0}
                                 decimal=","
-                                prefix="種植照料著 "
+                                prefix="照料著 "
                                 suffix=" 個專案"
                                 onEnd={() => console.log('Ended! 👏')}
                                 onStart={() => console.log('Started! 💨')}
@@ -54,8 +54,8 @@ export default function NumberShows() {
                                 }}
                             </CountUp>
 
-                            <p>就像農夫在土地上播下種子一樣</p>
-                            <p>善意、純真的意念以及清晰的目標</p>
+                            <p>在土地上播下種子</p>
+                            <p>純真的意念與目標</p>
                         </div>
 
                         <div className="drop">
@@ -71,7 +71,7 @@ export default function NumberShows() {
                                 separator=" "
                                 decimals={0}
                                 decimal=","
-                                prefix="重新燃起 "
+                                prefix="燃起 "
                                 suffix=" 個日子"
                                 onEnd={() => console.log('Ended! 👏')}
                                 onStart={() => console.log('Started! 💨')}
@@ -88,8 +88,8 @@ export default function NumberShows() {
                                 }}
                             </CountUp>
 
-                            <p>每一天仔細地寫下日常的細節。</p>
-                            <p>清潔梳理，照顧空間與人的需要</p>
+                            <p>清潔梳理日常的細節。</p>
+                            <p>照顧空間與人的需要</p>
                         </div>
 
                         <div className="drop">
@@ -121,7 +121,7 @@ export default function NumberShows() {
                                 }}
                             </CountUp>
 
-                            <p>當我挑戰著自己、學理性和感性，</p>
+                            <p>學習理性和感性，</p>
                                 <p>才又想起這個回憶。</p>
                         </div>
                         

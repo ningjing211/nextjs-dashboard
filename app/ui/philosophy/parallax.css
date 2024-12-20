@@ -70,6 +70,7 @@
   {
     padding-top: 100px;
     padding-bottom: 100px;
+    background-attachment: local;
   }
   
   .sub-title {
@@ -78,11 +79,11 @@
 
   #parallax-world-of-ugg .title {
     background-color: #dbdbdb;
-    padding: 24px;
+    padding: 18px;
   }
   #parallax-world-of-ugg .title h1 {
     font-size: 18px;
-    line-height: 26px;
+    line-height: 28px;
     text-align: left;
   }
 

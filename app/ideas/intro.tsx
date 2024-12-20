@@ -47,7 +47,7 @@ export default function Intro() {
                             href="/work"
                         >
                             <div className="see-work">
-                            See our work
+                            Continue
                             </div>
                             <div className="button-arrow w-embed">
                             <svg
