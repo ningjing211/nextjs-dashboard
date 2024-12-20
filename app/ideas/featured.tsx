@@ -211,7 +211,7 @@ export default function Feature() {
                             className="w-background-video w-background-video-atom hero_media-item-video"
                             data-autoplay="true"
                             data-loop="true"
-                            data-video-url="/right-top-forest.webm"
+                            data-video-url="/right-top-horse.webm"
                             data-wf-ignore="true"
                             >
                             <video
@@ -224,7 +224,7 @@ export default function Feature() {
                             >
                                 <source
                                 data-wf-ignore="true"
-                                src="/right-top-forest.webm"
+                                src="/right-top-horse.webm"
                                 />
                             </video>
                             </div>
@@ -234,7 +234,7 @@ export default function Feature() {
                             className="w-background-video w-background-video-atom hero_media-item-video"
                             data-autoplay="true"
                             data-loop="true"
-                            data-video-url="/right-top-forest.webm"
+                            data-video-url="/right-top-horse.webm"
                             data-wf-ignore="true"
                             >
                             <video
@@ -247,7 +247,7 @@ export default function Feature() {
                             >
                                 <source
                                 data-wf-ignore="true"
-                                src="/right-top-forest.webm"
+                                src="/right-top-horse.webm"
                                 />
                             </video>
                             </div>
@@ -397,7 +397,7 @@ export default function Feature() {
                             className="w-background-video w-background-video-atom hero_media-item-video"
                             data-autoplay="true"
                             data-loop="true"
-                            data-video-url="left-down-fireworks.webm"
+                            data-video-url="left-down-colors.webm"
                             data-wf-ignore="true"
                             >
                             <video
@@ -410,7 +410,7 @@ export default function Feature() {
                             >
                                 <source
                                 data-wf-ignore="true"
-                                src="left-down-fireworks.webm"
+                                src="left-down-colors.webm"
                                 />
                             </video>
                             </div>
@@ -420,7 +420,7 @@ export default function Feature() {
                             className="w-background-video w-background-video-atom hero_media-item-video"
                             data-autoplay="true"
                             data-loop="true"
-                            data-video-url="left-down-fireworks.webm"
+                            data-video-url="left-down-colors.webm"
                             data-wf-ignore="true"
                             >
                             <video
@@ -433,7 +433,7 @@ export default function Feature() {
                             >
                                 <source
                                 data-wf-ignore="true"
-                                src="left-down-fireworks.webm"
+                                src="left-down-colors.webm"
                                 />
                             </video>
                             </div>
