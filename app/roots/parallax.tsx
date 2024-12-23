@@ -42,7 +42,7 @@ export default function Parallax() {
 
         <section  >
           <div className="parallax-roots-three">
-            <h2>夥伴的本質</h2>
+            <h2>創意的本質</h2>
           </div>
         </section>
 
