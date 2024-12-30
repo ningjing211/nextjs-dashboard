@@ -6,6 +6,7 @@ import Video from '@/app/origin/video';
 import Header from '@/app/ideas/header';
 import Intro from '@/app/ideas/intro';
 import NumberShows from '@/app/ideas/number_shows';
+import Wall from '@/app/ideas/wall';
 import Items from '@/app/item/item';
 import Featured from '@/app/ideas/featured';
 import Footer from '@/app/ideas/footer';
@@ -42,15 +43,19 @@ export default function Page() {
             src="/waypoints.js"
           /> */}
           
-          <Script
+          {/* <Script
             src="/number_shows.js"
+          /> */}
+          <Script
+            src="/wall.js"
           />
 
           <div className="front-page-div">
             <Header />
             <Video />
             <Intro />
-            <NumberShows />
+            <Wall />
+            {/* <NumberShows /> */}
             {/* <Items /> */}
             <Featured />
             <Footer />

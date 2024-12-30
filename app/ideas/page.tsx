@@ -35,6 +35,10 @@ export default function Page() {
             src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"
         />
 
+        <Script 
+            src="https://cdnjs.cloudflare.com/ajax/libs/zepto/1.2.0/zepto.min.js"
+        />
+
           {/* <Script
             src="https://unpkg.com/zdog@1.1.3/dist/zdog.dist.min.js"
           /> */}
