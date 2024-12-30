@@ -9,7 +9,7 @@ export default function Wall() {
     return (
             <div className="expo">
                 <div className="heading-style-h6">
-                    Neighborhood 
+                    Gallery 
                 </div>
                 <div className="spacer-tiny" />
                 <h2 className="heading-style-h4">
