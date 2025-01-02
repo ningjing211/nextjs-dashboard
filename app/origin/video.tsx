@@ -19,7 +19,6 @@ export default function Video() {
               <source
                 src="/ideas/everchanging-video-edited.mov"
                 data-wf-ignore="true"
-                type="video/mov"
               />
             </video>
           </div>
