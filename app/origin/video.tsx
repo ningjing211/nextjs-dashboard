@@ -4,7 +4,7 @@ export default function Video() {
             className="w-full h-full"
             data-autoplay="true"
             data-loop="true"
-            data-video-url="/ideas/everchanging-video-edited.webm"
+            data-video-url="/ideas/everchanging-video-edited.mov"
             data-wf-ignore="true"
           > 
             <video
@@ -17,7 +17,7 @@ export default function Video() {
               playsInline
             >
               <source
-                src="/ideas/everchanging-video-edited.webm"
+                src="/ideas/everchanging-video-edited.mov"
                 data-wf-ignore="true"
                 type="video/webm"
               />
