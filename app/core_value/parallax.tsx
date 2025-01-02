@@ -1,8 +1,26 @@
+'use client';
+
+import { useEffect } from 'react';
 import '@/app/ui/core_value/parallax.css';
-import React from 'react';
 
 export default function Parallax() {
-    return (
+  useEffect(() => {
+    const elements = document.querySelectorAll('.animate-fadeInUp, .animate-slideInLeft, .animate-zoomIn, .animate-zoomOut');
+  
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('show');
+        }
+      });
+    }, { threshold: 0.3 });
+  
+    elements.forEach(el => observer.observe(el));
+  
+    return () => observer.disconnect();
+  }, []);
+
+  return (
         <div id="parallax-world-of-ugg">
         <section>
           <div id="brand" className="title">
@@ -11,7 +29,7 @@ export default function Parallax() {
           </div>
         </section>
         <section  id="origin">
-          <div className="parallax-core_value-one">
+          <div className="parallax-core_value-one animate-fadeInUp">
             <h2>自主資訊系統</h2>
           </div>
         </section>
@@ -26,7 +44,7 @@ export default function Parallax() {
         </section>
         
         <section>
-          <div className="parallax-core_value-two">
+        <div className="parallax-core_value-two animate-slideInLeft">
             <h2>我們的團隊</h2>
           </div>
         </section>
@@ -38,7 +56,7 @@ export default function Parallax() {
         </section>
 
         <section  >
-          <div className="parallax-core_value-three">
+        <div className="parallax-core_value-three animate-zoomIn">
             <h2>我們的靈魂</h2>
           </div>
         </section>
@@ -55,7 +73,7 @@ export default function Parallax() {
         </section>
 
         <section  >
-          <div className="parallax-core_value-four">
+        <div className="parallax-core_value-two animate-zoomOut">
             <h2>智能點餐AI系統</h2>
           </div>
         </section>

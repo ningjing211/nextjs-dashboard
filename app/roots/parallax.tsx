@@ -1,8 +1,27 @@
-import '@/app/ui/roots/parallax.css';
+'use client';
+
 import React from 'react';
+import { useEffect } from 'react';
+import '@/app/ui/roots/parallax.css';
 
 export default function Parallax() {
-    return (
+  useEffect(() => {
+    const elements = document.querySelectorAll('.animate-fadeInUp, .animate-slideInLeft, .animate-zoomIn, .animate-zoomOut');
+  
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('show');
+        }
+      });
+    }, { threshold: 0.3 });
+  
+    elements.forEach(el => observer.observe(el));
+  
+    return () => observer.disconnect();
+  }, []);
+
+  return (
         <div id="parallax-world-of-ugg">
         <section>
           <div id="brand" className="title">
@@ -11,7 +30,7 @@ export default function Parallax() {
           </div>
         </section>
         <section  id="origin">
-          <div className="parallax-roots-one">
+          <div className="parallax-roots-one animate-fadeInUp">
             <h2>有趣的生活提案</h2>
           </div>
         </section>
@@ -29,7 +48,7 @@ export default function Parallax() {
         </section>
         
         <section>
-          <div className="parallax-roots-two">
+          <div className="parallax-roots-two animate-slideInLeft">
             <h2>擁抱世界的愛</h2>
           </div>
         </section>
@@ -41,7 +60,7 @@ export default function Parallax() {
         </section>
 
         <section  >
-          <div className="parallax-roots-three">
+          <div className="parallax-roots-three animate-zoomIn">
             <h2>創意的本質</h2>
           </div>
         </section>

@@ -1,8 +1,28 @@
+'use client';
+
 import '@/app/ui/philosophy/parallax.css';
 import React from 'react';
+import { useEffect } from 'react';
+
 
 export default function Parallax() {
-    return (
+  useEffect(() => {
+    const elements = document.querySelectorAll('.animate-fadeInUp, .animate-slideInLeft, .animate-zoomIn, .animate-zoomOut');
+  
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('show');
+        }
+      });
+    }, { threshold: 0.3 });
+  
+    elements.forEach(el => observer.observe(el));
+  
+    return () => observer.disconnect();
+  }, []);
+
+  return (
         <div id="parallax-world-of-ugg">
         <section>
           <div id="brand" className="title">
@@ -11,7 +31,7 @@ export default function Parallax() {
           </div>
         </section>
         <section id="origin">
-          <div className="parallax-philosophy-one">
+          <div className="parallax-philosophy-one  animate-fadeInUp">
             <h2>Philosophy</h2>
           </div>
         </section>
@@ -26,7 +46,7 @@ export default function Parallax() {
         </section>
         
         <section>
-          <div className="parallax-philosophy-two">
+          <div className="parallax-philosophy-two  animate-slideInLeft">
             <h2>Culture</h2>
           </div>
         </section>
@@ -45,7 +65,7 @@ export default function Parallax() {
         </section>
 
         <section>
-          <div className="parallax-philosophy-three">
+          <div className="parallax-philosophy-three animate-zoomIn">
             <h2>Believe</h2>
           </div>
         </section>
@@ -67,7 +87,7 @@ export default function Parallax() {
         </section>
 
         <section>
-          <div className="parallax-philosophy-four">
+          <div className="parallax-philosophy-four animate-zoomOut">
             <h2>Imagine</h2>
           </div>
         </section>

@@ -1,8 +1,27 @@
+'use client';
+
+import { useEffect } from 'react';
 import '@/app/ui/vision/parallax.css';
 import React from 'react';
 
 export default function Parallax() {
-    return (
+  useEffect(() => {
+    const elements = document.querySelectorAll('.animate-fadeInUp, .animate-slideInLeft, .animate-zoomIn, .animate-zoomOut');
+  
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('show');
+        }
+      });
+    }, { threshold: 0.3 });
+  
+    elements.forEach(el => observer.observe(el));
+  
+    return () => observer.disconnect();
+  }, []);
+
+  return (
         <div id="parallax-world-of-ugg">
         <section>
           <div id="brand" className="title">
@@ -11,7 +30,7 @@ export default function Parallax() {
           </div>
         </section>
         <section  id="origin">
-          <div className="parallax-vision-one">
+          <div className="parallax-vision-one  animate-fadeInUp">
             <h2>Inovation</h2>
           </div>
         </section>
@@ -118,7 +137,7 @@ export default function Parallax() {
 </div>
 
         <section>
-          <div className="parallax-vision-two">
+          <div className="parallax-vision-two  animate-slideInLeft">
             <h2>未來航行</h2>
           </div>
         </section>
@@ -130,7 +149,7 @@ export default function Parallax() {
         </section>
 
         <section  >
-          <div className="parallax-vision-three">
+          <div className="parallax-vision-three  animate-zoomIn">
             <a href="/hiring">
               <h2>期盼夥伴的加入</h2>
             </a>
