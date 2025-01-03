@@ -250,24 +250,33 @@ video {
 .tag.is-white {
     -webkit-backdrop-filter: none;
     backdrop-filter: none;
-    background-color: #fff;
+    /* background-color: #fff; */
+    background-color: transparent;
     align-self: flex-start;
+    font-family: 'Raleway';
+    font-weight: 400;
+    border: 1px solid white;
 }
 .tag {
+    font-family: 'Raleway';
+    font-weight: 400;
     grid-column-gap: 6px;
     grid-row-gap: 6px;
-    background-color: var(--grey98-0-75);
+    /* background-color: var(--grey98-0-75); */
+    background-color: transparent;
     -webkit-backdrop-filter: blur(5px);
     backdrop-filter: blur(5px);
-    color: var(--faded-black);
-    border-radius: 1000px;
+    color: white;
+    border-radius: 6px;
+    margin-right: 8px;
     align-items: center;
     padding: 12px 14px;
     font-family: SuisseIntl Book, Arial, sans-serif;
-    font-size: .75rem;
+    font-size: .9rem;
     font-weight: 400;
     line-height: 1;
     text-decoration: none;
+    border: 1px solid white;
 }
 .services-tags {
     grid-column-gap: .25rem;
@@ -422,6 +431,8 @@ svg #base4 {
 }
 
 .entry-link-title {
+    font-family: 'Raleway';
+    font-weight: 500;
     position: absolute;
     top: 10%;
     right: 6%;

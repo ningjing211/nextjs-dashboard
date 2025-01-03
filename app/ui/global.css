@@ -67,3 +67,94 @@
     @apply bg-background text-foreground;
   }
 }
+
+/* Noto Sans TC Regular */
+@font-face {
+  font-family: 'Noto Sans TC';
+  src: url('/fonts/Noto_Sans_TC/static/NotoSansTC-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Noto Sans TC Bold */
+@font-face {
+  font-family: 'Noto Sans TC';
+  src: url('/fonts/Noto_Sans_TC/static/NotoSansTC-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* Noto Sans TC Black */
+@font-face {
+  font-family: 'Noto Sans TC';
+  src: url('/fonts/Noto_Sans_TC/static/NotoSansTC-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+/* Noto Sans TC ExtraBold */
+@font-face {
+  font-family: 'Noto Sans TC';
+  src: url('/fonts/Noto_Sans_TC/static/NotoSansTC-ExtraBold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+/* Noto Sans TC Light */
+@font-face {
+  font-family: 'Noto Sans TC';
+  src: url('/fonts/Noto_Sans_TC/static/NotoSansTC-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+/* Noto Sans TC Thin */
+@font-face {
+  font-family: 'Noto Sans TC';
+  src: url('/fonts/Noto_Sans_TC/static/NotoSansTC-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+
+/* 引用 Slabo 27px */
+@font-face {
+  font-family: 'Slabo 27px';
+  src: url('/fonts/Slabo_27px/Slabo27px-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* 引用 Raleway */
+/* Raleway Variable Regular */
+@font-face {
+  font-family: 'Raleway';
+  src: url('/fonts/Raleway/Raleway-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: normal;
+}
+
+/* Raleway Variable Italic */
+@font-face {
+  font-family: 'Raleway';
+  src: url('/fonts/Raleway/Raleway-Italic-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: italic;
+}
+
+
+/* Regular 字重 */
+@font-face {
+  font-family: 'BIZ UDPGothic';
+  src: url('/fonts/BIZ_UDPGothic/BIZUDPGothic-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Bold 字重 */
+@font-face {
+  font-family: 'BIZ UDPGothic';
+  src: url('/fonts/BIZ_UDPGothic/BIZUDPGothic-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}

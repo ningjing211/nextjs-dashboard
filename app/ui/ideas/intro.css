@@ -68,18 +68,22 @@ p {
 .button-regular {
     grid-column-gap: 6px;
     grid-row-gap: 6px;
-    background-color: #cdcdcd;
-    color: var(--faded-black);
-    border-radius: 1000px;
+    background: rgb(192,205,205);
+background: linear-gradient(30deg, rgba(192,205,205,1) 1%, rgba(83,199,200,1) 49%, rgba(76,248,250,1) 100%);
+    color: white;
+    font-family: 'Raleway';
+    font-weight: 500;
+    border-radius: 8px;
     align-items: center;
-    padding: 20px 0 20px 22px;
-    font-family: SuisseIntl Book, Arial, sans-serif;
+    letter-spacing: 1px;
+    padding: 20px 0 20px 0px;
     font-size: 1rem;
-    font-weight: 400;
     line-height: 1;
     text-decoration: none;
     display: flex;
-    padding-right: 16px;
+    min-width: 280px;
+    text-align: center;
+    justify-content: center;
 }
 
 .w-inline-block {

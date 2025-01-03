@@ -43,10 +43,12 @@
   }
   
   .footer__addr h2 {
+    font-family: 'Noto Sans TC';
     margin-top: 1.3em;
     font-size: 15px;
-    font-weight: 400;
+    font-weight: 500;
     margin-bottom: 10px;
+    color: #121212;
   }
   
   .nav__title {
@@ -56,12 +58,17 @@
   }
   
   .footer address {
+    font-family: 'Noto Sans TC';
+    font-weight: 500;
+    letter-spacing: 1px;
     font-style: normal;
-    color: #999;
+    color: #565656;
   }
   
   .footer__btn {
     display: flex;
+    font-weight: 400;
+    letter-spacing: 0;
     align-items: center;
     justify-content: center;
     height: 36px;

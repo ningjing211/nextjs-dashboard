@@ -49,7 +49,7 @@ export default function Intro() {
                             <div className="see-work">
                             Continue
                             </div>
-                            <div className="button-arrow w-embed">
+                            {/* <div className="button-arrow w-embed">
                             <svg
                                 fill="none"
                                 height="11"
@@ -62,7 +62,7 @@ export default function Intro() {
                                 fill="currentColor"
                                 />
                             </svg>
-                            </div>
+                            </div> */}
                         </a>
                         </div>
                     </div>
