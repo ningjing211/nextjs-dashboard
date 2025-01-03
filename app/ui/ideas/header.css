@@ -67,20 +67,36 @@ p{
 .flex-container{
   display: flex;
 }
-
+.logo {
+  width: 100%;
+  padding: 12px 0;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  background: rgb(219,117,172);
+  background: linear-gradient(125deg, rgba(219,117,172,1) 1%, rgba(168,116,172,1) 9%, rgba(134,151,181,1) 25%, rgba(87,185,198,1) 39%, rgba(53,218,223,1) 88%, rgba(117,159,209,1) 100%);
+}
 /* HEADER NAV */
 .logo-link{
+  display: flex;
   font-size: 1.2em;
+  max-width: 140px;
+  padding-top: 24px;
+  padding-bottom: 24px;
   color: var(--dark-color);
   font-weight: 600;
   letter-spacing: .125em;
   text-transform: uppercase;
+  
 }
 .header-nav{
   align-items: center;
   flex-direction: column;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
+  max-width: none;
+  background: rgb(219,117,172);
+  background: linear-gradient(125deg, rgba(219,117,172,1) 1%, rgba(168,116,172,1) 9%, rgba(134,151,181,1) 25%, rgba(87,185,198,1) 39%, rgba(53,218,223,1) 88%, rgba(117,159,209,1) 100%);
 }
 .header-menu{
   flex-wrap: wrap;
@@ -88,7 +104,8 @@ p{
   padding: .75em 0;
 }
 .header-menu-link{
-  color: var(--gray-color);
+  /* color: var(--gray-color); */
+  color: #292929;
   display: block;
   font-size: 1em;
   font-weight: 500;
@@ -155,7 +172,7 @@ p{
   
   /* HEADER NAV */
   .header-nav{
-    flex-direction: row;
+    /* flex-direction: row; */
     justify-content: space-between;
   }
   .header-menu-link{
@@ -196,6 +213,14 @@ p{
 }
 
 @media screen and (max-width: 767px) {
+  
+  .logo {
+    background: rgb(219,117,172);
+    background: linear-gradient(125deg, rgba(219,117,172,1) 1%, rgba(168,116,172,1) 9%, rgba(134,151,181,1) 25%, rgba(87,185,198,1) 39%, rgba(53,218,223,1) 88%, rgba(117,159,209,1) 100%);
+  }
+  .header-nav {
+    background: none;
+  }
   .header-menu {
     width: 94%;
   }
@@ -205,8 +230,9 @@ p{
     padding: 1.5em 0 1em 0;
   }
   .header-menu-link {
+    color: #565656;
     padding: 0;
-    text-align: right;
+    text-align: center;
     width: 100%;
   }
   .header-nav {

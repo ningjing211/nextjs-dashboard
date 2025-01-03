@@ -9,7 +9,7 @@ export default function Header() {
                     className="logo-link"
                     href="/"
                 >
-                    萬萬想不到
+                    <img src="/logoB-web.png" />
                 </a>
                 </h1>
                 <ul className="header-menu flex-container">
