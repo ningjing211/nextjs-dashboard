@@ -35,7 +35,7 @@
     left: -70px;
 }
 .ms--images .ms-slide:nth-child(1) .ms-slide__image {
-    background-image: url('https://cdn.jsdelivr.net/gh/lmgonzalves/momentum-slider@3b3037f7f1bab402fe3c75cd20ab18e04e1cbe0b/portfolio-carousel/img/harvey-gibson-498362-unsplash.jpg');
+    background-image: url('https://images.unsplash.com/photo-1728756830243-4d81d7d29a5e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
 }
 .ms--images .ms-slide:nth-child(2) .ms-slide__image {
     background-image: url('https://cdn.jsdelivr.net/gh/lmgonzalves/momentum-slider@3b3037f7f1bab402fe3c75cd20ab18e04e1cbe0b/portfolio-carousel/img/andre-hunter-461305-unsplash.jpg');
@@ -277,7 +277,7 @@
     display: flex;
     flex-direction: column;
     min-height: 65vh;
-    background-color: rgba(0, 0, 0, 0.1);
+    /* background-color: rgba(0, 0, 0, 0.1); */
 }
 .outer-box:before {
     content: '';
@@ -299,3 +299,29 @@
     flex: 1;
 }
 
+@media screen and (max-width: 400px) {
+    .outer-box {
+        
+    }
+    .sliders-outer-box {
+        align-items: flex-end;
+    }
+    .ms--numbers {
+        top: calc(50% - 307px);
+    }
+    .ms--numbers .ms-slide {
+        font-size: 5em;
+    }
+    .ms--titles.ms-container--vertical {
+        top: 18%;
+        color: white;
+    }
+    .ms--links .ms-slide__link {
+        background-color: rgba(222, 222, 222, 0.5);
+        padding: 16px;
+        border: none;
+    }
+    .ms--links {
+        left: 20px;
+    }
+}

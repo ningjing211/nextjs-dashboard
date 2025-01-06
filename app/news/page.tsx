@@ -28,11 +28,13 @@ export default function Page() {
 
 
           {/* <p>Dashboard Page</p> */}
-          <div>
-            <Header />
+          <Header />
+          <div className="md:p-6">
+            
             <News />
-            <Footer />
+            
           </div>
+          <Footer />
             
           </div>
     );

@@ -45,6 +45,14 @@ export default function Header() {
                     Vision
                     </a>
                 </li>
+                <li>
+                    <a
+                    className="header-menu-link"
+                    href="/news"
+                    >
+                    News
+                    </a>
+                </li>
                 </ul>
                 {/* <button className="ghost-button">
                 Subscribe
