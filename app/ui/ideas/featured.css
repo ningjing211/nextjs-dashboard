@@ -342,15 +342,7 @@ video {
     
 }
 
-@media screen and (max-width: 767px) {
-    .work_gallery {
-        padding-left: 1.2rem;
-        padding-right: 1.2rem;
-    }
-    .gallery_item {
-        width: 100%;
-    }
-}
+
 
 
 html {
@@ -442,4 +434,26 @@ svg #base4 {
 }
 .first-link {
     /* color: rgb(78 78 78 / 90%); */
+}
+
+@media screen and (max-width: 767px) {
+    .work_gallery {
+        /* padding-left: 1.2rem;
+        padding-right: 1.2rem; */
+    }
+    .work_tag-container {
+        padding: 1.25rem 1rem;
+        width: 100%;
+    }
+    .gallery_item {
+        width: 100%;
+    }
+    .entry-link-title { 
+        font-size: 2rem;
+    }
+    .tag {
+        margin-right: 4px;
+        padding:10px 9px;
+    }
+
 }
