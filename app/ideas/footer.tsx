@@ -128,12 +128,12 @@ export default function Footer() {
                 <div className="footer-group-right">
                     <div className="footer-btn-group">
                             
-                            <a
+                            {/* <a
                             className="footer__btn"
                             href="mailto:pmp@conflux-tech.com"
                             >
                             Email
-                            </a>
+                            </a> */}
 
                             <a
                             className="footer__btn"

@@ -265,14 +265,27 @@ body {
 
   }
 
+  .footer__nav {
+    margin-bottom: 24px;
+  }
+
   .address {
     line-height: 22px;
   }
   .legal {
     margin-top: 16px;
     line-height: 24px;
+    font-size: 12px;
+    border: none;;
   }
 
+  .footer-group-right {
+    align-items: center;
+  }
+
+  .footer__btn {
+    min-width: 180px;
+  }
   
   
   .legalword {
