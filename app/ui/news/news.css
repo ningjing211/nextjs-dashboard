@@ -301,7 +301,7 @@
 
 @media screen and (max-width: 400px) {
     .outer-box {
-        min-height: 480px;
+        min-height: 462px;
         overflow: hidden;
     }
     .outer-box::before {
@@ -315,7 +315,7 @@
         bottom: 8px;
     }
     .ms--numbers {
-        top: calc(50% - 280px);
+        top: calc(50% - 304px);
         z-index: 2;
     }
     .ms--numbers .ms-slide {
