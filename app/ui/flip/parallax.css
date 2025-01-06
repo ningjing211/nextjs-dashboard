@@ -111,6 +111,16 @@
   #parallax-world-of-ugg .parallax-one, #parallax-world-of-ugg .parallax-two, #parallax-world-of-ugg .parallax-three {padding-top:100px; padding-bottom:100px;}
 }
 @media screen and (max-width: 479px) {
+  
+  #parallax-world-of-ugg .parallax-philosophy-one,
+  #parallax-world-of-ugg .parallax-philosophy-two,
+  #parallax-world-of-ugg .parallax-philosophy-three,
+  #parallax-world-of-ugg .parallax-philosophy-four {
+    min-height: 480px;
+  }
+  #parallax-world-of-ugg .parallax-philosophy-four {
+    /* margin-bottom: 36px; */
+  }
 
   .animate-fadeInUp, .animate-slideInLeft, .animate-zoomIn {
     opacity: 0;
