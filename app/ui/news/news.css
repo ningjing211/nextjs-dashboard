@@ -301,7 +301,7 @@
 
 @media screen and (max-width: 400px) {
     .outer-box {
-        min-height: 72vh;
+        min-height: 480px;
         overflow: hidden;
     }
     .outer-box::before {
