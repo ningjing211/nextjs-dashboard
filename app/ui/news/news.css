@@ -302,9 +302,17 @@
 @media screen and (max-width: 400px) {
     .outer-box {
         min-height: 72vh;
+        overflow: hidden;
+    }
+    .outer-box::before {
+        display: none;
     }
     .sliders-outer-box {
         align-items: flex-end;
+    }
+    .pagination {
+        top: unset;
+        bottom: 8px;
     }
     .ms--numbers {
         top: calc(50% - 307px);
@@ -325,3 +333,7 @@
         left: 20px;
     }
 }
+
+/* * {
+    outline: 1px solid red;
+} */
