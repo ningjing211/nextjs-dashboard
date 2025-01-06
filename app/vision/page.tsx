@@ -33,9 +33,9 @@ export default function Page() {
           <Header />
           <div className="md:p-6">
             <Vision />
-            <Footer />
-          </div>
             
+          </div>
+          <Footer />  
           </div>
     );
   }

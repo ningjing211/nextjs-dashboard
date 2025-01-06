@@ -34,9 +34,9 @@ export default function Page() {
           <div className="md:p-6">
             
             <Philosophy />
-            <Footer />
-          </div>
             
+          </div>
+          <Footer />  
           </div>
     );
   }
