@@ -31,7 +31,7 @@ export default function Page() {
 
           {/* <p>Dashboard Page</p> */}
           <Header />
-          <div className="p-6">
+          <div className="md:p-6">
             
             <Philosophy />
             <Footer />
