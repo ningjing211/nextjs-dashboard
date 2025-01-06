@@ -45,7 +45,7 @@
         cssClass: 'ms--links',
         range: [0, 3],
         rangeContent: function () {
-            return '<a class="ms-slide__link">Read News</a>';
+            return '<a href="/flip" class="ms-slide__link">Read News</a>';
         },
         vertical: true,
         interactive: false
