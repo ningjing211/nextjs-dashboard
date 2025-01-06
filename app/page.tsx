@@ -50,7 +50,7 @@ export default function Page() {
             src="/wall.js"
           />
           <Header />
-          <div className="front-page-div md:p-6">
+          <div className="front-page-div p-6">
             
             <Video />
             <Intro />
@@ -58,9 +58,9 @@ export default function Page() {
             {/* <NumberShows /> */}
             {/* <Items /> */}
             <Featured />
-            <Footer />
+            
           </div>
-
+          <Footer />
           </div>
     );
   }

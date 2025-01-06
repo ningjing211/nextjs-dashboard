@@ -159,6 +159,10 @@
   font-style: normal;
 }
 
-* {
+/* * {
   outline: 1px solid red;
+} */
+
+.flow {
+  display: flow;
 }
