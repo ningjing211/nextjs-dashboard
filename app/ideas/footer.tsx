@@ -31,7 +31,7 @@ export default function Footer() {
                         </div>
                         <div className="footer-item-wrap">
                             <h2>
-                                堂口
+                                城市的景點
                             </h2>
                             <address className="address">
                                 高雄市三民區博愛路190號1樓 
@@ -105,10 +105,15 @@ export default function Footer() {
                         <h2 className="nav__title">
                         Legal
                         </h2>
-                        <ul className="nav__ul">
+                        <ul className="nav__ul nav__ul--extra">
                         <li>
                             <a href="#">
-                            Privacy Policy
+                            Privacy
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                            Policy
                             </a>
                         </li>
                         <li>
