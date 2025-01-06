@@ -315,7 +315,8 @@
         bottom: 8px;
     }
     .ms--numbers {
-        top: calc(50% - 307px);
+        top: calc(50% - 280px);
+        z-index: 2;
     }
     .ms--numbers .ms-slide {
         font-size: 5em;
