@@ -32,8 +32,8 @@ export default function Page() {
           /> 
 
           {/* <p>Dashboard Page</p> */}
-          <div>
-            <Header />
+          <Header />
+          <div className="p-6">
             <Hiring />
             <Footer />
           </div>

@@ -49,9 +49,9 @@ export default function Page() {
           <Script
             src="/wall.js"
           />
-
+          <Header />
           <div className="front-page-div p-6">
-            <Header />
+            
             <Video />
             <Intro />
             <Wall />
