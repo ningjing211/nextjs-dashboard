@@ -19,7 +19,7 @@
 
     // Initializing the titles slider
     var titles = [
-        'Our attitude',
+        'Like My Style?',
         'Sound of Streets',
         'Urban Fashion',
         'Breezy Sunset'
