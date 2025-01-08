@@ -8,8 +8,8 @@ import News from '@/app/news/news';
 
 export default function Page() {
     return (
-          <div> 
-            <head>
+          <>
+            <Head>
             <meta property="og:image:secure_url" content="/thumbnail-one-one.png" />
             <meta name="msapplication-TileImage" content="/thumbnail-one-one.png" />
             <link rel="icon" href="/thumbnail-one-one.png" sizes="32x32" />
@@ -17,7 +17,8 @@ export default function Page() {
             <title>One One</title>
             <meta charSet="utf-8" />
             <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-            </head>
+            </Head>
+
           <Script
             src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"
           />
@@ -32,6 +33,7 @@ export default function Page() {
 
 
           {/* <p>Dashboard Page</p> */}
+          <div> 
           <Header />
           <div className="md:p-6">
             
@@ -40,6 +42,8 @@ export default function Page() {
           </div>
           <Footer />
             
+
           </div>
+        </>
     );
   }

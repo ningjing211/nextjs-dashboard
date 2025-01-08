@@ -159,12 +159,21 @@ body {
   display: flex;
   flex-wrap: wrap;
   color: #999;
+  justify-content: right;
 }
   
 .legal__links {
   color: white;
   display: flex;
   align-items: center;
+  margin-bottom: 12px;
+  width: 100%;
+  text-align: right;
+}
+.legal__links span {
+  padding: 6px 0;
+  font-size: 14px;
+  width: 100%;
 }
 
 .heart {
@@ -242,6 +251,7 @@ body {
   .legal {
     border: 1px solid #b0b0b0;
     padding: 12px;
+    justify-content: center;
   }
 }
 
@@ -298,3 +308,37 @@ body {
   
 }
 
+/* Add to footer.css */
+.back-to-top-btn {
+  position: relative;
+  background-color: #3c3c3c;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.back-to-top-btn::before,
+.back-to-top-btn::after {
+  content: "";
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-style: solid;
+}
+
+.back-to-top-btn::before {
+  border-width: 0 8px 8px 8px;
+  border-color: transparent transparent white transparent;
+}
+
+/* .back-to-top-btn::after {
+  border-width: 8px 8px 0 8px;
+  border-color: white transparent transparent transparent;
+} */
