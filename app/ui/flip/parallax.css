@@ -87,13 +87,16 @@
   }
 
   #parallax-world-of-ugg .title {
-    background-color: #dbdbdb;
+    background-color: transparent;
     padding: 18px 18px 18px 18px;
   }
   #parallax-world-of-ugg .title h1 {
+    font-family: 'Montserrat', 'sans-serif';
+    font-weight: 900;
     font-size: 18px;
-    line-height: 24px;
-    text-align: left;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 2px;
   }
 
   .section-words {
