@@ -71,11 +71,11 @@ export default function Parallax() {
            </div>
         </section>
 
-        <section>
+        {/* <section>
           <div className="parallax-philosophy-four animate-zoomOut">
-            {/* <h2>Imagine</h2> */}
+            <h2>Imagine</h2>
           </div>
-        </section>
+        </section> */}
 
 
 
