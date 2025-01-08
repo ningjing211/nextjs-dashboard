@@ -67,7 +67,7 @@ export default function Parallax() {
         <section  className="section-words">
           <div className="block">
             <p>那麼這神奇的奶昔店究竟會在何時正式展店營業呢？</p>
-            <p>歡迎隨時關注我們的最新消息！</p>
+            <p>歡迎隨時關注我們的最新消息！！</p>
            </div>
         </section>
 
