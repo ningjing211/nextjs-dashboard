@@ -4,17 +4,16 @@ import '@/app/ui/news/parallax.css';
 
 import React from 'react';
 import { useEffect } from 'react';
-import Flip from '@/app/flip/flip';
 
 
 export default function Parallax() {
   return (
-    <div >
+    <div className="outer-box">
     {/* Container for all sliders, and pagination */}
-    {/* <main className="sliders-outer-box"> */}
+    <main className="sliders-outer-box">
       {/* Here will be injected sliders for images, numbers, titles and links */}
       {/* Simple pagination for the slider */}
-      {/* <ul className="pagination">
+      <ul className="pagination">
         <li className="pagination__item">
           <a className="pagination__button" />
         </li>
@@ -27,9 +26,39 @@ export default function Parallax() {
         <li className="pagination__item">
           <a className="pagination__button" />
         </li>
-      </ul> */}
-    {/* </main> */}
-    <Flip />
+      </ul>
+    </main>
+    <div className="mobile-slider-outer-box">
+      <ul className="m">
+          <li className="m__item">
+            <div className="m-title-wrap">
+              <div className="m-number">01</div>
+              <div className="m-item-title">Like My Style</div>
+            </div>
+            <a href ="/flip" className="m-item-one">
+            </a>
+            <a href="/flip" className="m-read-news-btn">Read News</a>
+          </li>
+          <li className="m__item">
+          <div className="m-title-wrap">
+          <div className="m-number">02</div>
+          <div className="m-item-title">Sound of Streets</div>
+          </div>
+            <a href ="/flip" className="m-item-two">
+            </a>
+            <a href="/flip" className="m-read-news-btn">Read News</a>
+          </li>
+          <li className="m__item">
+          <div className="m-title-wrap">
+          <div className="m-number">03</div>
+          <div className="m-item-title">Urban Fashion</div>
+          </div>
+            <a href ="/flip" className="m-item-three">
+            </a>
+            <a href="/flip" className="m-read-news-btn">Read News</a>
+          </li>
+        </ul>
+    </div>
   </div>
     );
   }

@@ -50,14 +50,14 @@ export default function Footer() {
                                 <li><a href="#">Line</a></li>
                             </ul>
                         </li>
-                        <li className="nav__item">
+                        {/* <li className="nav__item">
                             <h2 className="nav__title">Legal</h2>
                             <ul className="nav__ul nav__ul--extra">
                                 <li><a href="#">Privacy</a></li>
                                 <li><a href="#">Policy</a></li>
                                 <li><a href="#">Terms of Use</a></li>
                             </ul>
-                        </li>
+                        </li> */}
                     </ul>
                 </div>
                 <div className="footer-group-right">

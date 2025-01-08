@@ -1,3 +1,7 @@
+.mobile-slider-outer-box {
+    display: none;
+}
+
 .ms--images {
     position: relative;
     overflow: hidden;
@@ -300,6 +304,85 @@
 }
 
 @media screen and (max-width: 400px) {
+    
+    .mobile-slider-outer-box {
+        display: flex;
+    }
+    .sliders-outer-box {
+        display: none;
+    }
+
+    .m,
+    .m__item,
+    .m-item-one,
+    .m-item-two,
+    .m-item-three
+    {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+    }
+    .m__item {
+        position: relative;
+    }
+    .m-item-one,
+    .m-item-two,
+    .m-item-three {
+        width: 100%;
+        min-height: 240px;
+        max-height: 240px;
+        background-size: cover;
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+    }
+
+    .m-title-wrap {
+        display: flex;
+        flex-direction: row;
+        padding: 24px 0px 24px 20px;
+    }
+
+    .m-number {
+        font-family: 'Montserrat', 'sans-serif';
+        font-weight: 900;
+        font-size: 32px;
+        letter-spacing: 1px;
+        color: rgba(33, 33, 33, 0.697);
+    }
+
+    .m-item-title {
+        display: flex;
+        font-weight: 700;
+        justify-content: left;
+        align-self: center;
+        margin-left: 12px;
+    }
+    
+
+    .m-item-one {
+        background-image: url('/news/01/1.jpg');
+    }
+    .m-item-two {
+        background-image: url('https://cdn.jsdelivr.net/gh/lmgonzalves/momentum-slider@3b3037f7f1bab402fe3c75cd20ab18e04e1cbe0b/portfolio-carousel/img/andre-hunter-461305-unsplash.jpg');
+    }
+    .m-item-three {
+        background-image: url('https://cdn.jsdelivr.net/gh/lmgonzalves/momentum-slider@3b3037f7f1bab402fe3c75cd20ab18e04e1cbe0b/portfolio-carousel/img/joanna-nix-389128-unsplash.jpg');
+    }
+
+    .m-read-news-btn {
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
+        z-index: 2;
+        padding: 12px 15px;
+        border: 1px solid #666;
+        border-radius: 4px;
+        background-color: rgba(236, 236, 236, 0.9);
+        color: #111;
+        font-weight: 700;
+        font-size: 12px;
+    }
+
     .outer-box {
         min-height: 462px;
         overflow: hidden;
@@ -310,6 +393,7 @@
     .sliders-outer-box {
         align-items: flex-end;
     }
+
     .pagination {
         top: unset;
         bottom: 8px;
@@ -317,6 +401,7 @@
     .ms--numbers {
         top: calc(50% - 304px);
         z-index: 2;
+        left: -68px;
     }
     .ms--numbers .ms-slide {
         font-size: 5em;
