@@ -262,7 +262,16 @@ body {
   }
 
   .footer__logo {
+    margin-top: 20px;
     max-width: 240px;
+  }
+
+  .footer__addr {
+    margin-bottom: 20px;
+  }
+
+  .footer__logo a {
+    display: block;
   }
 
   .footer-btn-group {
@@ -272,7 +281,10 @@ body {
   }
 
   .footer-outer-wrap {
+    margin-top: 0;
+    margin-bottom: 0;
     flex-direction: column;
+    gap: 20px;
   }
 
   .footer-item-wrap h2 {
