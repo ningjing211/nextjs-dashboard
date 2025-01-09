@@ -20,8 +20,7 @@ gsap.timeline()
       z: -500,
       backgroundImage: (i) => `url(${imagePaths[i % imagePaths.length]})`, // 使用陣列中的圖片路徑
       backgroundPosition:(i)=>getBgPos(i),
-      backfaceVisibility:'hidden',
-      backgroundSize: 'contain'
+      backfaceVisibility:'hidden'
     })    
     .from('.img', {
       duration:1.5,
