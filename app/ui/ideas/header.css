@@ -60,6 +60,7 @@ p{
   margin: 1em 0;
 }
 
+
 /* CONTAINERS STYLES */
 .container{
   padding: 1em;
@@ -213,7 +214,6 @@ p{
 }
 
 @media screen and (max-width: 767px) {
-  
   .logo {
     background: rgb(219,117,172);
     background: linear-gradient(125deg, rgba(219,117,172,1) 1%, rgba(168,116,172,1) 9%, rgba(134,151,181,1) 25%, rgba(87,185,198,1) 39%, rgba(53,218,223,1) 88%, rgba(117,159,209,1) 100%);
@@ -238,5 +238,8 @@ p{
   .header-nav {
     padding: 1em 0.3em;
     padding: 0;
+  }
+  .p-6 {
+    padding-bottom: 0;
   }
 }
