@@ -106,7 +106,7 @@ p{
 }
 .header-menu-link{
   /* color: var(--gray-color); */
-  color: #292929;
+  color: white;
   display: block;
   font-size: 1em;
   font-weight: 500;
