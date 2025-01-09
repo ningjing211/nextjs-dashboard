@@ -22,7 +22,7 @@
         var titles = [
             'Like My Style?',
             'Sound of Streets',
-            'Urban Fashion',
+            'Why innovation',
             'Breezy Sunset'
         ];
         var msTitles = new MomentumSlider({
@@ -45,8 +45,8 @@
             el: slidersContainer,
             cssClass: 'ms--links',
             range: [0, 3],
-            rangeContent: function () {
-                return '<a href="/flip" class="ms-slide__link">Read News</a>';
+            rangeContent: function (i) {
+                return `<a href="/flip/0${i + 1}" class="ms-slide__link">Read News</a>`;
             },
             vertical: true,
             interactive: false

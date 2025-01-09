@@ -42,10 +42,11 @@
     background-image: url('/news/01/1.jpg');
 }
 .ms--images .ms-slide:nth-child(2) .ms-slide__image {
-    background-image: url('https://cdn.jsdelivr.net/gh/lmgonzalves/momentum-slider@3b3037f7f1bab402fe3c75cd20ab18e04e1cbe0b/portfolio-carousel/img/andre-hunter-461305-unsplash.jpg');
+    background-image: url('https://images.unsplash.com/photo-1625242662167-9ba73d268139?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
 }
 .ms--images .ms-slide:nth-child(3) .ms-slide__image {
-    background-image: url('https://cdn.jsdelivr.net/gh/lmgonzalves/momentum-slider@3b3037f7f1bab402fe3c75cd20ab18e04e1cbe0b/portfolio-carousel/img/joanna-nix-389128-unsplash.jpg');
+    background-image: url('https://images.unsplash.com/photo-1548438294-1ad5d5f4f063?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-position: 5% 100%;
 }
 .ms--images .ms-slide:nth-child(4) .ms-slide__image {
     background-image: url('https://cdn.jsdelivr.net/gh/lmgonzalves/momentum-slider@3b3037f7f1bab402fe3c75cd20ab18e04e1cbe0b/portfolio-carousel/img/jurica-koletic-321003-unsplash.jpg');
@@ -187,6 +188,9 @@
     width: 120px;
     height: 60px;
     user-select: none;
+}
+.ms--titles .ms-slide h3 {
+    color: white;
 }
 .ms--links {
     position: absolute;
@@ -356,6 +360,7 @@
         justify-content: left;
         align-self: center;
         margin-left: 12px;
+        color: #468096;
     }
     
 
@@ -363,16 +368,17 @@
         background-image: url('/news/01/1.jpg');
     }
     .m-item-two {
-        background-image: url('https://cdn.jsdelivr.net/gh/lmgonzalves/momentum-slider@3b3037f7f1bab402fe3c75cd20ab18e04e1cbe0b/portfolio-carousel/img/andre-hunter-461305-unsplash.jpg');
+        background-image: url('https://images.unsplash.com/photo-1625242662167-9ba73d268139?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
     }
     .m-item-three {
-        background-image: url('https://cdn.jsdelivr.net/gh/lmgonzalves/momentum-slider@3b3037f7f1bab402fe3c75cd20ab18e04e1cbe0b/portfolio-carousel/img/joanna-nix-389128-unsplash.jpg');
+        background-image: url('https://images.unsplash.com/photo-1548438294-1ad5d5f4f063?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+        background-position: 5% 100%;
     }
 
     .m-read-news-btn {
         position: absolute;
-        bottom: 20px;
-        right: 20px;
+        bottom: 16px;
+        left: 16px;
         z-index: 2;
         padding: 12px 15px;
         border: 1px solid #666;

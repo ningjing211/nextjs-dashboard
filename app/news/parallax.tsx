@@ -35,27 +35,27 @@ export default function Parallax() {
               <div className="m-number">01</div>
               <div className="m-item-title">Like My Style</div>
             </div>
-            <a href ="/flip" className="m-item-one">
+            <a href ="/flip/01" className="m-item-one">
             </a>
-            <a href="/flip" className="m-read-news-btn">Read News</a>
+            <a href="/flip/01" className="m-read-news-btn">Read News</a>
           </li>
           <li className="m__item">
           <div className="m-title-wrap">
           <div className="m-number">02</div>
           <div className="m-item-title">Sound of Streets</div>
           </div>
-            <a href ="/flip" className="m-item-two">
+            <a href ="/flip/02" className="m-item-two">
             </a>
-            <a href="/flip" className="m-read-news-btn">Read News</a>
+            <a href="/flip/02" className="m-read-news-btn">Read News</a>
           </li>
           <li className="m__item">
           <div className="m-title-wrap">
           <div className="m-number">03</div>
-          <div className="m-item-title">Urban Fashion</div>
+          <div className="m-item-title">Why innovation</div>
           </div>
-            <a href ="/flip" className="m-item-three">
+            <a href ="/flip/03" className="m-item-three">
             </a>
-            <a href="/flip" className="m-read-news-btn">Read News</a>
+            <a href="/flip/03" className="m-read-news-btn">Read News</a>
           </li>
         </ul>
     </div>

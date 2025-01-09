@@ -11,6 +11,14 @@ export default function Footer() {
 
     return (
         <div>
+            
+            <div className='footer-bottom-wrap'>
+                <button onClick={scrollToTop} className="back-to-top-btn">
+                    <span className="triangle-up"></span>
+                    Top
+                </button>
+            </div>
+
             <footer className="footer">
                 <div className="footer-group-left">
                     <div className="footer__addr">
@@ -78,10 +86,7 @@ export default function Footer() {
                                     {' '}
                                 </span>
                             </div>
-                            <button onClick={scrollToTop} className="back-to-top-btn">
-                                <span className="triangle-up"></span>
-                                Top
-                            </button>
+                            
                         </div>
                     </div>
                 </div>

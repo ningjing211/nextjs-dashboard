@@ -4,7 +4,7 @@ import Head from 'next/head';
 import Script from 'next/script';
 import Header from '@/app/ideas/header';
 import Footer from '@/app/ideas/footer';
-import Flip from '@/app/flip/flip';
+import Flip from '@/app/flip/01/flip';
 
 export default function Page() {
     return (

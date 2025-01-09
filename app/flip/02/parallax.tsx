@@ -1,6 +1,6 @@
 'use client';
 
-import '@/app/ui/flip/parallax.css';
+import '@/app/ui/flip/02/parallax.css';
 import React from 'react';
 import { useEffect } from 'react';
 
@@ -27,7 +27,7 @@ export default function Parallax() {
         <section>
           <div id="brand" className="title">
             {/* <h3>Ever Changing</h3> */}
-            <h1>Like My Style?</h1>
+            <h1>Sound of Streets</h1>
           </div>
         </section>
         <section id="origin">
@@ -39,7 +39,7 @@ export default function Parallax() {
         <section  className="section-words">
           <div id="story" className="block">
             <p>
-              萬萬奶昔店有什麼特別的？萬萬奶昔力圖再開台灣罕見的奶昔市場，但並不僅僅止步於單純的又一間飲料店，而是以走在科技最前沿的人工智慧AI技術為主枝幹，匯賦新創的各項獨家技術為繁茂的枝葉，是極為前衛、且為此而生的線下大型語言模型互動及學習場域——想像走進一間飲料店，出聲服務的卻是訓練有素的AI，在有如太空艙般的冷調空間裡，填滿了襲自酸性設計的迷幻色系——才踏進去，便宛如身置星際異空間，沒錯，這就是此一世代最新穎的體驗，所有意想不到的神奇體驗，都將在此發生。
+            奶昔，不僅是一杯飲品，更是一個時代的縮影。它的濃郁口感和色彩斑斕的配料，彷彿承載著美國20世紀中期的夢想與繁榮。它誕生於汽車旅館和路邊餐廳盛行的年代，象徵著一種自由流動的生活方式：跨越洲際的高速公路，霓虹燈閃爍下的加油站，以及疲憊旅人片刻的甜蜜享受。
             </p>
           </div>
         </section>
@@ -53,8 +53,9 @@ export default function Parallax() {
         <section  className="section-words">
           <div className="block">
             
-            <div className="sub-title">萬萬奶昔店與匯賦新創有什麼聯繫？</div>
-            <p>走入線下，我們自然是鏈結了自家的品牌生態系，萊吸粉的LINE CRM系統提供了來客者的便利，你也可以在這裡找到匯賦新創其他品牌的蹤影，或許是一堂限期打折的天賦銀行興趣課程，又或者是奶昔與植物意料之外的甜美碰撞？萬萬想不到，這裡的一切只會有驚奇。</p>
+            <p>一杯裡頭裝滿奶油、糖分，還有快樂的小旋風。它不是什麼高雅的藝術品，而是美國文化裡最接地氣的甜蜜代表。穿著圓裙的年輕女孩端著奶昔杯，畫面簡直比老電影還要經典。一杯奶昔，濃郁得像是對生活的低調表白：人生何嚐不為樂，來點甜的。
+
+當時的社交場地，遠超今天的咖啡館。男孩女孩圍著點唱機，一邊吸著奶昔，一邊討論誰能跳更炫的搖擺舞。見證青春的叛逆與激情，一種對個性和自由的公開慶祝。像奶昔的口感，一切都來得這麼自然毫不遮掩，滑順得讓人忍不住。</p>
            </div>
         </section>
 
@@ -66,8 +67,8 @@ export default function Parallax() {
 
         <section  className="section-words">
           <div className="block">
-            <p>那麼這神奇的奶昔店究竟會在何時正式展店營業呢？</p>
-            <p>歡迎隨時關注我們的最新消息！！</p>
+            <p>奶昔的故事也沒那麼單純。當你攪拌它的時候，是不是會思考：這種極致的快樂是否也有點空洞？奶昔像極了一個糖衣炮彈，甜到心裡，但是否也掩蓋了更深層的渴望？或許，這杯飲品的真正文化意義是提醒我們，在追逐甜蜜的路上，也別忘了問自己：我們到底想要的是什麼？所以，下一次喝奶昔的時候，記得品味的不只是甜，而是那份屬於美國的幽默、自由和一點點對快樂的反思。</p>
+
            </div>
         </section>
 
