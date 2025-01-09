@@ -21,7 +21,7 @@
         // Initializing the titles slider
         var titles = [
             'Like My Style?',
-            'Sound of Streets',
+            'Culture Importer',
             'Why Innovation?',
             'Breezy Sunset'
         ];

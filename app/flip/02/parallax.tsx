@@ -27,7 +27,7 @@ export default function Parallax() {
         <section>
           <div id="brand" className="title">
             {/* <h3>Ever Changing</h3> */}
-            <h1>Sound of Streets</h1>
+            <h1>Culture Importer</h1>
           </div>
         </section>
         <section id="origin">
