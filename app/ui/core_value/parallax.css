@@ -36,6 +36,7 @@
 #parallax-world-of-ugg .title {
   /* padding-top: 280px; */
 }
+
 /* Section - Block */
 /**************************/
 
@@ -112,6 +113,11 @@ background: #ffffff;
 }
 @media screen and (max-width: 479px) {
 
+  #parallax-world-of-ugg .title {
+    background-color: transparent;
+    color: #256c88;
+  }
+  
   .animate-fadeInUp, .animate-slideInLeft, .animate-zoomIn {
     opacity: 0;
     transition: opacity 0.6s ease, transform 0.6s ease;

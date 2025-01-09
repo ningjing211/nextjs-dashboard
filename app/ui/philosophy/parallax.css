@@ -137,6 +137,10 @@ background: #ffffff;
   .first-character {
     font-size: 52px;
   }
+  #parallax-world-of-ugg .title {
+    background-color: transparent;
+    color: #256c88;
+  }
   #parallax-world-of-ugg p {
     font-size: 18px;
     line-height: 36px;
