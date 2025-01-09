@@ -51,7 +51,7 @@ export default function Parallax() {
           <li className="m__item">
           <div className="m-title-wrap">
           <div className="m-number">03</div>
-          <div className="m-item-title">Why innovation</div>
+          <div className="m-item-title">Why Innovation?</div>
           </div>
             <a href ="/flip/03" className="m-item-three">
             </a>

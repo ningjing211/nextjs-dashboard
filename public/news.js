@@ -22,7 +22,7 @@
         var titles = [
             'Like My Style?',
             'Sound of Streets',
-            'Why innovation',
+            'Why Innovation?',
             'Breezy Sunset'
         ];
         var msTitles = new MomentumSlider({

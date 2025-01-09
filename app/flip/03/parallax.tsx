@@ -27,7 +27,7 @@ export default function Parallax() {
         <section>
           <div id="brand" className="title">
             {/* <h3>Ever Changing</h3> */}
-            <h1>Why Innovation</h1>
+            <h1>Why Innovation?</h1>
           </div>
         </section>
         <section id="origin">
