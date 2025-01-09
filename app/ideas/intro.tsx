@@ -41,14 +41,14 @@ export default function Intro() {
                             </svg>
                             </div>
                         </a> */}
-                        <a
+                        {/* <a
                             className="button-regular w-inline-block-another"
                             data-w-id="18ae716d-9bfe-5214-9b70-a60da53bfeb4"
                             href="/work"
-                        >
-                            <div className="see-work">
+                        > */}
+                            {/* <div className="see-work">
                             Continue
-                            </div>
+                            </div> */}
                             {/* <div className="button-arrow w-embed">
                             <svg
                                 fill="none"
@@ -63,7 +63,7 @@ export default function Intro() {
                                 />
                             </svg>
                             </div> */}
-                        </a>
+                        {/* </a> */}
                         </div>
                     </div>
                     </div>

@@ -170,3 +170,8 @@
 .margin-bottom-0 {
   margin-bottom: 0;
 }
+
+.sub-title {
+  color: #0b5573 !important;
+  font-weight: 900;
+}

@@ -1,14 +1,27 @@
 let xPos = 0;
 
+// 定義圖片路徑陣列
+const imagePaths = [
+  '/walls/01.jpg',
+  '/walls/02.jpg',
+  '/walls/03.jpg',
+  '/walls/04.jpg',
+  '/walls/05.jpg',
+  '/walls/06.jpg',
+  '/walls/07.jpg',
+  '/walls/08.jpg'
+];
+
 gsap.timeline()
     .set('.ring', { rotationY:180, cursor:'grab' }) //set initial rotationY so the parallax jump happens off screen
     .set('.img',  { // apply transform rotations to each image
       rotateY: (i)=> i*-36,
       transformOrigin: '50% 50% 500px',
       z: -500,
-      backgroundImage:(i)=>'url(https://picsum.photos/id/'+(i+32)+'/600/400/)',
+      backgroundImage: (i) => `url(${imagePaths[i % imagePaths.length]})`, // 使用陣列中的圖片路徑
       backgroundPosition:(i)=>getBgPos(i),
-      backfaceVisibility:'hidden'
+      backfaceVisibility:'hidden',
+      backgroundSize: 'contain'
     })    
     .from('.img', {
       duration:1.5,

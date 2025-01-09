@@ -52,7 +52,7 @@ img{
   width: 100%;
 }
 p{
-  color: var(--gray-color);
+  /* color: var(--gray-color); */
   font-size: 1.3em;
   letter-spacing: 1px;
   hyphens: auto;
@@ -230,7 +230,7 @@ p{
     padding: 1.5em 0 1em 0;
   }
   .header-menu-link {
-    color: #565656;
+    color: rgb(10, 132, 180);
     padding: 0;
     text-align: right;
     width: 100%;

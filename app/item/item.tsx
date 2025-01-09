@@ -15,9 +15,9 @@ export default function Item() {
                 <p className="item-date">
                 18 July 2024
                 </p>
-                <h2 className="item-title">
+                {/* <h2 className="item-title">
                 和 One One 在一起的日子
-                </h2>
+                </h2> */}
                 <p className="item-words">
                 每一天像每一生的入口，冰天極地的帝造比例消融在我們主觀的奶昔表裡，品質兩字在平行兩線騁馳，陽光與土壤生生不息映照在貌似咖啡豆與茶葉的載體裡，蟲鳴鳥叫稍微或可以偶爾在你對面的戀人耳蝸經過。我們以時間為經，空間為緯，織沐出一個你能體驗自身美好創造的轉瞬即逝。{' '}
                 </p>
