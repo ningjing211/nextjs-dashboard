@@ -1,6 +1,5 @@
 let xPos = 0;
 
-// 定義圖片路徑陣列
 const imagePaths = [
   '/walls/01.jpg',
   '/walls/02.jpg',
@@ -9,7 +8,9 @@ const imagePaths = [
   '/walls/05.jpg',
   '/walls/06.jpg',
   '/walls/07.jpg',
-  '/walls/08.jpg'
+  '/walls/08.jpg',
+  '/walls/09.jpg',
+  '/walls/10.jpg'
 ];
 
 gsap.timeline()

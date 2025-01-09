@@ -34,6 +34,7 @@
     font-size: 4.75rem;
     font-weight: 500;
     line-height: 105%;
+    color: #0d7ca8;
 }
 
 .spacer-small {
@@ -44,6 +45,7 @@
 .max-width-medium {
     width: 100%;
     max-width: 70rem;
+    color: #256c88;
 }
 
 .text-size-large {
