@@ -31,7 +31,7 @@ export default function Parallax() {
           </div>
         </section>
         <section id="origin">
-          <div className="parallax-philosophy-one  animate-fadeInUp">
+          <div className="parallax-flip-01-one  animate-fadeInUp">
             {/* <h2>Philosophy</h2> */}
           </div>
         </section>
@@ -45,7 +45,7 @@ export default function Parallax() {
         </section>
         
         <section>
-          <div className="parallax-philosophy-two  animate-slideInLeft">
+          <div className="parallax-flip-01-two  animate-slideInLeft">
             {/* <h2>Culture</h2> */}
           </div>
         </section>
@@ -59,7 +59,7 @@ export default function Parallax() {
         </section>
 
         <section>
-          <div className="parallax-philosophy-three animate-zoomIn">
+          <div className="parallax-flip-01-three animate-zoomIn">
             {/* <h2>Believe</h2> */}
           </div>
         </section>
@@ -72,7 +72,7 @@ export default function Parallax() {
         </section>
 
         {/* <section>
-          <div className="parallax-philosophy-four animate-zoomOut">
+          <div className="parallax-flip-01-four animate-zoomOut">
             <h2>Imagine</h2>
           </div>
         </section> */}

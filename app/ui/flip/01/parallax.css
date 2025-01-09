@@ -56,10 +56,10 @@
 
 /* Section - Parallax */
 /**************************/
-#parallax-world-of-ugg .parallax-philosophy-one {min-height: 720px; padding-top: 250px; padding-bottom: 250px; overflow: hidden; position: relative; width: 100%; background-image: url('/news/01/1.jpg'); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: top center;}
-#parallax-world-of-ugg .parallax-philosophy-two {min-height: 720px; padding-top: 250px; padding-bottom: 250px; overflow: hidden; position: relative; width: 100%; background-image: url('/news/01/2.jpg'); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center;}
-#parallax-world-of-ugg .parallax-philosophy-three {min-height: 720px; padding-top: 250px; padding-bottom: 250px; overflow: hidden; position: relative; width: 100%; background-image: url('/news/01/3.jpg'); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center;}
-#parallax-world-of-ugg .parallax-philosophy-four {min-height: 720px; padding-top: 250px; padding-bottom: 250px; overflow: hidden; position: relative; width: 100%; background-image: url('/news/01/4.jpg'); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center;}
+#parallax-world-of-ugg .parallax-flip-01-one {min-height: 720px; padding-top: 250px; padding-bottom: 250px; overflow: hidden; position: relative; width: 100%; background-image: url('/news/01/1.jpg'); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: top center;}
+#parallax-world-of-ugg .parallax-flip-01-two {min-height: 720px; padding-top: 250px; padding-bottom: 250px; overflow: hidden; position: relative; width: 100%; background-image: url('/news/01/2.jpg'); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center;}
+#parallax-world-of-ugg .parallax-flip-01-three {min-height: 720px; padding-top: 250px; padding-bottom: 250px; overflow: hidden; position: relative; width: 100%; background-image: url('/news/01/3.jpg'); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center;}
+#parallax-world-of-ugg .parallax-flip-01-four {min-height: 720px; padding-top: 250px; padding-bottom: 250px; overflow: hidden; position: relative; width: 100%; background-image: url('/news/01/4.jpg'); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center;}
 
 /* Extras */
 /**************************/
@@ -72,10 +72,10 @@
   #parallax-world-of-ugg .block {padding: 40px; width:620px;}
 }
 @media screen and (max-width: 767px) {
-  #parallax-world-of-ugg .parallax-philosophy-one,
-  #parallax-world-of-ugg .parallax-philosophy-two,
-  #parallax-world-of-ugg .parallax-philosophy-three,
-  #parallax-world-of-ugg .parallax-philosophy-four
+  #parallax-world-of-ugg .parallax-flip-01-one,
+  #parallax-world-of-ugg .parallax-flip-01-two,
+  #parallax-world-of-ugg .parallax-flip-01-three,
+  #parallax-world-of-ugg .parallax-flip-01-four
   {
     padding-top: 100px;
     padding-bottom: 100px;
@@ -116,13 +116,13 @@ background: #ffffff;
 }
 @media screen and (max-width: 479px) {
   
-  #parallax-world-of-ugg .parallax-philosophy-one,
-  #parallax-world-of-ugg .parallax-philosophy-two,
-  #parallax-world-of-ugg .parallax-philosophy-three,
-  #parallax-world-of-ugg .parallax-philosophy-four {
+  #parallax-world-of-ugg .parallax-flip-01-one,
+  #parallax-world-of-ugg .parallax-flip-01-two,
+  #parallax-world-of-ugg .parallax-flip-01-three,
+  #parallax-world-of-ugg .parallax-flip-01-four {
     min-height: 480px;
   }
-  #parallax-world-of-ugg .parallax-philosophy-four {
+  #parallax-world-of-ugg .parallax-flip-01-four {
     /* margin-bottom: 36px; */
   }
 
