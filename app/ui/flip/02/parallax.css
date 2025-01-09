@@ -66,7 +66,7 @@
   overflow: hidden; 
   position: relative; 
   width: 100%; 
-  background-image: url('https://images.unsplash.com/photo-1488137881216-5bea4b9bac2b?q=80&w=2044&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'); 
+  background-image: url('/drink-colorful.png'); 
   background-attachment: fixed; 
   background-size: cover; 
   -moz-background-size: cover; 
