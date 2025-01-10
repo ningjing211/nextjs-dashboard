@@ -3,6 +3,7 @@ import Parallax from '@/app/hiring/parallax';
 import { library, icon } from '@fortawesome/fontawesome-svg-core';
 import SparklesTextDemo from '@/app/hiring/magicUI';
 import SparklesText from "@/components/magicui/sparkles-text";
+import Form from '@/app/hiring/form';
 
 
 export default function Hiring() {
@@ -12,23 +13,24 @@ export default function Hiring() {
                 <div className="wrapper">
 
                     <section className="top-container">
-                    <header className="showcase">
+                    {/* <header className="showcase"> */}
                         {/* <h1>
                         我們正在尋找夥伴
                         </h1> */}
                         {/* <SparklesTextDemo /> */}
-                        <SparklesText text="在OneOne的日子" colors={{first: '#edd790', second: '#8efc7b'}} className="showcase-title" sparklesCount={7} />;
+                        {/* <SparklesText text="在OneOne的日子" colors={{first: '#edd790', second: '#8efc7b'}} className="showcase-title" sparklesCount={7} />;
                         <p>
                         在時刻的耐心打理之下，日子鼓勵你，隨時保持對自身感官的靈敏與覺知，精心的每一個姿態，呼吸收納之間，傳遞語言之外的撫慰。除了提供豐盛的物質依靠，我們奉上心靈的注視與溫暖，關懷伴隨著這裡的每一份子，尊重在自然的和諧下律動。你可以清晰明朗，且充滿活力的，在每一天發現自己與世界，重生的善意真相。
-                        </p>
+                        </p> */}
 
-                    </header>
+                    {/* </header> */}
 
                     </section>
                     <section className="boxes">
                     <div className="box box-1">
-                        <i className="fas fa-chart-pie fa-4x" />
-                        {/* <h1 className="job-sec-caption">現場服務人員</h1> */}
+                        <Form />
+                        {/* <i className="fas fa-chart-pie fa-4x" />
+                        <h1 className="job-sec-caption">現場服務人員</h1>
                         <SparklesText text="我們重視的" className="job-sec-caption" sparklesCount={4}/>
                         
                         <div className="job-sec-title">真實與深刻</div>
@@ -55,12 +57,12 @@ export default function Hiring() {
                         <div className="job-sec">
                             <p>支持</p>
                             <p>在每一段奇幻的長坡爬行，下坡陡降，我們如電子般靈動環繞，關照著你的完善與茁壯，在你尚未醒覺選擇相信之前，我們已經從未來瞥見如此盈滿充實的你，如山徑的夥伴，冰川雪巴守護者，風影隨形，伴侶在一旁鼓舞者你，支柱你超越過往的自己。在你進入必要的暗黑洗禮的同時，我們燭起一處溫暖的泉眼，為你注入持續相信的柴火。</p>
-                        </div>
+                        </div> */}
 
                     </div>
-                    <div className="box box-2">
+                    {/* <div className="box box-2">
                         <i className="fas fa-globe fa-4x" />
-                        {/* <h1 className="job-sec-caption">萬萬執行店長</h1> */}
+                        <h1 className="job-sec-caption">萬萬執行店長</h1>
                         <SparklesText text="開啟無限可能的世界" className="job-sec-caption" sparklesCount={7}/>
                         <div className="job-sec">
                             <p>
@@ -78,7 +80,7 @@ export default function Hiring() {
                             <p>全方位 POS 系統與設備支援：仿佛精密的手工時錶，先進的計算系統與 AI 智能點餐技術，為每一間加盟店注入穩定與有序的科技支持，化繁為簡，提升效率與回饋性。</p>
                             <p>AI 客戶顧客管理，精準回應需求：利用 AI 精準分析顧客需求，推薦客製選項。這不僅是科技的應用，更是一種對人性化服務的重新觀點與詮釋，將智慧與溫度融為一體。</p>
                         </div>
-                    </div>
+                    </div> */}
 
                     </section>
                     
@@ -87,7 +89,7 @@ export default function Hiring() {
                         <h1 className="title">
                         Get in touch
                         </h1>
-                        <form className="contact-form row">
+                        {/* <form className="contact-form row">
                         <div className="form-field col x-50">
                             <input
                             className="input-text js-input"
@@ -99,7 +101,7 @@ export default function Hiring() {
                             className="label"
                             htmlFor="name"
                             >
-                            Name
+                            姓名
                             </label>
                         </div>
                         <div className="form-field col x-50">
@@ -137,7 +139,7 @@ export default function Hiring() {
                             value="Submit"
                             />
                         </div>
-                        </form>
+                        </form> */}
                     </section>
 
                 </div>

@@ -33,7 +33,7 @@ export default function Page() {
 
           {/* <p>Dashboard Page</p> */}
           <Header />
-          <div className="md:p-6">
+          <div >
             <Hiring />
             <Footer />
           </div>

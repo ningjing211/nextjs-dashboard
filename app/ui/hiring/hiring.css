@@ -175,8 +175,9 @@ img {
 }
 
 .box-1 {
-    background: #d1947c;
-    background-image: linear-gradient(to left, #d3999c 0%, #cf91c3 100%);
+    background: #53758d;
+    display: flex;
+    justify-content: center;
 }
 .box-2 {
     background: #4d4d99;
