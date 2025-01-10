@@ -95,7 +95,7 @@
 select {
     width: 100%;
     color: #333;
-    margin-bottom: 24px;
+    /* margin-bottom: 24px; */
 }
 .sub-btn-wrap {
     display: flex;

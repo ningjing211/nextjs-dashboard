@@ -50,6 +50,22 @@ export default function Hiring() {
         </div>
       </div>
       <div>
+        <label className="desc" id="title5" htmlFor="Field5">
+          電話/分機/其他聯絡方式
+        </label>
+        <div>
+          <textarea
+            id="Field5"
+            name="Field5"
+            spellCheck="true"
+            rows={10}
+            cols={50}
+            tabIndex={5}
+            defaultValue=""
+          />
+        </div>
+      </div>
+      <div>
         <label className="desc" id="title3" htmlFor="Field3">
           Email
         </label>
@@ -63,6 +79,23 @@ export default function Hiring() {
             maxLength={255}
             tabIndex={3}
           />
+        </div>
+      </div>
+      <div>
+        <label className="desc" id="title106" htmlFor="Field106">
+          共好主題
+        </label>
+        <div>
+          <select
+            id="Field106"
+            name="Field106"
+            className="field select medium"
+            tabIndex={11}
+          >
+            <option value="First Choice">加入團隊</option>
+            <option value="Second Choice">產品供應</option>
+            <option value="Third Choice">品牌互惠</option>
+          </select>
         </div>
       </div>
       <div>
@@ -81,22 +114,7 @@ export default function Hiring() {
           />
         </div>
       </div>
-      <div>
-        <label className="desc" id="title5" htmlFor="Field5">
-          電話/分機/其他聯絡方式
-        </label>
-        <div>
-          <textarea
-            id="Field5"
-            name="Field5"
-            spellCheck="true"
-            rows={10}
-            cols={50}
-            tabIndex={5}
-            defaultValue=""
-          />
-        </div>
-      </div>
+      
       <div>
         <fieldset>
           <legend id="title6" className="desc">
@@ -141,23 +159,6 @@ export default function Hiring() {
             </div>
           </div>
         </fieldset>
-      </div>
-      <div>
-        <label className="desc" id="title106" htmlFor="Field106">
-          共好主題
-        </label>
-        <div>
-          <select
-            id="Field106"
-            name="Field106"
-            className="field select medium"
-            tabIndex={11}
-          >
-            <option value="First Choice">加入團隊</option>
-            <option value="Second Choice">產品供應</option>
-            <option value="Third Choice">品牌互惠</option>
-          </select>
-        </div>
       </div>
       <div className="sub-btn-wrap">
         <input
