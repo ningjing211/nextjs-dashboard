@@ -65,7 +65,7 @@ export default function Hiring() {
             id="Field1"
             name="Field1"
             type="text"
-            className="field text fn"
+            className=""
             defaultValue=""
             size={8}
             tabIndex={1}
