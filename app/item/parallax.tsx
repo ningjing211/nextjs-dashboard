@@ -12,7 +12,7 @@ export default function Parallax() {
         </section>
         <section  id="origin">
           <div className="parallax-vision-one">
-            <h2>Inovation</h2>
+            <h2>Innovation</h2>
           </div>
         </section>
         

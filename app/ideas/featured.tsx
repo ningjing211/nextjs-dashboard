@@ -648,7 +648,7 @@ export default function Feature() {
                         <div className="work_tag-container">
                         <div className="tag is-white">
                             <div>
-                            Inovation
+                            Innovation
                             </div>
                         </div>
                         <div className="w-dyn-list">
