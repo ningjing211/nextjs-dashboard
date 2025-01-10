@@ -83,13 +83,13 @@ export default function Hiring() {
                     </div> */}
 
                     </section>
-                    
+                    {/*
                     <div>
                     <section className="get-in-touch">
                         <h1 className="title">
                         Get in touch
                         </h1>
-                        {/* <form className="contact-form row">
+                         <form className="contact-form row">
                         <div className="form-field col x-50">
                             <input
                             className="input-text js-input"
@@ -139,11 +139,11 @@ export default function Hiring() {
                             value="Submit"
                             />
                         </div>
-                        </form> */}
+                        </form> 
                     </section>
 
                 </div>
-                                        
+                 */}                   
 
                 </div>
                 </div>
