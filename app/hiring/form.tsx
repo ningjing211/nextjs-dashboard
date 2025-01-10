@@ -58,7 +58,7 @@ export default function Hiring() {
       </header>
       <div>
         <label className="desc" id="title1" htmlFor="Field1">
-          姓名
+          姓名 
         </label>
         <div>
           <input
