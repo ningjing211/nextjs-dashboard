@@ -55,9 +55,10 @@ export default function Page() {
           />
           <div>
           <Header />
+          <Video />
           <div className="front-page-div p-6">
             
-            <Video />
+            
             <Intro />
             <Wall />
             {/* <NumberShows /> */}

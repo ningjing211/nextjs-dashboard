@@ -141,7 +141,7 @@ background: linear-gradient(30deg, rgba(192,205,205,1) 1%, rgba(83,199,200,1) 49
 
 @media screen and (max-width: 494px) {
     .intro-title {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
 
     .padding-global {
