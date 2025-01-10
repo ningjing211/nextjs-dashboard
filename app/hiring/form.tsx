@@ -7,7 +7,7 @@ export default function Hiring() {
   const [isSubmitted, setIsSubmitted] = useState(false);
 
   // 表單提交處理函數
-  const handleSubmit = (event) => {
+  const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault(); // 防止表單的預設提交行為
     setIsSubmitted(true); // 顯示成功訊息
 
