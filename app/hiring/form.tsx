@@ -18,14 +18,37 @@ export default function Hiring() {
   };
 
   return (
+    // <form action="#" className="form-wrap" onSubmit={handleSubmit}>
+    //   {isSubmitted && (
+    //     <div
+    //       id="formSuccessMessage"
+    //       style={{ textAlign: "center", marginTop: 20 }}
+    //     >
+    //       <div style={{ fontSize: 24, color: "#4CAF50" }}>
+    //         Form Submitted Successfully!
+    //       </div>
+    //       <div className="spinner" style={{ marginTop: 10 }} />
+    //     </div>
+    //   )}
     <form action="#" className="form-wrap" onSubmit={handleSubmit}>
-      {isSubmitted && (
+     {isSubmitted && (
+      
         <div
           id="formSuccessMessage"
           style={{ textAlign: "center", marginTop: 20 }}
         >
-          <div style={{ fontSize: 24, color: "#4CAF50" }}>
-            Form Submitted Successfully!
+          <div style={{ fontSize: 24, color: "#4CAF50",
+          position: 'absolute',
+          justifyContent: 'center',
+          alignItems: 'center',
+          display: 'flex',
+          top: 0,
+          left: 0,
+          right: 0,
+          height: '100%',
+          background: '#040404bd' 
+          }}>
+            {/* Sending.. */}
           </div>
           <div className="spinner" style={{ marginTop: 10 }} />
         </div>

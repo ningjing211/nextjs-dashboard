@@ -178,6 +178,7 @@ img {
     background: #53758d;
     display: flex;
     justify-content: center;
+    position: relative;
 }
 .box-2 {
     background: #4d4d99;
