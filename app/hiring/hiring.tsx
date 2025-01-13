@@ -4,6 +4,7 @@ import { library, icon } from '@fortawesome/fontawesome-svg-core';
 import SparklesTextDemo from '@/app/hiring/magicUI';
 import SparklesText from "@/components/magicui/sparkles-text";
 import Form from '@/app/hiring/form';
+import Human from '@/app/hiring/human';
 
 
 export default function Hiring() {
@@ -13,6 +14,14 @@ export default function Hiring() {
                 <div className="wrapper">
 
                     <section className="top-container">
+                    <div className="banner-top">
+                        <div className="ban-img-wrap">
+                            <img src="/invite.png"></img>
+                        </div>
+                        <div className="ban-title-wrap">
+                            <img src="/banner-title.png"></img>
+                        </div>
+                    </div>
                     {/* <header className="showcase"> */}
                         {/* <h1>
                         我們正在尋找夥伴
@@ -27,6 +36,7 @@ export default function Hiring() {
 
                     </section>
                     <section className="boxes">
+                    <Human />
                     <div className="box box-1">
                         <Form />
                         {/* <i className="fas fa-chart-pie fa-4x" />
@@ -58,8 +68,8 @@ export default function Hiring() {
                             <p>支持</p>
                             <p>在每一段奇幻的長坡爬行，下坡陡降，我們如電子般靈動環繞，關照著你的完善與茁壯，在你尚未醒覺選擇相信之前，我們已經從未來瞥見如此盈滿充實的你，如山徑的夥伴，冰川雪巴守護者，風影隨形，伴侶在一旁鼓舞者你，支柱你超越過往的自己。在你進入必要的暗黑洗禮的同時，我們燭起一處溫暖的泉眼，為你注入持續相信的柴火。</p>
                         </div> */}
-
                     </div>
+                    
                     {/* <div className="box box-2">
                         <i className="fas fa-globe fa-4x" />
                         <h1 className="job-sec-caption">萬萬執行店長</h1>

@@ -24,11 +24,20 @@ export default function Page() {
 
         <Script src="https://use.fontawesome.com/releases/v5.0.6/js/all.js" />
 
-          {/* <Script
-            src="https://unpkg.com/zdog@1.1.3/dist/zdog.dist.min.js"
-          />*/}
+          <Script
+            src="https://unpkg.co/gsap@3/dist/gsap.min.js"
+          />
+          <Script
+            src="/MorphSVGPlugin3.min.js"
+          />
+          <Script
+            src="https://unpkg.co/gsap@3/dist/gsap.min.js"
+          />
           <Script
             src="/vision.js"
+          />
+          <Script
+            src="/human.js"
           /> 
 
           {/* <p>Dashboard Page</p> */}

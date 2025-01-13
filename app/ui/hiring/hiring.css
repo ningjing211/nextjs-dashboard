@@ -129,7 +129,26 @@ img {
 .top-box-b {
   grid-area: top-box-b;
 }
-
+.banner-top {
+  width: 100%;
+  position: relative;
+}
+.ban-img-wrap {
+  display: flex;
+  justify-content: center;
+}
+.ban-img-wrap img {
+  width: 42%;
+  display: inline-flex;
+}
+.ban-title-wrap {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 42%;
+  bottom: 12px;
+}
 /* Boxes */
 .boxes {
   display: grid;
@@ -179,7 +198,7 @@ img {
     display: flex;
     justify-content: center;
     position: relative;
-    width: 50%;
+    width: 80%;
     margin-bottom: 20px;
 }
 .box-2 {
@@ -377,7 +396,24 @@ img {
 
 
 @media screen and (max-width: 767px) {
-  
+  .ban-img-wrap img {
+    width: 100%;
+  }
+  .ban-title-wrap {
+    width: 72%;
+    bottom: 32px;
+  }
+  .boxes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .human {
+    display: none;
+    width: 50%;
+    justify-content: center;
+    align-self: center;
+  }
   .box {
     width: 100%;
   }
