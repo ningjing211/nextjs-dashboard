@@ -179,6 +179,8 @@ img {
     display: flex;
     justify-content: center;
     position: relative;
+    width: 50%;
+    margin-bottom: 20px;
 }
 .box-2 {
     background: #4d4d99;
@@ -378,6 +380,11 @@ img {
   
   .box {
     width: 100%;
+  }
+
+  .box-1 {
+    width: 100%;
+    margin-bottom: 0;
   }
 
   .row .col.x-50 {

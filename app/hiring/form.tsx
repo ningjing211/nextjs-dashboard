@@ -58,7 +58,7 @@ export default function Hiring() {
       </header>
       <div>
         <label className="desc" id="title1" htmlFor="Field1">
-          姓名 
+          * 姓名 
         </label>
         <div>
           <input
@@ -74,17 +74,15 @@ export default function Hiring() {
       </div>
       <div>
         <label className="desc" id="title5" htmlFor="Field5">
-          電話/分機/其他聯絡方式
+          * 電話/分機/其他聯絡方式
         </label>
         <div>
-          <textarea
+          <input
             id="Field5"
             name="Field5"
-            spellCheck="true"
-            rows={10}
-            cols={50}
+            type="text" // 單行文字輸入
+            placeholder="+886 (07) 555-0123" // 提示文字
             tabIndex={5}
-            defaultValue=""
           />
         </div>
       </div>
@@ -143,7 +141,7 @@ export default function Hiring() {
           <legend id="title6" className="desc">
             希望被聯絡時段
           </legend>
-          <div>
+          <div className="time-wrap">
             <div>
               <input
                 id="Field6"
