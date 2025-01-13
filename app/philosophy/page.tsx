@@ -25,13 +25,15 @@ export default function Page() {
         <Script 
           src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
         />
-
+          <Script
+            src="/header.js"
+          />
           {/* <Script
             src="https://unpkg.com/zdog@1.1.3/dist/zdog.dist.min.js"
           />
           <Script
-            src="/warp.js"
-          /> */}
+            src="/header.js"
+          />
 
           {/* <p>Dashboard Page</p> */}
           <div>

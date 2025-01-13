@@ -30,7 +30,9 @@ export default function Page() {
         <Script src="https://cdn.jsdelivr.net/npm/momentum-slider@latest/dist/momentum-slider.min.js" />
 
         <Script src="/news.js" />
-
+        <Script
+            src="/header.js"
+          />
 
           {/* <p>Dashboard Page</p> */}
           <div> 

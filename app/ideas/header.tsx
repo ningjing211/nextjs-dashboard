@@ -18,7 +18,7 @@ export default function Header() {
                     className="header-menu-link"
                     href="/philosophy"
                     >
-                    Philosophy
+                    Philo
                     </a>
                 </li>
                 <li>

@@ -53,6 +53,9 @@ export default function Page() {
           <Script
             src="/wall.js"
           />
+          <Script
+            src="/header.js"
+          />
           <div>
           <Header />
           <Video />

@@ -558,7 +558,7 @@ export default function Feature() {
                             className="w-background-video w-background-video-atom hero_media-item-video video-fix"
                             data-autoplay="true"
                             data-loop="true"
-                            data-video-url="/left-down-positive-lifestyle.mov"
+                            data-video-url="/left-down-colors.mov"
                             data-wf-ignore="true"
                             >
                             <video
@@ -571,7 +571,7 @@ export default function Feature() {
                             >
                                 <source
                                 data-wf-ignore="true"
-                                src="/left-down-positive-lifestyle.mov"
+                                src="/left-down-colors.mov"
                                 />
                             </video>
                             </div>
