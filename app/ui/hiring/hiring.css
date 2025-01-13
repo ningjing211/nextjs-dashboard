@@ -200,6 +200,8 @@ img {
     position: relative;
     width: 80%;
     margin-bottom: 20px;
+    border-radius: 15px;
+    margin-left: 36px;
 }
 .box-2 {
     background: #4d4d99;
@@ -421,6 +423,8 @@ img {
   .box-1 {
     width: 100%;
     margin-bottom: 0;
+    border-radius: 0;
+    margin-left: 0;
   }
 
   .row .col.x-50 {
