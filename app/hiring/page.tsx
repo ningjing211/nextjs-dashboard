@@ -28,7 +28,7 @@ export default function Page() {
             src="https://unpkg.co/gsap@3/dist/gsap.min.js"
           />
           <Script
-            src="/MorphSVGPlugin3.min.js"
+            src="https://assets.codepen.io/16327/MorphSVGPlugin3.min.js"
           />
           <Script
             src="https://unpkg.co/gsap@3/dist/gsap.min.js"
