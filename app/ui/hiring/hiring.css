@@ -161,6 +161,10 @@ img {
   position: relative;
   width: 30%;
 }
+.human-img-wrap img {
+  display: block;
+  width: 100%;
+}
 
 .box {
   background: var(--primary);

@@ -1,7 +1,7 @@
 svg {
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 25%;
     transform: translateX(-50%) translateY(-50%);
     height: 300px;
     width: 300px;
