@@ -11,7 +11,7 @@ export default function Hiring() {
     return (
         <div>
             <div>
-                <div className="wrapper">
+                <div className="hiring-wrapper">
 
                     <section className="top-container">
                     <div className="banner-top">
