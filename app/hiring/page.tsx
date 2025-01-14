@@ -24,15 +24,15 @@ export default function Page() {
 
         <Script src="https://use.fontawesome.com/releases/v5.0.6/js/all.js" />
 
-          <Script
-            src="https://unpkg.co/gsap@3/dist/gsap.min.js"
-          />
           {/* <Script
-            src="https://assets.codepen.io/16327/MorphSVGPlugin3.min.js"
-          /> */}
-          <Script
             src="https://unpkg.co/gsap@3/dist/gsap.min.js"
           />
+          <Script
+            src="https://assets.codepen.io/16327/MorphSVGPlugin3.min.js"
+          />
+          <Script
+            src="https://unpkg.co/gsap@3/dist/gsap.min.js"
+          /> */}
           <Script
             src="/vision.js"
           />
