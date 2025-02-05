@@ -21,13 +21,13 @@ export default function Page() {
               <meta property="og:image:secure_url" content="/thumbnail-one-one.png" />
               <meta name="msapplication-TileImage" content="/thumbnail-one-one.png" />
               <meta property="og:type" content="website" />
-              <meta property="og:site_name" content="www.oneone.global"></meta>
-              <meta property="og:url" content="https://www.oneone.global/"></meta>
-              <meta property="og:image" content="/link-thumbnail.png"></meta>
-              <meta property="og:image:width" content="1200"></meta>
-              <meta property="og:image:height" content="600"></meta>
-              <meta property="og:locale" content="zh_TW"></meta>
-              <meta name="description" content="每一杯奶昔都是調皮的小精靈，帶著獨特風味和趣味，準備驚喜你味蕾。萬萬不僅僅是一個名字，而是一種生活態度。每個細節都灑滿美學追求，從店內設計到產品包裝，每一吋都展現我們對生活的熱愛。"></meta>
+              <meta property="og:site_name" content="www.oneone.global" />
+              <meta property="og:url" content="https://www.oneone.global/" />
+              <meta property="og:image" content="/link-thumbnail.png" />
+              <meta property="og:image:width" content="1200" />
+              <meta property="og:image:height" content="600" />
+              <meta property="og:locale" content="zh_TW" />
+              <meta name="description" content="每一杯奶昔都是調皮的小精靈，帶著獨特風味和趣味，準備驚喜你味蕾。萬萬不僅僅是一個名字，而是一種生活態度。每個細節都灑滿美學追求，從店內設計到產品包裝，每一吋都展現我們對生活的熱愛。" />
               <link rel="icon" href="/thumbnail-one-one.png" sizes="32x32" />
               <link rel="apple-touch-icon" href="/thumbnail-one-one.png" />
             </Head>
