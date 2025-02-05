@@ -1,4 +1,3 @@
-'user client';
 
 import { useThree, useFrame } from '@react-three/fiber'
 import { EffectComposer, RenderPass, EffectPass, BloomEffect, ToneMappingEffect, FXAAEffect } from 'postprocessing'

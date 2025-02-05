@@ -1,5 +1,4 @@
-// 'user client';
-
+// 
 // import Head from 'next/head';
 // import Script from 'next/script';
 // import Join from '@/app/join/join';
