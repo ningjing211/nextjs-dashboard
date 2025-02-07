@@ -15,11 +15,13 @@ export default function Video() {
               loop
               muted
               preload="auto"
+              x5-playsinline
+              webkit-playsinline
               playsInline
             >
               <source
                 src="/ideas/everchanging-video-edited.mp4"
-                data-wf-ignore="true"
+                data-wf-ignore="true" type="video/mp4"
               />
             </video>
           </div>
