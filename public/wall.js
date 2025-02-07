@@ -1,6 +1,10 @@
-const video = document.querySelector("video");
-video.play().catch((error) => {
-    console.error("自動播放失敗", error);
+document.addEventListener('DOMContentLoaded', function() {
+  const videos = document.querySelectorAll('video');
+  videos.forEach(video => {
+    video.play().catch(function(error) {
+      console.log("Video play failed:", error);
+    });
+  });
 });
 
 let xPos = 0;
