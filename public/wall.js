@@ -1,3 +1,8 @@
+const video = document.querySelector("video");
+video.play().catch((error) => {
+    console.error("自動播放失敗", error);
+});
+
 let xPos = 0;
 
 const imagePaths = [
