@@ -15,10 +15,12 @@ export default function Page() {
     return (
           <>
             <Head>
-            <meta property="og:image:secure_url" content="/thumbnail-one-one.png" />
-            <meta name="msapplication-TileImage" content="/thumbnail-one-one.png" />
             <link rel="icon" href="/thumbnail-one-one.png" sizes="32x32" />
+            <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700;800;900&display=swap" rel="stylesheet" />
             <link rel="apple-touch-icon" href="/thumbnail-one-one.png" />
+            <link rel="preconnect" href="https://fonts.googleapis.com" />
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+            <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap" rel="stylesheet"/>
             <title>One One</title>
             <meta charSet="utf-8" />
             <meta name="viewport" content="initial-scale=1.0, width=device-width" />

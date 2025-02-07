@@ -67,7 +67,8 @@
     @apply bg-background text-foreground;
   }
 }
-/* 
+
+/* Noto Sans TC Regular */
 @font-face {
   font-family: 'Noto Sans TC';
   src: url('/fonts/Noto_Sans_TC/static/NotoSansTC-Regular.ttf') format('truetype');
@@ -75,6 +76,7 @@
   font-style: normal;
 }
 
+/* Noto Sans TC Bold */
 @font-face {
   font-family: 'Noto Sans TC';
   src: url('/fonts/Noto_Sans_TC/static/NotoSansTC-Bold.ttf') format('truetype');
@@ -82,6 +84,7 @@
   font-style: normal;
 }
 
+/* Noto Sans TC Black */
 @font-face {
   font-family: 'Noto Sans TC';
   src: url('/fonts/Noto_Sans_TC/static/NotoSansTC-Black.ttf') format('truetype');
@@ -89,6 +92,7 @@
   font-style: normal;
 }
 
+/* Noto Sans TC ExtraBold */
 @font-face {
   font-family: 'Noto Sans TC';
   src: url('/fonts/Noto_Sans_TC/static/NotoSansTC-ExtraBold.ttf') format('truetype');
@@ -96,6 +100,7 @@
   font-style: normal;
 }
 
+/* Noto Sans TC Light */
 @font-face {
   font-family: 'Noto Sans TC';
   src: url('/fonts/Noto_Sans_TC/static/NotoSansTC-Light.ttf') format('truetype');
@@ -103,13 +108,14 @@
   font-style: normal;
 }
 
+/* Noto Sans TC Thin */
 @font-face {
   font-family: 'Noto Sans TC';
   src: url('/fonts/Noto_Sans_TC/static/NotoSansTC-Thin.ttf') format('truetype');
   font-weight: 100;
   font-style: normal;
 }
-*/
+
 
 /* 引用 Slabo 27px */
 @font-face {

@@ -12,6 +12,7 @@ export default function Page() {
             <meta property="og:image:secure_url" content="/thumbnail-one-one.png" />
             <meta name="msapplication-TileImage" content="/thumbnail-one-one.png" />
             <link rel="icon" href="/thumbnail-one-one.png" sizes="32x32" />
+            <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700;800;900&display=swap" rel="stylesheet" />
             <link rel="apple-touch-icon" href="/thumbnail-one-one.png" />
             <title>One One</title>
             <meta charSet="utf-8" />
