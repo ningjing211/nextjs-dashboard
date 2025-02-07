@@ -50,3 +50,7 @@ canvas {
   animation: fade-in 5s ease 0.5s forwards;
 }
 
+iframe {
+  pointer-events: none; /* 禁止用戶點擊 */
+  z-index: -1; /* 放在背景層 */
+}

@@ -17,6 +17,7 @@ export default function Page() {
             <Head>
             <link rel="icon" href="/thumbnail-one-one.png" sizes="32x32" />
             <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700;800;900&display=swap" rel="stylesheet" />
+            
             <link rel="apple-touch-icon" href="/thumbnail-one-one.png" />
             <link rel="preconnect" href="https://fonts.googleapis.com" />
             <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
@@ -25,6 +26,8 @@ export default function Page() {
             <meta charSet="utf-8" />
             <meta name="viewport" content="initial-scale=1.0, width=device-width" />
             </Head>
+          <Script src="https://www.youtube.com/iframe_api" />
+
           <Script
             src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"
           />

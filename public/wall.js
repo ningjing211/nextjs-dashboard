@@ -1,16 +1,16 @@
 let xPos = 0;
 
 const imagePaths = [
-  '/walls/01.jpg',
-  '/walls/02.jpg',
-  '/walls/03.jpg',
-  '/walls/04.jpg',
-  '/walls/05.jpg',
-  '/walls/06.jpg',
-  '/walls/07.jpg',
-  '/walls/08.jpg',
-  '/walls/09.jpg',
-  '/walls/10.jpg'
+  '/walls/compressed_01.jpg',
+  '/walls/compressed_02.jpg',
+  '/walls/compressed_03.jpg',
+  '/walls/compressed_04.jpg',
+  '/walls/compressed_05.jpg',
+  '/walls/compressed_06.jpg',
+  '/walls/compressed_07.jpg',
+  '/walls/compressed_08.jpg',
+  '/walls/compressed_09.jpg',
+  '/walls/compressed_10.jpg'
 ];
 
 gsap.timeline()

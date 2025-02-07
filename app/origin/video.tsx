@@ -4,7 +4,7 @@ export default function Video() {
             className="w-full h-full"
             data-autoplay="true"
             data-loop="true"
-            data-video-url="/ideas/everchanging-video-edited.mov"
+            data-video-url="/ideas/everchanging-video-edited.mp4"
             data-wf-ignore="true"
           > 
             <video
@@ -14,10 +14,11 @@ export default function Video() {
               id="video-background"
               loop
               muted
+              preload="auto"
               playsInline
             >
               <source
-                src="/ideas/everchanging-video-edited.mov"
+                src="/ideas/everchanging-video-edited.mp4"
                 data-wf-ignore="true"
               />
             </video>
