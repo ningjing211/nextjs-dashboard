@@ -23,9 +23,9 @@ export default function Parallax() {
         <li className="pagination__item">
           <a className="pagination__button" />
         </li>
-        <li className="pagination__item">
+        {/* <li className="pagination__item">
           <a className="pagination__button" />
-        </li>
+        </li> */}
       </ul>
     </main>
     <div className="mobile-slider-outer-box">

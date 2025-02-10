@@ -7,7 +7,7 @@
         var msNumbers = new MomentumSlider({
             el: slidersContainer,
             cssClass: 'ms--numbers',
-            range: [1, 4],
+            range: [1, 3],
             rangeContent: function (i) {
                 return '0' + i;
             },
@@ -22,13 +22,12 @@
         var titles = [
             'Like My Style?',
             'Culture Importer',
-            'Why Innovation?',
-            'Breezy Sunset'
+            'Why Innovation?'
         ];
         var msTitles = new MomentumSlider({
             el: slidersContainer,
             cssClass: 'ms--titles',
-            range: [0, 3],
+            range: [0, 2],
             rangeContent: function (i) {
                 return '<h3>'+ titles[i] +'</h3>';
             },
@@ -44,7 +43,7 @@
         var msLinks = new MomentumSlider({
             el: slidersContainer,
             cssClass: 'ms--links',
-            range: [0, 3],
+            range: [0, 2],
             rangeContent: function (i) {
                 return `<a href="/flip/0${i + 1}" class="ms-slide__link">Read News</a>`;
             },
@@ -63,7 +62,7 @@
             // CSS class to reference the slider
             cssClass: 'ms--images',
             // Generate the 4 slides required
-            range: [0, 3],
+            range: [0, 2],
             rangeContent: function () {
                 return '<div class="ms-slide__image-container"><div class="ms-slide__image"></div></div>';
             },
