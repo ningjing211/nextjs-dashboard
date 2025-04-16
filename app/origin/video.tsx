@@ -15,8 +15,8 @@ export default function Video() {
               loop
               muted
               preload="auto"
-              x5-playsinline
-              webkit-playsinline
+              x5-playsinline="true"
+              webkit-playsinline="true"
               playsInline
             >
               <source

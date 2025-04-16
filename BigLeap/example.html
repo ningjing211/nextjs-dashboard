@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BigLeap Animation Example</title>
+</head>
+<body>
+    <div id="bigLeapContainer"></div>
+
+    <script type="module">
+        import BigLeap from './BigLeap.js';
+
+        // 初始化BigLeap組件
+        const container = document.getElementById('bigLeapContainer');
+        const bigLeap = new BigLeap(container, {
+            // 自定義選項
+            backgroundColor: 'black',
+            textColor: 'white',
+            fontSize: '28px',
+            animationDuration: 2,
+            animationDelay: 1,
+            onComplete: () => {
+                console.log('Animation completed!');
+            }
+        });
+
+        // 播放動畫
+        bigLeap.play();
+
+        // 示例：如何控制動畫
+        // setTimeout(() => {
+        //     bigLeap.pause(); // 暫停動畫
+        // }, 1000);
+
+        // setTimeout(() => {
+        //     bigLeap.reset(); // 重置動畫
+        // }, 2000);
+
+        // setTimeout(() => {
+        //     bigLeap.destroy(); // 銷毀組件
+        // }, 5000);
+    </script>
+</body>
+</html> 

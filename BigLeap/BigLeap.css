@@ -1,0 +1,78 @@
+.big-leap-intro {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.big-leap-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+.big-leap-logo-placeholder {
+    position: absolute;
+    z-index: 2;
+}
+
+.big-leap-letters {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 2;
+    gap: 0.5em;
+}
+
+.big-leap-letters.second-word {
+    transform: translateX(120px);
+}
+
+.big-leap-letter {
+    font-family: 'Arial', sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 1;
+    transform-origin: center center;
+    opacity: 0;
+    color: white;
+    letter-spacing: 0.05em;
+}
+
+.big-leap-logo-placeholder svg {
+    width: 42px;
+    height: 24px;
+}
+
+.big-leap-logo-placeholder svg .stroke {
+    fill: none;
+    stroke-miterlimit: 10;
+    stroke: currentColor;
+}
+
+.big-leap-letters {
+    z-index: 1;
+    position: absolute;
+    top: calc(50% - 3px - 47px);
+    left: calc(50% + 7px - 20px);
+    pointer-events: none;
+    display: flex;
+    transform-origin: center center;
+}
+
+.big-leap-letter:last-child {
+    margin-right: 0;
+}
+
+.big-leap-last-letter {
+    transform: translate(-21px, 0);
+} 

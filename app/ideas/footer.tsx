@@ -52,10 +52,10 @@ export default function Footer() {
                         <li className="nav__item nav__item--extra">
                             <h2 className="nav__title">Social Media</h2>
                             <ul className="nav__ul nav__ul--extra">
-                                <li><a href="#">Facebook</a></li>
-                                <li><a href="#">Instagram</a></li>
+                                <li><a href="https://www.facebook.com/share/1H7kvM7SUH/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer">Facebook</a></li>
+                                <li><a href="https://www.instagram.com/oneone_liquid_gallery?igsh=MXQxdWVlM3h3Y2phdw%3D%3D&utm_source=qr" target="_blank" rel="noopener noreferrer">Instagram</a></li>
                                 <li><a href="#">Thread</a></li>
-                                <li><a href="#">Line</a></li>
+                                <li><a href="https://lin.ee/oQH8N1D" target="_blank" rel="noopener noreferrer">Line</a></li>
                             </ul>
                         </li>
                         {/* <li className="nav__item">
@@ -70,7 +70,7 @@ export default function Footer() {
                 </div>
                 <div className="footer-group-right">
                     <div className="footer-btn-group">
-                        <a className="footer__btn" href="mailto:pmp@conflux-tech.com">
+                        <a className="footer__btn" href="mailto:service@oneone.global">
                             Contact
                         </a>
                         
