@@ -54,7 +54,7 @@ export default function Footer() {
                             <ul className="nav__ul nav__ul--extra">
                                 <li><a href="https://www.facebook.com/share/1H7kvM7SUH/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer">Facebook</a></li>
                                 <li><a href="https://www.instagram.com/oneone_liquid_gallery?igsh=MXQxdWVlM3h3Y2phdw%3D%3D&utm_source=qr" target="_blank" rel="noopener noreferrer">Instagram</a></li>
-                                <li><a href="#">Thread</a></li>
+                                <li><a href="https://www.threads.net/@oneone_liquid_gallery" target="_blank" rel="noopener noreferrer">Thread</a></li>
                                 <li><a href="https://lin.ee/oQH8N1D" target="_blank" rel="noopener noreferrer">Line</a></li>
                             </ul>
                         </li>
