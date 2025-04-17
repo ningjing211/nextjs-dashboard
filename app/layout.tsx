@@ -1,9 +1,15 @@
 import '@/app/ui/global.css';
 import { inter } from '@/app/ui/fonts';
+import { Inter, Montserrat, Outfit } from 'next/font/google';
 // import SideNav from '@/app/ui/dashboard/sidenav';
 
 import { Metadata } from 'next';
  
+const montserrat = Montserrat({ 
+  subsets: ['latin'],
+  display: 'swap',
+  weight: ['700', '800', '900'],
+});
 
 export const metadata: Metadata = {
   title: {
@@ -41,7 +47,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${inter.className} antialiased flow md:overflow-hidden`}>
+      <head>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&display=swap" rel="stylesheet" />
+      </head>
+      <body className={`${inter.className} antialiased flow md:overflow-hidden ${montserrat.className}`}>
         <div className="flex h-screen flex-col md:flex-row md:overflow-hidden">
           <div className="flex-grow md:overflow-y-auto">{children}</div>
         </div>
