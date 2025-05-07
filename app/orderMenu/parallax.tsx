@@ -1,4 +1,5 @@
 'use client';
+import '@/app/ui/orderMenu/orderMenu.css';
 
 import React from 'react';
 
@@ -19,10 +20,15 @@ export default function Parallax() {
             {/* Menu Cards Container */}
             <div className="max-w-2xl mx-auto space-y-6">
                 {/* Coffee Section */}
-                <div className="bg-white rounded-3xl p-8 shadow-lg">
-                    <div className="mb-6">
-                        <h2 className="text-2xl font-bold inline-block mr-3">Coffee</h2>
-                        <span className="text-gray-600">聽咖啡</span>
+                <div className="bg-white rounded-3xl p-8 shadow-lg relative">
+                    <div className="menu-section-header" style={{position: 'relative'}}>
+                        <div className="menu-section-title">
+                            <h2>Coffee</h2>
+                            <span>聽咖啡</span>
+                        </div>
+                        <div className="cc-badge" style={{position: 'absolute', top: '-10px', right: '-10px'}}>
+                            360cc
+                        </div>
                     </div>
                     <div className="space-y-6">
                         <div className="flex items-center justify-between">
@@ -35,19 +41,6 @@ export default function Parallax() {
                                 <div className="flex gap-2">
                                     <span className="w-4 h-4 rounded-full bg-cyan-400 relative before:content-['ICE'] before:absolute before:text-[10px] before:-top-4 before:left-1/2 before:-translate-x-1/2 before:text-gray-500"></span>
                                     <span className="w-4 h-4 rounded-full bg-pink-400 relative before:content-['HOT'] before:absolute before:text-[10px] before:-top-4 before:left-1/2 before:-translate-x-1/2 before:text-gray-500"></span>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="flex items-center justify-between">
-                            <div>
-                                <p className="text-lg font-medium">焦糖 瑪奇朵</p>
-                                <p className="text-gray-500 text-sm">Caramel Macchiato</p>
-                            </div>
-                            <div className="flex items-center gap-4">
-                                <span className="text-xl font-bold">$100</span>
-                                <div className="flex gap-2">
-                                    <span className="w-4 h-4 rounded-full bg-cyan-400"></span>
-                                    <span className="w-4 h-4 rounded-full bg-pink-400"></span>
                                 </div>
                             </div>
                         </div>
@@ -70,7 +63,20 @@ export default function Parallax() {
                                 <p className="text-gray-500 text-sm">Cappuccino</p>
                             </div>
                             <div className="flex items-center gap-4">
-                                <span className="text-xl font-bold">$90</span>
+                                <span className="text-xl font-bold">$95</span>
+                                <div className="flex gap-2">
+                                    <span className="w-4 h-4 rounded-full bg-cyan-400"></span>
+                                    <span className="w-4 h-4 rounded-full bg-pink-400"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="flex items-center justify-between">
+                            <div>
+                                <p className="text-lg font-medium">焦糖 瑪奇朵</p>
+                                <p className="text-gray-500 text-sm">Caramel Macchiato</p>
+                            </div>
+                            <div className="flex items-center gap-4">
+                                <span className="text-xl font-bold">$100</span>
                                 <div className="flex gap-2">
                                     <span className="w-4 h-4 rounded-full bg-cyan-400"></span>
                                     <span className="w-4 h-4 rounded-full bg-pink-400"></span>
@@ -82,10 +88,14 @@ export default function Parallax() {
 
                 {/* Tea Section */}
                 <div className="bg-white rounded-3xl p-8 shadow-lg">
-                    <div className="mb-6">
+                    <div className="mb-10" style={{position: 'relative'}}>
                         <h2 className="text-2xl font-bold inline-block mr-3">Tea</h2>
                         <span className="text-gray-600">說茶</span>
+                        <div className="cc-badge" style={{position: 'absolute', top: '-10px', right: '-10px'}}>
+                            600cc
+                        </div>
                     </div>
+                    
                     <div className="space-y-6">
                         <div className="flex items-center justify-between">
                             <div>
@@ -99,18 +109,7 @@ export default function Parallax() {
                                 </div>
                             </div>
                         </div>
-                        <div className="flex items-center justify-between">
-                            <div>
-                                <p className="text-lg font-medium">敦鶴 紅玉</p>
-                                <p className="text-gray-500 text-sm">Black Tea</p>
-                            </div>
-                            <div className="flex items-center gap-4">
-                                <span className="text-xl font-bold">$50</span>
-                                <div className="flex gap-1">
-                                    <span className="w-4 h-4 rounded-full bg-cyan-400"></span>
-                                </div>
-                            </div>
-                        </div>
+                        
                         <div className="flex items-center justify-between">
                             <div>
                                 <p className="text-lg font-medium">柳染 四季春</p>
@@ -123,6 +122,28 @@ export default function Parallax() {
                                 </div>
                             </div>
                         </div>
+
+                        <div className="flex items-center justify-between">
+                            <div>
+                                <p className="text-lg font-medium">敦鶴 紅玉</p>
+                                <p className="text-gray-500 text-sm">Black Tea</p>
+                            </div>
+                            <div className="flex items-center gap-4">
+                                <span className="text-xl font-bold">$50</span>
+                                <div className="flex gap-1">
+                                    <span className="w-4 h-4 rounded-full bg-cyan-400"></span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div className="mb-10" style={{position: 'relative', marginTop: '48px', marginBottom: '36px'}}>
+                            <h2 className="text-2xl font-bold inline-block mr-3">Milk Tea</h2>
+                            <span className="text-gray-600">嚼奶茶</span>
+                            <div className="cc-badge" style={{position: 'absolute', top: '-10px', right: '-10px'}}>
+                                480cc
+                            </div>
+                        </div>
+                        <div className="space-y-6">
                         <div className="flex items-center justify-between">
                             <div>
                                 <p className="text-lg font-medium">鑛式 奶茶</p>
@@ -133,6 +154,7 @@ export default function Parallax() {
                                 <div className="flex gap-1">
                                     <span className="w-4 h-4 rounded-full bg-cyan-400"></span>
                                 </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -151,9 +173,12 @@ export default function Parallax() {
 
             {/* Milkshake Section */}
                 <div className="bg-white rounded-3xl p-8 shadow-lg">
-                    <div className="mb-6">
+                    <div className="mb-10" style={{position: 'relative'}}>
                         <h2 className="text-2xl font-bold inline-block mr-3">Milkshake</h2>
                         <span className="text-gray-600">絕版奶昔</span>
+                        <div className="cc-badge" style={{position: 'absolute', top: '-10px', right: '-10px'}}>
+                            480cc
+                        </div>
                     </div>
                         <div className="space-y-6">
                         <div className="flex items-center justify-between">
@@ -197,6 +222,8 @@ export default function Parallax() {
                         </div>
                     </div>
                 </div>
+
+
 
                 {/* Footer */}
                 <div className="text-center space-y-4 py-8">
@@ -274,6 +301,18 @@ export default function Parallax() {
                             e.currentTarget.style.border = '2px solid red';
                         }}
                     />
+                                    {/* Eco Cup Discount */}
+                    <div className="rounded-3xl p-3">
+                        <div className="flex items-center justify-center gap-2">
+                            <svg className="w-6 h-6 text-pink-400" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+                            </svg>
+                            <span className="text-gray-600 text-lg">自備環保杯 折$</span>
+                            <span className="text-2xl font-bold" style={{color: '#4a4a4a'}}>5</span>
+                            <span className="text-gray-600 text-lg">元</span>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
