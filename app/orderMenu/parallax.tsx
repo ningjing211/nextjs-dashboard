@@ -92,7 +92,7 @@ export default function Parallax() {
                         <h2 className="text-2xl font-bold inline-block mr-3">Tea</h2>
                         <span className="text-gray-600">說茶</span>
                         <div className="cc-badge" style={{position: 'absolute', top: '-10px', right: '-10px'}}>
-                            600cc
+                            660cc
                         </div>
                     </div>
                     
