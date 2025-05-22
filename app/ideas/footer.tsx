@@ -52,10 +52,10 @@ export default function Footer() {
                         <li className="nav__item nav__item--extra">
                             <h2 className="nav__title">Social Media</h2>
                             <ul className="nav__ul nav__ul--extra">
-                                <li><a href="#">Facebook</a></li>
-                                <li><a href="#">Instagram</a></li>
-                                <li><a href="#">Thread</a></li>
-                                <li><a href="#">Line</a></li>
+                                <li><a href="https://www.facebook.com/profile.php?id=61575564440817">Facebook</a></li>
+                                <li><a href="https://www.instagram.com/oneone_liquid_gallery?fbclid=IwZXh0bgNhZW0CMTAAYnJpZBExTm5xQkw1TWoyOGd2NlRrUwEeCZHT7NKCENZGOHeDqHcK06YMEx9cYQD_H2HUWkVALzaMDXgdOuQ_7_dRvS0_aem_kDFyHiVH4-dR_zRZLTPnng">Instagram</a></li>
+                                <li><a href="https://www.threads.com/@oneone_liquid_gallery?xmt=AQF0t1t4bxGVMpk9vgqUm1l2UOpRJ91IT1kfy9vor7gLlQo">Thread</a></li>
+                                <li><a href="https://line.me/R/share?text=ONEONE%20Liquid%20Gallery&url=https://www.oneone.global/orderMenu">Line</a></li>
                             </ul>
                         </li>
                         {/* <li className="nav__item">
