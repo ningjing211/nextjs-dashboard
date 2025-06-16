@@ -170,6 +170,7 @@ export default function Parallax() {
           > 
             <video
               className="w-full h-full"
+              style={{borderRadius: '12px'}}
               autoPlay
               data-wf-ignore="true"
               id="video-background"
@@ -181,7 +182,7 @@ export default function Parallax() {
               playsInline
             >
               <source
-                src="/ideas/oneone-menu.mp4"
+                src="/ideas/oneone-menu.mp4" 
                 data-wf-ignore="true" type="video/mp4"
               />
             </video>
