@@ -161,15 +161,31 @@ export default function Parallax() {
             </div>
 
             {/* Video Section */}
-                <div className="relative w-full aspect-video rounded-3xl overflow-hidden shadow-lg">
-                    <iframe 
-                        className="absolute top-0 left-0 w-full h-full" 
-                        src="https://www.youtube.com/embed/uHr--2TdMO4?autoplay=1&mute=1&controls=0&loop=1&playlist=uHr--2TdMO4&modestbranding=1&rel=0&showinfo=0&cc_load_policy=0" 
-                        title="YouTube video player" 
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                        allowFullScreen
-                    ></iframe>
-            </div>
+            <div 
+            className="w-full h-full"
+            data-autoplay="true"
+            data-loop="true"
+            data-video-url="/ideas/oneone-menu.mp4"
+            data-wf-ignore="true"
+          > 
+            <video
+              className="w-full h-full"
+              autoPlay
+              data-wf-ignore="true"
+              id="video-background"
+              loop
+              muted
+              preload="auto"
+              x5-playsinline
+              webkit-playsinline
+              playsInline
+            >
+              <source
+                src="/ideas/oneone-menu.mp4"
+                data-wf-ignore="true" type="video/mp4"
+              />
+            </video>
+          </div>
 
             {/* Milkshake Section */}
                 <div className="bg-white rounded-3xl p-8 shadow-lg">
