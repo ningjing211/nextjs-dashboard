@@ -214,8 +214,214 @@ export default function Parallax() {
                     </div>
                 </div>
 
-            
-                
+                {/* Velvet yogurt 優格絲絨 區塊 */}
+                <div className="bg-white rounded-3xl p-8 shadow-lg relative mt-10">
+                    {/* 標題與480cc標籤 */}
+                    <div className="flex items-center justify-between mb-4">
+                        <div className="flex items-baseline gap-3">
+                            <span className="text-3xl font-extrabold leading-tight">Velvet yogurt</span>
+                            <span className="text-xl font-semibold text-gray-700 tracking-wide">優格絲絨</span>
+                        </div>
+                        <div className="flex-shrink-0">
+                            <div className="w-16 h-16 rounded-full flex items-center justify-center text-white text-lg font-bold shadow-md" style={{ background: '#7fbfb0', fontFamily: 'inherit' }}>480cc</div>
+                        </div>
+                    </div>
+                    {/* 分隔線 */}
+                    <div className="border-t border-gray-300 mb-6"></div>
+                    {/* Menu List */}
+                    <div className="space-y-8">
+                        {/* 酸酸忍者龜 抹茶 */}
+                        <div className="flex items-start justify-between">
+                            <div className="flex-1 min-w-0">
+                                <div className="flex items-baseline gap-2">
+                                    <span className="text-lg font-extrabold leading-tight">酸酸忍者龜 <span className='font-black'>抹茶</span></span>
+                                    <span className="text-base text-gray-600 font-normal">Sour Ninja Turtle Matcha</span>
+                                </div>
+                                <div className="text-sm text-gray-700 mt-1">開始分泌唾液了</div>
+                            </div>
+                            <div className="flex items-end gap-6 min-w-[120px]">
+                                <span className="text-2xl font-extrabold text-gray-800">$ 160</span>
+                                <div className="flex flex-col items-center ml-2">
+                                    <div className="flex gap-4 mb-1">
+                                        <span className="text-xs font-bold text-gray-700">ICE</span>
+                                    </div>
+                                    <div className="flex gap-4">
+                                        <span className="w-4 h-4 rounded-full block" style={{background:'#38cfd9'}}></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        {/* 甜甜大芒人 芒果 */}
+                        <div className="flex items-start justify-between">
+                            <div className="flex-1 min-w-0">
+                                <div className="flex items-baseline gap-2">
+                                    <span className="text-lg font-extrabold leading-tight">甜甜大芒人 <span className='font-black'>芒果</span></span>
+                                    <span className="text-base text-gray-600 font-normal">Mr. Mango on the Go</span>
+                                </div>
+                                <div className="text-sm text-gray-700 mt-1">腸道欠消化</div>
+                            </div>
+                            <div className="flex items-end gap-6 min-w-[120px]">
+                                <span className="text-2xl font-extrabold text-gray-800">$ 160</span>
+                                <div className="flex flex-col items-center ml-2">
+                                    
+                                    <div className="flex gap-4">
+                                        <span className="w-4 h-4 rounded-full block" style={{background:'#38cfd9'}}></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        {/* 沒你哪是愛 草莓 */}
+                        <div className="flex items-start justify-between">
+                            <div className="flex-1 min-w-0">
+                                <div className="flex items-baseline gap-2">
+                                    <span className="text-lg font-extrabold leading-tight">沒你哪是愛 <span className='font-black'>草莓</span></span>
+                                    <span className="text-base text-gray-600 font-normal">Ain't Love Ain't You</span>
+                                </div>
+                                <div className="text-sm text-gray-700 mt-1">問店員吧</div>
+                            </div>
+                            <div className="flex items-end gap-6 min-w-[120px]">
+                                <span className="text-2xl font-extrabold text-gray-800">$ 160</span>
+                                <div className="flex flex-col items-center ml-2">
+                                    
+                                    <div className="flex gap-4">
+                                        <span className="w-4 h-4 rounded-full block" style={{background:'#38cfd9'}}></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                {/* AMZ Milkshake 昔捲腦門 區塊 */}
+                <div className="bg-white rounded-3xl p-8 shadow-lg relative mt-10">
+                    {/* 標題與480cc標籤 */}
+                    <div className="flex items-center justify-between mb-4">
+                        <div className="flex items-baseline gap-3">
+                            <span className="text-3xl font-extrabold leading-tight">AMZ Milkshake</span>
+                            <span className="text-xl font-semibold text-gray-700 tracking-wide">昔捲腦門</span>
+                        </div>
+                        
+                        <div className="flex-shrink-0">
+                            <div className="w-16 h-16 rounded-full flex items-center justify-center text-white text-lg font-bold shadow-md" style={{ background: '#7fbfb0', fontFamily: 'inherit' }}>480cc</div>
+                        </div>
+                    </div>
+                    {/* 分隔線 */}
+                    <div className="border-t border-gray-300 mb-6"></div>
+                    {/* Menu List */}
+                    <div className="space-y-8">
+                        {/* 大溪地 香草 Tahiti vanilla */}
+                        <div className="flex items-start justify-between">
+                            <div className="flex-1 min-w-0">
+                                <div className="flex items-baseline gap-2">
+                                    <span className="text-lg font-extrabold leading-tight">大溪地 <span className='font-black'>香草</span></span>
+                                    <span className="text-base text-gray-600 font-normal">Tahiti vanilla</span>
+                                </div>
+                                <div className="text-sm text-gray-700 mt-1">口腔已融化</div>
+                            </div>
+                            <div className="flex items-end gap-6 min-w-[120px]">
+                                <span className="text-2xl font-extrabold text-gray-800">$ 150</span>
+                                <div className="flex flex-col items-center ml-2">
+                                <div className="flex gap-4 mb-1">
+                                        <span className="text-xs font-bold text-gray-700">ICE</span>
+                                    </div>
+                                    <div className="flex gap-4">
+                                        <span className="w-4 h-4 rounded-full block" style={{background:'#38cfd9'}}></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        {/* 黑露露 巧克力 Darky chocolate */}
+                        <div className="flex items-start justify-between">
+                            <div className="flex-1 min-w-0">
+                                <div className="flex items-baseline gap-2">
+                                    <span className="text-lg font-extrabold leading-tight">黑露露 <span className='font-black'>巧克力</span></span>
+                                    <span className="text-base text-gray-600 font-normal">Darky chocolate</span>
+                                </div>
+                                <div className="text-sm text-gray-700 mt-1">超高速療癒感</div>
+                            </div>
+                            <div className="flex items-end gap-6 min-w-[120px]">
+                                <span className="text-2xl font-extrabold text-gray-800">$ 150</span>
+                                <div className="flex flex-col items-center ml-2">
+                                    <div className="flex gap-4">
+                                        <span className="w-4 h-4 rounded-full block" style={{background:'#38cfd9'}}></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        {/* 菲菲 草莓 Fairy strawberry */}
+                        <div className="flex items-start justify-between">
+                            <div className="flex-1 min-w-0">
+                                <div className="flex items-baseline gap-2">
+                                    <span className="text-lg font-extrabold leading-tight">菲菲 <span className='font-black'>草莓</span></span>
+                                    <span className="text-base text-gray-600 font-normal">Fairy strawberry</span>
+                                </div>
+                                <div className="text-sm text-gray-700 mt-1">我啊嬤也喜歡</div>
+                            </div>
+                            <div className="flex items-end gap-6 min-w-[120px]">
+                                <span className="text-2xl font-extrabold text-gray-800">$ 150</span>
+                                <div className="flex flex-col items-center ml-2">
+                                    <div className="flex gap-4">
+                                        <span className="w-4 h-4 rounded-full block" style={{background:'#38cfd9'}}></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        {/* 西西里 開心果 Sicilian Pistachio */}
+                        <div className="flex items-start justify-between">
+                            <div className="flex-1 min-w-0">
+                                <div className="flex items-baseline gap-2">
+                                    <span className="text-lg font-extrabold leading-tight">西西里 <span className='font-black'>開心果</span></span>
+                                    <span className="text-base text-gray-600 font-normal">Sicilian Pistachio</span>
+                                </div>
+                                <div className="text-sm text-gray-700 mt-1">太好了不用剝殼</div>
+                            </div>
+                            <div className="flex items-end gap-6 min-w-[120px]">
+                                <span className="text-2xl font-extrabold text-gray-800">$ 150</span>
+                                <div className="flex flex-col items-center ml-2">
+                                    <div className="flex gap-4">
+                                        <span className="w-4 h-4 rounded-full block" style={{background:'#38cfd9'}}></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        {/* 曼巴精神 咖啡 Mamba Coffee */}
+                        <div className="flex items-start justify-between">
+                            <div className="flex-1 min-w-0">
+                                <div className="flex items-baseline gap-2">
+                                    <span className="text-lg font-extrabold leading-tight">曼巴精神 <span className='font-black'>咖啡</span></span>
+                                    <span className="text-base text-gray-600 font-normal">Mamba Coffee</span>
+                                </div>
+                                <div className="text-sm text-gray-700 mt-1">走在江湖的苦澀與甘味</div>
+                            </div>
+                            <div className="flex items-end gap-6 min-w-[120px]">
+                                <span className="text-2xl font-extrabold text-gray-800">$ 160</span>
+                                <div className="flex flex-col items-center ml-2">
+                                    <div className="flex gap-4">
+                                        <span className="w-4 h-4 rounded-full block" style={{background:'#38cfd9'}}></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        {/* 碧波 抹茶 Bibo Matcha */}
+                        <div className="flex items-start justify-between">
+                            <div className="flex-1 min-w-0">
+                                <div className="flex items-baseline gap-2">
+                                    <span className="text-lg font-extrabold leading-tight">碧波 <span className='font-black'>抹茶</span></span>
+                                    <span className="text-base text-gray-600 font-normal">Bibo Matcha</span>
+                                </div>
+                                <div className="text-sm text-gray-700 mt-1">在你來前才剛磨好</div>
+                            </div>
+                            <div className="flex items-end gap-6 min-w-[120px]">
+                                <span className="text-2xl font-extrabold text-gray-800">$ 160</span>
+                                <div className="flex flex-col items-center ml-2">
+                                    <div className="flex gap-4">
+                                        <span className="w-4 h-4 rounded-full block" style={{background:'#38cfd9'}}></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
             {/* Video Section */}
             <div 
