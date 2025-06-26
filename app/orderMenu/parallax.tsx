@@ -154,7 +154,7 @@ export default function Parallax() {
                             <div className="flex items-end gap-6 min-w-[120px]">
                                 <span className="text-l font-extrabold text-gray-800">$ 40</span>
                                 <div className="flex flex-col items-center ml-2" style={{marginBottom: '3px'}}>
-                                    <div className="flex gap-4 mb-1">
+                                    <div className="flex gap-4 mb-1" style={{marginLeft: '-7px'}}>
                                         <span className="text-xs font-bold text-gray-700">ICE</span>
                                         <span className="text-xs font-bold text-gray-700">HOT</span>
                                     </div>
@@ -289,7 +289,7 @@ export default function Parallax() {
                                 </div>
                             </div>
                         </div>
-                        
+
                 {/* AMZ Milkshake 昔捲腦門 區塊 */}
                 <div className="bg-white rounded-3xl p-8 shadow-lg relative mt-10">
                     {/* 標題與480cc/360cc標籤 */}
@@ -632,12 +632,12 @@ export default function Parallax() {
                                     
                                     <div className="flex gap-4">
                                         <span className="w-4 h-4 rounded-full block" style={{background:'#38cfd9'}}></span>
-                                    </div>
-                                </div>
-                            </div>
                                 </div>
                             </div>
                         </div>
+                    </div>
+                </div>
+            </div>
 
             {/* Video Section */}
             <div 
