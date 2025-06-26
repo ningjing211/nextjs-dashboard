@@ -24,8 +24,8 @@ export default function Parallax() {
                     {/* 標題與360cc標籤 */}
                     <div className="flex items-center justify-between mb-4">
                         <div className="flex items-baseline gap-3">
-                            <span className="text-2xl font-extrabold leading-tight">Time Machine</span>
-                            <span className="text-xl font-semibold text-gray-700 tracking-wide">時空啡人</span>
+                            <span className="text-l font-extrabold leading-tight">Time Machine</span>
+                            <span className="text-l font-semibold text-gray-700 tracking-wide">時空啡人</span>
                         </div>
                         <div className="flex-shrink-0">
                             <div className="w-16 h-16 rounded-full flex items-center justify-center text-white text-lg font-bold shadow-md" style={{ background: '#7fbfb0', fontFamily: 'inherit' }}>360cc</div>
@@ -45,7 +45,7 @@ export default function Parallax() {
                                 <div className="text-sm text-gray-700 mt-1">喜歡簡單直接的你</div>
                             </div>
                             <div className="flex items-end gap-6 min-w-[120px]">
-                                <span className="text-2xl font-extrabold text-gray-800">$ 70</span>
+                                <span className="text-l font-extrabold text-gray-800">$ 70</span>
                                 <div className="flex flex-col items-center ml-2" style={{marginBottom: '8px'}}>
                                     <div className="flex gap-4 mb-1">
                                         <span className="text-xs font-bold text-gray-700">ICE</span>
@@ -68,7 +68,7 @@ export default function Parallax() {
                                 <div className="text-sm text-gray-700 mt-1">溫和、隨和的浪漫主義者</div>
                             </div>
                             <div className="flex items-end gap-6 min-w-[120px]">
-                                <span className="text-2xl font-extrabold text-gray-800">$ 85</span>
+                                <span className="text-l font-extrabold text-gray-800">$ 85</span>
                                 <div className="flex flex-col items-center ml-2" style={{marginBottom: '8px'}}>
                                     <div className="flex gap-4 mb-1">
                                         
@@ -90,7 +90,7 @@ export default function Parallax() {
                                 <div className="text-sm text-gray-700 mt-1">講究生活品味的片刻</div>
                             </div>
                             <div className="flex items-end gap-6 min-w-[120px]">
-                                <span className="text-2xl font-extrabold text-gray-800">$ 95</span>
+                                <span className="text-l font-extrabold text-gray-800">$ 95</span>
                                 <div className="flex flex-col items-center ml-2" style={{marginBottom: '8px'}}>
                                     <div className="flex gap-4 mb-1">
                                         
@@ -112,7 +112,7 @@ export default function Parallax() {
                                 <div className="text-sm text-gray-700 mt-1">成熟與童心未泯融合的瞬間</div>
                             </div>
                             <div className="flex items-end gap-6 min-w-[120px]">
-                                <span className="text-2xl font-extrabold text-gray-800">$ 100</span>
+                                <span className="text-l font-extrabold text-gray-800">$ 100</span>
                                 <div className="flex flex-col items-center ml-2" style={{marginBottom: '8px'}}>
                                     <div className="flex gap-4 mb-1">
                                         
@@ -131,8 +131,8 @@ export default function Parallax() {
                     {/* 標題與660cc標籤 */}
                     <div className="flex items-center justify-between mb-4">
                         <div className="flex items-baseline gap-3">
-                            <span className="text-2xl font-extrabold leading-tight">Paintings</span>
-                            <span className="text-xl font-semibold text-gray-700 tracking-wide">畫茶</span>
+                            <span className="text-l font-extrabold leading-tight">Paintings</span>
+                            <span className="text-l font-semibold text-gray-700 tracking-wide">畫茶</span>
                         </div>
                         <div className="flex-shrink-0">
                             <div className="w-16 h-16 rounded-full flex items-center justify-center text-white text-lg font-bold shadow-md" style={{ background: '#7fbfb0', fontFamily: 'inherit' }}>660cc</div>
@@ -152,7 +152,7 @@ export default function Parallax() {
                                 <div className="text-sm text-gray-700 mt-1">喝一口雲就在你旁邊</div>
                             </div>
                             <div className="flex items-end gap-6 min-w-[120px]">
-                                <span className="text-2xl font-extrabold text-gray-800">$ 40</span>
+                                <span className="text-l font-extrabold text-gray-800">$ 40</span>
                                 <div className="flex flex-col items-center ml-2" style={{marginBottom: '8px'}}>
                                     <div className="flex gap-4 mb-1">
                                         <span className="text-xs font-bold text-gray-700">ICE</span>
@@ -175,7 +175,7 @@ export default function Parallax() {
                                 <div className="text-sm text-gray-700 mt-1">今天的口氣芳香淡雅</div>
                             </div>
                             <div className="flex items-end gap-6 min-w-[120px]">
-                                <span className="text-2xl font-extrabold text-gray-800">$ 40</span>
+                                <span className="text-l font-extrabold text-gray-800">$ 40</span>
                                 <div className="flex flex-col items-center ml-2" style={{marginBottom: '8px'}}>
                                     <div className="flex gap-4 mb-1">
                                         <span className="text-xs font-bold text-gray-700">ICE</span>
@@ -198,7 +198,7 @@ export default function Parallax() {
                                 <div className="text-sm text-gray-700 mt-1">不加糖都著迷的紅茶</div>
                             </div>
                             <div className="flex items-end gap-6 min-w-[120px]">
-                                <span className="text-2xl font-extrabold text-gray-800">$ 50</span>
+                                <span className="text-l font-extrabold text-gray-800">$ 50</span>
                                 <div className="flex flex-col items-center ml-2" style={{marginBottom: '8px'}}>
                                     <div className="flex gap-4 mb-1">
                                         <span className="text-xs font-bold text-gray-700">ICE</span>
@@ -219,8 +219,8 @@ export default function Parallax() {
                     {/* 標題與480cc標籤 */}
                     <div className="flex items-center justify-between mb-4">
                         <div className="flex items-baseline gap-3">
-                            <span className="text-2xl font-extrabold leading-tight">Velvet yogurt</span>
-                            <span className="text-xl font-semibold text-gray-700 tracking-wide">優格絲絨</span>
+                            <span className="text-l font-extrabold leading-tight">Velvet yogurt</span>
+                            <span className="text-l font-semibold text-gray-700 tracking-wide">優格絲絨</span>
                         </div>
                         <div className="flex-shrink-0">
                             <div className="w-16 h-16 rounded-full flex items-center justify-center text-white text-lg font-bold shadow-md" style={{ background: '#7fbfb0', fontFamily: 'inherit' }}>480cc</div>
@@ -240,7 +240,7 @@ export default function Parallax() {
                                 <div className="text-sm text-gray-700 mt-1">開始分泌唾液了</div>
                             </div>
                             <div className="flex items-end gap-6 min-w-[120px]">
-                                <span className="text-2xl font-extrabold text-gray-800">$ 160</span>
+                                <span className="text-l font-extrabold text-gray-800">$ 160</span>
                                 <div className="flex flex-col items-center ml-2" style={{marginBottom: '8px'}}>
                                     <div className="flex gap-4 mb-1">
                                         <span className="text-xs font-bold text-gray-700">ICE</span>
@@ -261,7 +261,7 @@ export default function Parallax() {
                                 <div className="text-sm text-gray-700 mt-1">腸道欠消化</div>
                             </div>
                             <div className="flex items-end gap-6 min-w-[120px]">
-                                <span className="text-2xl font-extrabold text-gray-800">$ 160</span>
+                                <span className="text-l font-extrabold text-gray-800">$ 160</span>
                                 <div className="flex flex-col items-center ml-2" style={{marginBottom: '8px'}}>
                                     
                                     <div className="flex gap-4">
@@ -280,7 +280,7 @@ export default function Parallax() {
                                 <div className="text-sm text-gray-700 mt-1">問店員吧</div>
                             </div>
                             <div className="flex items-end gap-6 min-w-[120px]">
-                                <span className="text-2xl font-extrabold text-gray-800">$ 160</span>
+                                <span className="text-l font-extrabold text-gray-800">$ 160</span>
                                 <div className="flex flex-col items-center ml-2" style={{marginBottom: '8px'}}>
                                     
                                     <div className="flex gap-4">
@@ -297,8 +297,8 @@ export default function Parallax() {
                     {/* 標題與480cc/360cc標籤 */}
                     <div className="flex items-center justify-between mb-4">
                         <div className="flex items-baseline gap-3">
-                            <span className="text-2xl font-extrabold leading-tight">AMZ Milkshake</span>
-                            <span className="text-xl font-semibold text-gray-700 tracking-wide">昔捲腦門</span>
+                            <span className="text-l font-extrabold leading-tight">AMZ Milkshake</span>
+                            <span className="text-l font-semibold text-gray-700 tracking-wide">昔捲腦門</span>
                         </div>
                         <div className="flex-shrink-0">
                             <div className="w-16 h-16 rounded-full flex items-center justify-center text-white text-lg font-bold shadow-md" style={{ background: '#7fbfb0', fontFamily: 'inherit' }}>480cc</div>
@@ -318,7 +318,7 @@ export default function Parallax() {
                                 <div className="text-sm text-gray-700 mt-1">口腔已融化</div>
                             </div>
                             <div className="flex items-end gap-6 min-w-[120px]">
-                                <span className="text-2xl font-extrabold text-gray-800">$ 150</span>
+                                <span className="text-l font-extrabold text-gray-800">$ 150</span>
                                 <div className="flex flex-col items-center ml-2" style={{marginBottom: '8px'}}>
                                 <div className="flex gap-4 mb-1">
                                         <span className="text-xs font-bold text-gray-700">ICE</span>
@@ -339,7 +339,7 @@ export default function Parallax() {
                                 <div className="text-sm text-gray-700 mt-1">超高速療癒感</div>
                             </div>
                             <div className="flex items-end gap-6 min-w-[120px]">
-                                <span className="text-2xl font-extrabold text-gray-800">$ 150</span>
+                                <span className="text-l font-extrabold text-gray-800">$ 150</span>
                                 <div className="flex flex-col items-center ml-2" style={{marginBottom: '8px'}}>
                                     <div className="flex gap-4">
                                         <span className="w-4 h-4 rounded-full block" style={{background:'#38cfd9'}}></span>
@@ -357,7 +357,7 @@ export default function Parallax() {
                                 <div className="text-sm text-gray-700 mt-1">我啊嬤也喜歡</div>
                             </div>
                             <div className="flex items-end gap-6 min-w-[120px]">
-                                <span className="text-2xl font-extrabold text-gray-800">$ 150</span>
+                                <span className="text-l font-extrabold text-gray-800">$ 150</span>
                                 <div className="flex flex-col items-center ml-2" style={{marginBottom: '8px'}}>
                                     <div className="flex gap-4">
                                         <span className="w-4 h-4 rounded-full block" style={{background:'#38cfd9'}}></span>
@@ -375,7 +375,7 @@ export default function Parallax() {
                                 <div className="text-sm text-gray-700 mt-1">太好了不用剝殼</div>
                             </div>
                             <div className="flex items-end gap-6 min-w-[120px]">
-                                <span className="text-2xl font-extrabold text-gray-800">$ 150</span>
+                                <span className="text-l font-extrabold text-gray-800">$ 150</span>
                                 <div className="flex flex-col items-center ml-2" style={{marginBottom: '8px'}}>
                                     <div className="flex gap-4">
                                         <span className="w-4 h-4 rounded-full block" style={{background:'#38cfd9'}}></span>
@@ -393,7 +393,7 @@ export default function Parallax() {
                                 <div className="text-sm text-gray-700 mt-1">走在江湖的苦澀與甘味</div>
                             </div>
                             <div className="flex items-end gap-6 min-w-[120px]">
-                                <span className="text-2xl font-extrabold text-gray-800">$ 160</span>
+                                <span className="text-l font-extrabold text-gray-800">$ 160</span>
                                 <div className="flex flex-col items-center ml-2" style={{marginBottom: '8px'}}>
                                     <div className="flex gap-4">
                                         <span className="w-4 h-4 rounded-full block" style={{background:'#38cfd9'}}></span>
@@ -411,7 +411,7 @@ export default function Parallax() {
                                 <div className="text-sm text-gray-700 mt-1">在你來前才剛磨好</div>
                             </div>
                             <div className="flex items-end gap-6 min-w-[120px]">
-                                <span className="text-2xl font-extrabold text-gray-800">$ 160</span>
+                                <span className="text-l font-extrabold text-gray-800">$ 160</span>
                                 <div className="flex flex-col items-center ml-2" style={{marginBottom: '8px'}}>
                                     <div className="flex gap-4">
                                         <span className="w-4 h-4 rounded-full block" style={{background:'#38cfd9'}}></span>
@@ -427,8 +427,8 @@ export default function Parallax() {
                     {/* 標題與480cc/360cc標籤 */}
                     <div className="flex items-center justify-between mb-4">
                         <div className="flex items-baseline gap-3">
-                            <span className="text-2xl font-extrabold leading-tight">Silk Bloom</span>
-                            <span className="text-xl font-semibold text-gray-700 tracking-wide">醇奶初雪</span>
+                            <span className="text-l font-extrabold leading-tight">Silk Bloom</span>
+                            <span className="text-l font-semibold text-gray-700 tracking-wide">醇奶初雪</span>
                         </div>
                         <div className="flex items-center gap-2 flex-shrink-0">
                             <div className="w-16 h-16 rounded-full flex items-center justify-center text-white text-lg font-bold shadow-md" style={{ background: '#38cfd9', fontFamily: 'inherit' }}>480cc</div>
@@ -454,7 +454,7 @@ export default function Parallax() {
                                 <div className="inline-block mt-2 px-3 py-1 text-xs font-bold text-white" style={{background:'#d48bb9', borderRadius:'0px 40px 40px 44px'}}>奶精所調製的風味奶茶</div>
                             </div>
                             <div className="flex items-end gap-6 min-w-[120px]">
-                                <span className="text-2xl font-extrabold text-gray-800">$ 75</span>
+                                <span className="text-l font-extrabold text-gray-800">$ 75</span>
                                 <div className="flex flex-col items-center ml-2" style={{marginBottom: '8px'}}>
                                     <div className="flex gap-4 mb-1">
                                         <span className="text-xs font-bold text-gray-700">ICE</span>
@@ -480,7 +480,7 @@ export default function Parallax() {
                                 <div className="text-sm text-gray-700 mt-1">小農家最熱情的那隻母牛提供</div>
                             </div>
                             <div className="flex items-end gap-6 min-w-[120px]">
-                                <span className="text-2xl font-extrabold text-gray-800">$ 85</span>
+                                <span className="text-l font-extrabold text-gray-800">$ 85</span>
                                 <div className="flex flex-col items-center ml-2" style={{marginBottom: '8px'}}>
                                     <div className="flex gap-4 mb-1">
                                         <span className="text-xs font-bold text-gray-700">ICE</span>
@@ -503,7 +503,7 @@ export default function Parallax() {
                                 <div className="text-sm text-gray-700 mt-1">嚇死寶寶了</div>
                             </div>
                             <div className="flex items-end gap-6 min-w-[120px]">
-                                <span className="text-2xl font-extrabold text-gray-800">$ 100</span>
+                                <span className="text-l font-extrabold text-gray-800">$ 100</span>
                                 <div className="flex flex-col items-center ml-2" style={{marginBottom: '8px'}}>
                                     <div className="flex gap-4 mb-1">
                                         <span className="text-xs font-bold text-gray-700">ICE</span>
@@ -526,7 +526,7 @@ export default function Parallax() {
                                 <div className="text-sm text-gray-700 mt-1">怕下架就快儲存</div>
                             </div>
                             <div className="flex items-end gap-6 min-w-[120px]">
-                                <span className="text-2xl font-extrabold text-gray-800">$ 100</span>
+                                <span className="text-l font-extrabold text-gray-800">$ 100</span>
                                 <div className="flex flex-col items-center ml-2" style={{marginBottom: '8px'}}>
                                     <div className="flex gap-4 mb-1">
                                         <span className="text-xs font-bold text-gray-700">ICE</span>
@@ -549,7 +549,7 @@ export default function Parallax() {
                                 <div className="text-sm text-gray-700 mt-1">附近松鼠的庫存</div>
                             </div>
                             <div className="flex items-end gap-6 min-w-[120px]">
-                                <span className="text-2xl font-extrabold text-gray-800">$ 100</span>
+                                <span className="text-l font-extrabold text-gray-800">$ 100</span>
                                 <div className="flex flex-col items-center ml-2" style={{marginBottom: '8px'}}>
                                     <div className="flex gap-4 mb-1">
                                         <span className="text-xs font-bold text-gray-700">ICE</span>
@@ -570,8 +570,8 @@ export default function Parallax() {
                     {/* 標題與480cc標籤 */}
                     <div className="flex items-center justify-between mb-4">
                         <div className="flex items-baseline gap-3">
-                            <span className="text-2xl font-extrabold leading-tight">Soul Drip</span>
-                            <span className="text-xl font-semibold text-gray-700 tracking-wide">生命之水</span>
+                            <span className="text-l font-extrabold leading-tight">Soul Drip</span>
+                            <span className="text-l font-semibold text-gray-700 tracking-wide">生命之水</span>
                         </div>
                         <div className="flex-shrink-0">
                             <div className="w-16 h-16 rounded-full flex items-center justify-center text-white text-lg font-bold shadow-md" style={{ background: '#7fbfb0', fontFamily: 'inherit' }}>660cc</div>
@@ -591,7 +591,7 @@ export default function Parallax() {
                                 <div className="text-sm text-gray-700 mt-1">火大來一杯</div>
                             </div>
                             <div className="flex items-end gap-6 min-w-[120px]">
-                                <span className="text-2xl font-extrabold text-gray-800">$ 65</span>
+                                <span className="text-l font-extrabold text-gray-800">$ 65</span>
                                 <div className="flex flex-col items-center ml-2" style={{marginBottom: '8px'}}>
                                     <div className="flex gap-4 mb-1">
                                         <span className="text-xs font-bold text-gray-700">ICE</span>
@@ -614,7 +614,7 @@ export default function Parallax() {
                                 <div className="text-sm text-gray-700 mt-1">已準備躺好 補充精神</div>
                             </div>
                             <div className="flex items-end gap-6 min-w-[120px]">
-                                <span className="text-2xl font-extrabold text-gray-800">$ 70</span>
+                                <span className="text-l font-extrabold text-gray-800">$ 70</span>
                                 <div className="flex flex-col items-center ml-2" style={{marginBottom: '8px'}}>
                                     
                                     <div className="flex gap-4">
@@ -633,7 +633,7 @@ export default function Parallax() {
                                 <div className="text-sm text-gray-700 mt-1">喉嚨請借過</div>
                             </div>
                             <div className="flex items-end gap-6 min-w-[120px]">
-                                <span className="text-2xl font-extrabold text-gray-800">$ 20</span>
+                                <span className="text-l font-extrabold text-gray-800">$ 20</span>
                                 <div className="flex flex-col items-center ml-2" style={{marginBottom: '8px'}}>
                                     
                                     <div className="flex gap-4">
@@ -683,7 +683,7 @@ export default function Parallax() {
                         <div className="flex justify-center">
                             <div className="relative bg-gradient-to-br from-indigo-200 via-purple-200 to-cyan-200 pt-12 px-6 md:px-16 pb-16 rounded-2xl shadow-lg border border-purple-200 backdrop-blur-sm w-full md:w-auto mx-4 md:mx-0">
                                 <div className="absolute -top-4 left-1/2 transform -translate-x-1/2 bg-gradient-to-r from-indigo-500 via-purple-500 to-cyan-500 text-white px-8 py-1.5 rounded-full shadow-md whitespace-nowrap">
-                                    <h3 className="text-xl font-bold tracking-wider">獨樂樂 不如 眾樂樂</h3>
+                                    <h3 className="text-l font-bold tracking-wider">獨樂樂 不如 眾樂樂</h3>
                                 </div>
                                 <div className="mt-2">
                                     <div className="text-center">
