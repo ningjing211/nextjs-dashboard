@@ -467,7 +467,7 @@ export default function Parallax() {
                         {/* ONEONE 鮮奶茶 */}
                         <div className="flex items-start justify-between">
                             <div className="flex-1 min-w-0">
-                                <div className="flex items-baseline">
+                                <div className="flex items-baseline" >
                                     {/* ONEONE 標籤 */}
                                     <span className="inline-flex items-center mr-1 align-middle"><span className="px-2 py-1 rounded bg-[#38cfd9] text-black text-xs font-bold" style={{letterSpacing:'1px', borderRadius:'0 10px 12px 12px', padding: '4 12px'}}>ONEONE</span></span>
                                     <span className="text-base font-extrabold leading-tight" style={{marginRight: '4px'}}>鮮奶茶</span>
@@ -480,8 +480,7 @@ export default function Parallax() {
                                 <span className="text-l font-extrabold text-gray-800">$ 85</span>
                                 <div className="flex flex-col items-center ml-2" style={{marginBottom: '3px'}}>
                                     <div className="flex gap-4 mb-1">
-                                        <span className="text-xs font-bold text-gray-700">ICE</span>
-                                        <span className="text-xs font-bold text-gray-700">HOT</span>
+                                        
                                     </div>
                                     <div className="flex gap-4">
                                         <span className="w-4 h-4 rounded-full block" style={{background:'#38cfd9'}}></span>
@@ -503,8 +502,7 @@ export default function Parallax() {
                                 <span className="text-l font-extrabold text-gray-800">$ 100</span>
                                 <div className="flex flex-col items-center ml-2" style={{marginBottom: '3px'}}>
                                     <div className="flex gap-4 mb-1">
-                                        <span className="text-xs font-bold text-gray-700">ICE</span>
-                                        <span className="text-xs font-bold text-gray-700">HOT</span>
+                                        
                                     </div>
                                     <div className="flex gap-4">
                                         <span className="w-4 h-4 rounded-full block" style={{background:'#38cfd9'}}></span>
@@ -526,8 +524,7 @@ export default function Parallax() {
                                 <span className="text-l font-extrabold text-gray-800">$ 100</span>
                                 <div className="flex flex-col items-center ml-2" style={{marginBottom: '3px'}}>
                                     <div className="flex gap-4 mb-1">
-                                        <span className="text-xs font-bold text-gray-700">ICE</span>
-                                        <span className="text-xs font-bold text-gray-700">HOT</span>
+                                        
                                     </div>
                                     <div className="flex gap-4">
                                         <span className="w-4 h-4 rounded-full block" style={{background:'#38cfd9'}}></span>
@@ -549,8 +546,7 @@ export default function Parallax() {
                                 <span className="text-l font-extrabold text-gray-800">$ 100</span>
                                 <div className="flex flex-col items-center ml-2" style={{marginBottom: '3px'}}>
                                     <div className="flex gap-4 mb-1">
-                                        <span className="text-xs font-bold text-gray-700">ICE</span>
-                                        <span className="text-xs font-bold text-gray-700">HOT</span>
+                                        
                                     </div>
                                     <div className="flex gap-4">
                                         <span className="w-4 h-4 rounded-full block" style={{background:'#38cfd9'}}></span>
@@ -602,10 +598,11 @@ export default function Parallax() {
                         {/* 甜甜大芒人 芒果 */}
                         <div className="flex items-start justify-between">
                             <div className="flex-1 min-w-0">
-                            <div className="flex items-baseline">
+                            <div className="flex items-baseline flex-col">
                                     {/* ONEONE 標籤 */}
-                                    <span className="inline-flex items-center mr-1 align-middle"><span className="px-2 py-1 rounded bg-[#38cfd9] text-black text-xs font-bold" style={{letterSpacing:'1px', borderRadius:'0 10px 12px 12px', padding: '4 12px'}}>氣泡飲</span></span>
                                     <span className="text-base font-extrabold leading-tight" style={{marginRight: '4px'}}>喝不茫的莫吉托</span>
+                                    <span className="inline-flex items-center mr-1 align-middle" style={{margin: '4px 0'}}><span className="px-2 py-1 rounded bg-[#38cfd9] text-black text-xs font-bold" style={{letterSpacing:'1px', borderRadius:'0 10px 12px 12px', padding: '4 12px'}}>氣泡飲</span></span>
+
                                     <span className="text-base text-gray-600 font-normal">Virgin Mojito Spring</span>
                                 </div>
                                 <div className="text-sm text-gray-700 mt-1">已準備躺好 補充精神</div>
