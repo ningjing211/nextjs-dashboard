@@ -46,7 +46,7 @@ export default function Parallax() {
                             </div>
                             <div className="flex items-end gap-6 min-w-[120px]">
                                 <span className="text-2xl font-extrabold text-gray-800">$ 70</span>
-                                <div className="flex flex-col items-center ml-2">
+                                <div className="flex flex-col items-center ml-2" style={{marginBottom: '8px'}}>
                                     <div className="flex gap-4 mb-1">
                                         <span className="text-xs font-bold text-gray-700">ICE</span>
                                         <span className="text-xs font-bold text-gray-700">HOT</span>
@@ -69,7 +69,7 @@ export default function Parallax() {
                             </div>
                             <div className="flex items-end gap-6 min-w-[120px]">
                                 <span className="text-2xl font-extrabold text-gray-800">$ 85</span>
-                                <div className="flex flex-col items-center ml-2">
+                                <div className="flex flex-col items-center ml-2" style={{marginBottom: '8px'}}>
                                     <div className="flex gap-4 mb-1">
                                         
                                     </div>
@@ -91,7 +91,7 @@ export default function Parallax() {
                             </div>
                             <div className="flex items-end gap-6 min-w-[120px]">
                                 <span className="text-2xl font-extrabold text-gray-800">$ 95</span>
-                                <div className="flex flex-col items-center ml-2">
+                                <div className="flex flex-col items-center ml-2" style={{marginBottom: '8px'}}>
                                     <div className="flex gap-4 mb-1">
                                         
                                     </div>
@@ -109,11 +109,11 @@ export default function Parallax() {
                                     <span className="text-lg font-extrabold leading-tight">焦糖 瑪奇朵</span>
                                     <span className="text-base text-gray-600 font-normal">Caramel Macchiato</span>
                                 </div>
-                                <div className="text-sm text-gray-700 mt-1">成熟與童心未混合的瞬間</div>
+                                <div className="text-sm text-gray-700 mt-1">成熟與童心未泯融合的瞬間</div>
                             </div>
                             <div className="flex items-end gap-6 min-w-[120px]">
                                 <span className="text-2xl font-extrabold text-gray-800">$ 100</span>
-                                <div className="flex flex-col items-center ml-2">
+                                <div className="flex flex-col items-center ml-2" style={{marginBottom: '8px'}}>
                                     <div className="flex gap-4 mb-1">
                                         
                                     </div>
@@ -153,7 +153,7 @@ export default function Parallax() {
                             </div>
                             <div className="flex items-end gap-6 min-w-[120px]">
                                 <span className="text-2xl font-extrabold text-gray-800">$ 40</span>
-                                <div className="flex flex-col items-center ml-2">
+                                <div className="flex flex-col items-center ml-2" style={{marginBottom: '8px'}}>
                                     <div className="flex gap-4 mb-1">
                                         <span className="text-xs font-bold text-gray-700">ICE</span>
                                         <span className="text-xs font-bold text-gray-700">HOT</span>
@@ -176,7 +176,7 @@ export default function Parallax() {
                             </div>
                             <div className="flex items-end gap-6 min-w-[120px]">
                                 <span className="text-2xl font-extrabold text-gray-800">$ 40</span>
-                                <div className="flex flex-col items-center ml-2">
+                                <div className="flex flex-col items-center ml-2" style={{marginBottom: '8px'}}>
                                     <div className="flex gap-4 mb-1">
                                         <span className="text-xs font-bold text-gray-700">ICE</span>
                                         <span className="text-xs font-bold text-gray-700">HOT</span>
@@ -199,7 +199,7 @@ export default function Parallax() {
                             </div>
                             <div className="flex items-end gap-6 min-w-[120px]">
                                 <span className="text-2xl font-extrabold text-gray-800">$ 50</span>
-                                <div className="flex flex-col items-center ml-2">
+                                <div className="flex flex-col items-center ml-2" style={{marginBottom: '8px'}}>
                                     <div className="flex gap-4 mb-1">
                                         <span className="text-xs font-bold text-gray-700">ICE</span>
                                         <span className="text-xs font-bold text-gray-700">HOT</span>
@@ -210,10 +210,10 @@ export default function Parallax() {
                                     </div>
                                 </div>
                             </div>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                </div>
-
+                        
                 {/* Velvet yogurt 優格絲絨 區塊 */}
                 <div className="bg-white rounded-3xl p-8 shadow-lg relative mt-10">
                     {/* 標題與480cc標籤 */}
@@ -241,7 +241,7 @@ export default function Parallax() {
                             </div>
                             <div className="flex items-end gap-6 min-w-[120px]">
                                 <span className="text-2xl font-extrabold text-gray-800">$ 160</span>
-                                <div className="flex flex-col items-center ml-2">
+                                <div className="flex flex-col items-center ml-2" style={{marginBottom: '8px'}}>
                                     <div className="flex gap-4 mb-1">
                                         <span className="text-xs font-bold text-gray-700">ICE</span>
                                     </div>
@@ -262,7 +262,7 @@ export default function Parallax() {
                             </div>
                             <div className="flex items-end gap-6 min-w-[120px]">
                                 <span className="text-2xl font-extrabold text-gray-800">$ 160</span>
-                                <div className="flex flex-col items-center ml-2">
+                                <div className="flex flex-col items-center ml-2" style={{marginBottom: '8px'}}>
                                     
                                     <div className="flex gap-4">
                                         <span className="w-4 h-4 rounded-full block" style={{background:'#38cfd9'}}></span>
@@ -281,26 +281,25 @@ export default function Parallax() {
                             </div>
                             <div className="flex items-end gap-6 min-w-[120px]">
                                 <span className="text-2xl font-extrabold text-gray-800">$ 160</span>
-                                <div className="flex flex-col items-center ml-2">
+                                <div className="flex flex-col items-center ml-2" style={{marginBottom: '8px'}}>
                                     
                                     <div className="flex gap-4">
                                         <span className="w-4 h-4 rounded-full block" style={{background:'#38cfd9'}}></span>
                                     </div>
                                 </div>
                             </div>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                </div>
-
+                        
                 {/* AMZ Milkshake 昔捲腦門 區塊 */}
                 <div className="bg-white rounded-3xl p-8 shadow-lg relative mt-10">
-                    {/* 標題與480cc標籤 */}
+                    {/* 標題與480cc/360cc標籤 */}
                     <div className="flex items-center justify-between mb-4">
                         <div className="flex items-baseline gap-3">
                             <span className="text-3xl font-extrabold leading-tight">AMZ Milkshake</span>
                             <span className="text-xl font-semibold text-gray-700 tracking-wide">昔捲腦門</span>
                         </div>
-                        
                         <div className="flex-shrink-0">
                             <div className="w-16 h-16 rounded-full flex items-center justify-center text-white text-lg font-bold shadow-md" style={{ background: '#7fbfb0', fontFamily: 'inherit' }}>480cc</div>
                         </div>
@@ -320,7 +319,7 @@ export default function Parallax() {
                             </div>
                             <div className="flex items-end gap-6 min-w-[120px]">
                                 <span className="text-2xl font-extrabold text-gray-800">$ 150</span>
-                                <div className="flex flex-col items-center ml-2">
+                                <div className="flex flex-col items-center ml-2" style={{marginBottom: '8px'}}>
                                 <div className="flex gap-4 mb-1">
                                         <span className="text-xs font-bold text-gray-700">ICE</span>
                                     </div>
@@ -341,7 +340,7 @@ export default function Parallax() {
                             </div>
                             <div className="flex items-end gap-6 min-w-[120px]">
                                 <span className="text-2xl font-extrabold text-gray-800">$ 150</span>
-                                <div className="flex flex-col items-center ml-2">
+                                <div className="flex flex-col items-center ml-2" style={{marginBottom: '8px'}}>
                                     <div className="flex gap-4">
                                         <span className="w-4 h-4 rounded-full block" style={{background:'#38cfd9'}}></span>
                                     </div>
@@ -359,7 +358,7 @@ export default function Parallax() {
                             </div>
                             <div className="flex items-end gap-6 min-w-[120px]">
                                 <span className="text-2xl font-extrabold text-gray-800">$ 150</span>
-                                <div className="flex flex-col items-center ml-2">
+                                <div className="flex flex-col items-center ml-2" style={{marginBottom: '8px'}}>
                                     <div className="flex gap-4">
                                         <span className="w-4 h-4 rounded-full block" style={{background:'#38cfd9'}}></span>
                                     </div>
@@ -377,7 +376,7 @@ export default function Parallax() {
                             </div>
                             <div className="flex items-end gap-6 min-w-[120px]">
                                 <span className="text-2xl font-extrabold text-gray-800">$ 150</span>
-                                <div className="flex flex-col items-center ml-2">
+                                <div className="flex flex-col items-center ml-2" style={{marginBottom: '8px'}}>
                                     <div className="flex gap-4">
                                         <span className="w-4 h-4 rounded-full block" style={{background:'#38cfd9'}}></span>
                                     </div>
@@ -395,7 +394,7 @@ export default function Parallax() {
                             </div>
                             <div className="flex items-end gap-6 min-w-[120px]">
                                 <span className="text-2xl font-extrabold text-gray-800">$ 160</span>
-                                <div className="flex flex-col items-center ml-2">
+                                <div className="flex flex-col items-center ml-2" style={{marginBottom: '8px'}}>
                                     <div className="flex gap-4">
                                         <span className="w-4 h-4 rounded-full block" style={{background:'#38cfd9'}}></span>
                                     </div>
@@ -413,7 +412,7 @@ export default function Parallax() {
                             </div>
                             <div className="flex items-end gap-6 min-w-[120px]">
                                 <span className="text-2xl font-extrabold text-gray-800">$ 160</span>
-                                <div className="flex flex-col items-center ml-2">
+                                <div className="flex flex-col items-center ml-2" style={{marginBottom: '8px'}}>
                                     <div className="flex gap-4">
                                         <span className="w-4 h-4 rounded-full block" style={{background:'#38cfd9'}}></span>
                                     </div>
@@ -422,6 +421,228 @@ export default function Parallax() {
                         </div>
                     </div>
                 </div>
+
+                {/* Silk Bloom 醇奶初雪 區塊 */}
+                <div className="bg-white rounded-3xl p-8 shadow-lg relative mt-10">
+                    {/* 標題與480cc/360cc標籤 */}
+                    <div className="flex items-center justify-between mb-4">
+                        <div className="flex items-baseline gap-3">
+                            <span className="text-3xl font-extrabold leading-tight">Silk Bloom</span>
+                            <span className="text-xl font-semibold text-gray-700 tracking-wide">醇奶初雪</span>
+                        </div>
+                        <div className="flex items-center gap-2 flex-shrink-0">
+                            <div className="w-16 h-16 rounded-full flex items-center justify-center text-white text-lg font-bold shadow-md" style={{ background: '#38cfd9', fontFamily: 'inherit' }}>480cc</div>
+                            <div className="w-16 h-16 rounded-full flex items-center justify-center text-white text-lg font-bold shadow-md" style={{ background: '#d48bb9', fontFamily: 'inherit' }}>360cc</div>
+                        </div>
+                    </div>
+                    {/* 分隔線 */}
+                    <div className="border-t border-gray-300 mb-6"></div>
+                    {/* Menu List */}
+                    <div className="space-y-8">
+                        {/* Best one 奶茶 */}
+                        <div className="flex items-start justify-between">
+                            <div className="flex-1 min-w-0">
+                                <div className="flex items-baseline gap-2">
+                                    {/* 大拇指icon */}
+                            <div>
+                                        <img src="/626-mnue-04.png" width="24" />
+                                    </div>
+                                    <span className="text-lg font-extrabold leading-tight">Best one <span className='font-black'>奶茶</span></span>
+                                    <span className="text-base text-gray-600 font-normal">Best One Milk Tea</span>
+                                </div>
+                                <div className="text-sm text-gray-700 mt-1">小心奶醉~~~</div>
+                                <div className="inline-block mt-2 px-3 py-1 text-xs font-bold text-white" style={{background:'#d48bb9', borderRadius:'0px 40px 40px 44px'}}>奶精所調製的風味奶茶</div>
+                            </div>
+                            <div className="flex items-end gap-6 min-w-[120px]">
+                                <span className="text-2xl font-extrabold text-gray-800">$ 75</span>
+                                <div className="flex flex-col items-center ml-2" style={{marginBottom: '8px'}}>
+                                    <div className="flex gap-4 mb-1">
+                                        <span className="text-xs font-bold text-gray-700">ICE</span>
+                                        <span className="text-xs font-bold text-gray-700">HOT</span>
+                                    </div>
+                                    <div className="flex gap-4">
+                                        <span className="w-4 h-4 rounded-full block" style={{background:'#38cfd9'}}></span>
+                                        <span className="w-4 h-4 rounded-full block" style={{background:'#d48bb9'}}></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        {/* ONEONE 鮮奶茶 */}
+                        <div className="flex items-start justify-between">
+                            <div className="flex-1 min-w-0">
+                                <div className="flex items-baseline">
+                                    {/* ONEONE 標籤 */}
+                                    <span className="inline-flex items-center mr-1 align-middle"><span className="px-2 py-1 rounded bg-[#38cfd9] text-black text-xs font-bold" style={{letterSpacing:'1px', borderRadius:'0 10px 12px 12px', padding: '4 12px'}}>ONEONE</span></span>
+                                    <span className="text-lg font-extrabold leading-tight" style={{marginRight: '4px'}}>鮮奶茶</span>
+                                    <span className="text-base text-gray-600 font-normal">ONE ONE Milk Tea</span>
+                                </div>
+                                <div className="text-sm text-gray-700 mt-1">小農家最熱情的那隻母牛提供</div>
+                            </div>
+                            <div className="flex items-end gap-6 min-w-[120px]">
+                                <span className="text-2xl font-extrabold text-gray-800">$ 85</span>
+                                <div className="flex flex-col items-center ml-2" style={{marginBottom: '8px'}}>
+                                    <div className="flex gap-4 mb-1">
+                                        <span className="text-xs font-bold text-gray-700">ICE</span>
+                                        <span className="text-xs font-bold text-gray-700">HOT</span>
+                                    </div>
+                                    <div className="flex gap-4">
+                                        <span className="w-4 h-4 rounded-full block" style={{background:'#38cfd9'}}></span>
+                                        <span className="w-4 h-4 rounded-full block" style={{background:'#d48bb9'}}></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        {/* 侏羅紀可可 巧克力牛奶 */}
+                        <div className="flex items-start justify-between">
+                            <div className="flex-1 min-w-0">
+                                <div className="flex items-baseline gap-2">
+                                    <span className="text-lg font-extrabold leading-tight">侏羅紀可可 <span className='font-black'>巧克力牛奶</span></span>
+                                    <span className="text-base text-gray-600 font-normal">Jurassic Cocoa</span>
+                                </div>
+                                <div className="text-sm text-gray-700 mt-1">嚇死寶寶了</div>
+                            </div>
+                            <div className="flex items-end gap-6 min-w-[120px]">
+                                <span className="text-2xl font-extrabold text-gray-800">$ 100</span>
+                                <div className="flex flex-col items-center ml-2" style={{marginBottom: '8px'}}>
+                                    <div className="flex gap-4 mb-1">
+                                        <span className="text-xs font-bold text-gray-700">ICE</span>
+                                        <span className="text-xs font-bold text-gray-700">HOT</span>
+                                    </div>
+                                    <div className="flex gap-4">
+                                        <span className="w-4 h-4 rounded-full block" style={{background:'#38cfd9'}}></span>
+                                        <span className="w-4 h-4 rounded-full block" style={{background:'#d48bb9'}}></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        {/* 綠野仙蹤 抹茶牛奶 */}
+                        <div className="flex items-start justify-between">
+                            <div className="flex-1 min-w-0">
+                                <div className="flex items-baseline gap-2">
+                                    <span className="text-lg font-extrabold leading-tight">綠野仙蹤 <span className='font-black'>抹茶牛奶</span></span>
+                                    <span className="text-base text-gray-600 font-normal">Matcha Milk</span>
+                                </div>
+                                <div className="text-sm text-gray-700 mt-1">怕下架就快儲存</div>
+                            </div>
+                            <div className="flex items-end gap-6 min-w-[120px]">
+                                <span className="text-2xl font-extrabold text-gray-800">$ 100</span>
+                                <div className="flex flex-col items-center ml-2" style={{marginBottom: '8px'}}>
+                                    <div className="flex gap-4 mb-1">
+                                        <span className="text-xs font-bold text-gray-700">ICE</span>
+                                        <span className="text-xs font-bold text-gray-700">HOT</span>
+                                    </div>
+                                    <div className="flex gap-4">
+                                        <span className="w-4 h-4 rounded-full block" style={{background:'#38cfd9'}}></span>
+                                        <span className="w-4 h-4 rounded-full block" style={{background:'#d48bb9'}}></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        {/* 白色烤箱 堅果牛奶 */}
+                        <div className="flex items-start justify-between">
+                            <div className="flex-1 min-w-0">
+                                <div className="flex items-baseline gap-2">
+                                    <span className="text-lg font-extrabold leading-tight">白色烤箱 <span className='font-black'>堅果牛奶</span></span>
+                                    <span className="text-base text-gray-600 font-normal">Nut Milk</span>
+                                </div>
+                                <div className="text-sm text-gray-700 mt-1">附近松鼠的庫存</div>
+                            </div>
+                            <div className="flex items-end gap-6 min-w-[120px]">
+                                <span className="text-2xl font-extrabold text-gray-800">$ 100</span>
+                                <div className="flex flex-col items-center ml-2" style={{marginBottom: '8px'}}>
+                                    <div className="flex gap-4 mb-1">
+                                        <span className="text-xs font-bold text-gray-700">ICE</span>
+                                        <span className="text-xs font-bold text-gray-700">HOT</span>
+                                    </div>
+                                    <div className="flex gap-4">
+                                        <span className="w-4 h-4 rounded-full block" style={{background:'#38cfd9'}}></span>
+                                        <span className="w-4 h-4 rounded-full block" style={{background:'#d48bb9'}}></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            {/* Velvet yogurt 優格絲絨 區塊 */}
+            <div className="bg-white rounded-3xl p-8 shadow-lg relative mt-10">
+                    {/* 標題與480cc標籤 */}
+                    <div className="flex items-center justify-between mb-4">
+                        <div className="flex items-baseline gap-3">
+                            <span className="text-3xl font-extrabold leading-tight">Soul Drip</span>
+                            <span className="text-xl font-semibold text-gray-700 tracking-wide">生命之水</span>
+                        </div>
+                        <div className="flex-shrink-0">
+                            <div className="w-16 h-16 rounded-full flex items-center justify-center text-white text-lg font-bold shadow-md" style={{ background: '#7fbfb0', fontFamily: 'inherit' }}>660cc</div>
+                        </div>
+                    </div>
+                    {/* 分隔線 */}
+                    <div className="border-t border-gray-300 mb-6"></div>
+                    {/* Menu List */}
+                    <div className="space-y-8">
+                        {/* 酸酸忍者龜 抹茶 */}
+                        <div className="flex items-start justify-between">
+                            <div className="flex-1 min-w-0">
+                                <div className="flex items-baseline gap-2">
+                                    <span className="text-lg font-extrabold leading-tight">樹上椰子水</span>
+                                    <span className="text-base text-gray-600 font-normal">Tree-Top Coconut</span>
+                                </div>
+                                <div className="text-sm text-gray-700 mt-1">火大來一杯</div>
+                            </div>
+                            <div className="flex items-end gap-6 min-w-[120px]">
+                                <span className="text-2xl font-extrabold text-gray-800">$ 65</span>
+                                <div className="flex flex-col items-center ml-2" style={{marginBottom: '8px'}}>
+                                    <div className="flex gap-4 mb-1">
+                                        <span className="text-xs font-bold text-gray-700">ICE</span>
+                                    </div>
+                                    <div className="flex gap-4">
+                                        <span className="w-4 h-4 rounded-full block" style={{background:'#38cfd9'}}></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        {/* 甜甜大芒人 芒果 */}
+                        <div className="flex items-start justify-between">
+                            <div className="flex-1 min-w-0">
+                            <div className="flex items-baseline">
+                                    {/* ONEONE 標籤 */}
+                                    <span className="inline-flex items-center mr-1 align-middle"><span className="px-2 py-1 rounded bg-[#38cfd9] text-black text-xs font-bold" style={{letterSpacing:'1px', borderRadius:'0 10px 12px 12px', padding: '4 12px'}}>氣泡飲</span></span>
+                                    <span className="text-lg font-extrabold leading-tight" style={{marginRight: '4px'}}>喝不茫的莫吉托</span>
+                                    <span className="text-base text-gray-600 font-normal">Virgin Mojito Spring</span>
+                                </div>
+                                <div className="text-sm text-gray-700 mt-1">已準備躺好 補充精神</div>
+                            </div>
+                            <div className="flex items-end gap-6 min-w-[120px]">
+                                <span className="text-2xl font-extrabold text-gray-800">$ 70</span>
+                                <div className="flex flex-col items-center ml-2" style={{marginBottom: '8px'}}>
+                                    
+                                    <div className="flex gap-4">
+                                        <span className="w-4 h-4 rounded-full block" style={{background:'#38cfd9'}}></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        {/* 沒你哪是愛 草莓 */}
+                        <div className="flex items-start justify-between">
+                            <div className="flex-1 min-w-0">
+                                <div className="flex items-baseline gap-2">
+                                    <span className="text-lg font-extrabold leading-tight">心痛的感覺 </span>
+                                    <span className="text-base text-gray-600 font-normal">Ouch. That hurts.</span>
+                                </div>
+                                <div className="text-sm text-gray-700 mt-1">喉嚨請借過</div>
+                            </div>
+                            <div className="flex items-end gap-6 min-w-[120px]">
+                                <span className="text-2xl font-extrabold text-gray-800">$ 20</span>
+                                <div className="flex flex-col items-center ml-2" style={{marginBottom: '8px'}}>
+                                    
+                                    <div className="flex gap-4">
+                                        <span className="w-4 h-4 rounded-full block" style={{background:'#38cfd9'}}></span>
+                                    </div>
+                                </div>
+                            </div>
+                                </div>
+                            </div>
+                        </div>
 
             {/* Video Section */}
             <div 
@@ -451,57 +672,7 @@ export default function Parallax() {
             </video>
           </div>
 
-            {/* Milkshake Section */}
-                <div className="bg-white rounded-3xl p-8 shadow-lg">
-                    <div className="mb-10" style={{position: 'relative'}}>
-                        <h2 className="text-2xl font-bold inline-block mr-3">Milkshake</h2>
-                        <span className="text-gray-600">絕版奶昔</span>
-                        <div className="cc-badge" style={{position: 'absolute', top: '-10px', right: '-10px'}}>
-                            480cc
-                        </div>
-                    </div>
-                        <div className="space-y-6">
-                        <div className="flex items-center justify-between">
-                                <div>
-                                <p className="text-lg font-medium">大溪地 香草</p>
-                                <p className="text-gray-500 text-sm">Vanilla</p>
-                                </div>
-                            <div className="flex items-center gap-4">
-                                <span className="text-xl font-bold">$150</span>
-                                <div className="flex gap-1">
-                                    <span className="w-4 h-4 rounded-full bg-cyan-400"></span>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="flex items-center justify-between">
-                                <div>
-                                <p className="text-lg font-medium">黑露露 巧克力</p>
-                                <p className="text-gray-500 text-sm">Chocolate</p>
-                                </div>
-                            <div className="flex items-center gap-4">
-                                <span className="text-xl font-bold">$150</span>
-                                <div className="flex gap-1">
-                                    <span className="w-4 h-4 rounded-full bg-cyan-400"></span>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="flex items-center justify-between">
-                                <div>
-                                <p className="text-lg font-medium">菲菲 草莓</p>
-                                <p className="text-gray-500 text-sm">Strawberry</p>
-                            </div>
-                            <div className="flex items-center gap-4">
-                                <span className="text-xl font-bold">$150</span>
-                                <div className="flex gap-1">
-                                    <span className="w-4 h-4 rounded-full bg-cyan-400"></span>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="text-sm text-gray-500 text-right mt-4">
-                            供應時段：上午11點 - 閉店
-                        </div>
-                    </div>
-                </div>
+            
 
 
 
@@ -573,7 +744,7 @@ export default function Parallax() {
                         </div>
                     </div>
                     <img 
-                        src="/sweetbite.png" 
+                        src="/626-mnue-09.png" 
                         alt="LINE QR Code" 
                         className="w-[70%] h-full object-contain inline-flex content-center"
                         onError={(e) => {
