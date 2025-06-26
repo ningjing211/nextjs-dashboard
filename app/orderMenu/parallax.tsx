@@ -46,7 +46,7 @@ export default function Parallax() {
                             </div>
                             <div className="flex items-end gap-6 min-w-[120px]">
                                 <span className="text-l font-extrabold text-gray-800">$ 70</span>
-                                <div className="flex flex-col items-center ml-2" style={{marginBottom: '8px'}}>
+                                <div className="flex flex-col items-center ml-2" style={{marginBottom: '3px'}}>
                                     <div className="flex gap-4 mb-1">
                                         <span className="text-xs font-bold text-gray-700">ICE</span>
                                         <span className="text-xs font-bold text-gray-700">HOT</span>
@@ -69,7 +69,7 @@ export default function Parallax() {
                             </div>
                             <div className="flex items-end gap-6 min-w-[120px]">
                                 <span className="text-l font-extrabold text-gray-800">$ 85</span>
-                                <div className="flex flex-col items-center ml-2" style={{marginBottom: '8px'}}>
+                                <div className="flex flex-col items-center ml-2" style={{marginBottom: '3px'}}>
                                     <div className="flex gap-4 mb-1">
                                         
                                     </div>
@@ -91,7 +91,7 @@ export default function Parallax() {
                             </div>
                             <div className="flex items-end gap-6 min-w-[120px]">
                                 <span className="text-l font-extrabold text-gray-800">$ 95</span>
-                                <div className="flex flex-col items-center ml-2" style={{marginBottom: '8px'}}>
+                                <div className="flex flex-col items-center ml-2" style={{marginBottom: '3px'}}>
                                     <div className="flex gap-4 mb-1">
                                         
                                     </div>
@@ -113,7 +113,7 @@ export default function Parallax() {
                             </div>
                             <div className="flex items-end gap-6 min-w-[120px]">
                                 <span className="text-l font-extrabold text-gray-800">$ 100</span>
-                                <div className="flex flex-col items-center ml-2" style={{marginBottom: '8px'}}>
+                                <div className="flex flex-col items-center ml-2" style={{marginBottom: '3px'}}>
                                     <div className="flex gap-4 mb-1">
                                         
                                     </div>
@@ -153,7 +153,7 @@ export default function Parallax() {
                             </div>
                             <div className="flex items-end gap-6 min-w-[120px]">
                                 <span className="text-l font-extrabold text-gray-800">$ 40</span>
-                                <div className="flex flex-col items-center ml-2" style={{marginBottom: '8px'}}>
+                                <div className="flex flex-col items-center ml-2" style={{marginBottom: '3px'}}>
                                     <div className="flex gap-4 mb-1">
                                         <span className="text-xs font-bold text-gray-700">ICE</span>
                                         <span className="text-xs font-bold text-gray-700">HOT</span>
@@ -176,7 +176,7 @@ export default function Parallax() {
                             </div>
                             <div className="flex items-end gap-6 min-w-[120px]">
                                 <span className="text-l font-extrabold text-gray-800">$ 40</span>
-                                <div className="flex flex-col items-center ml-2" style={{marginBottom: '8px'}}>
+                                <div className="flex flex-col items-center ml-2" style={{marginBottom: '3px'}}>
                                     <div className="flex gap-4 mb-1">
                                         
                                     </div>
@@ -198,7 +198,7 @@ export default function Parallax() {
                             </div>
                             <div className="flex items-end gap-6 min-w-[120px]">
                                 <span className="text-l font-extrabold text-gray-800">$ 50</span>
-                                <div className="flex flex-col items-center ml-2" style={{marginBottom: '8px'}}>
+                                <div className="flex flex-col items-center ml-2" style={{marginBottom: '3px'}}>
                                     <div className="flex gap-4 mb-1">
                                         
                                     </div>
@@ -239,7 +239,7 @@ export default function Parallax() {
                             </div>
                             <div className="flex items-end gap-6 min-w-[120px]">
                                 <span className="text-l font-extrabold text-gray-800">$ 160</span>
-                                <div className="flex flex-col items-center ml-2" style={{marginBottom: '8px'}}>
+                                <div className="flex flex-col items-center ml-2" style={{marginBottom: '3px'}}>
                                     <div className="flex gap-4 mb-1">
                                         <span className="text-xs font-bold text-gray-700">ICE</span>
                                     </div>
@@ -260,7 +260,7 @@ export default function Parallax() {
                             </div>
                             <div className="flex items-end gap-6 min-w-[120px]">
                                 <span className="text-l font-extrabold text-gray-800">$ 160</span>
-                                <div className="flex flex-col items-center ml-2" style={{marginBottom: '8px'}}>
+                                <div className="flex flex-col items-center ml-2" style={{marginBottom: '3px'}}>
                                     
                                     <div className="flex gap-4">
                                         <span className="w-4 h-4 rounded-full block" style={{background:'#38cfd9'}}></span>
@@ -279,7 +279,7 @@ export default function Parallax() {
                             </div>
                             <div className="flex items-end gap-6 min-w-[120px]">
                                 <span className="text-l font-extrabold text-gray-800">$ 160</span>
-                                <div className="flex flex-col items-center ml-2" style={{marginBottom: '8px'}}>
+                                <div className="flex flex-col items-center ml-2" style={{marginBottom: '3px'}}>
                                     
                                     <div className="flex gap-4">
                                         <span className="w-4 h-4 rounded-full block" style={{background:'#38cfd9'}}></span>
@@ -317,7 +317,7 @@ export default function Parallax() {
                             </div>
                             <div className="flex items-end gap-6 min-w-[120px]">
                                 <span className="text-l font-extrabold text-gray-800">$ 150</span>
-                                <div className="flex flex-col items-center ml-2" style={{marginBottom: '8px'}}>
+                                <div className="flex flex-col items-center ml-2" style={{marginBottom: '3px'}}>
                                 <div className="flex gap-4 mb-1">
                                         <span className="text-xs font-bold text-gray-700">ICE</span>
                                     </div>
@@ -338,7 +338,7 @@ export default function Parallax() {
                             </div>
                             <div className="flex items-end gap-6 min-w-[120px]">
                                 <span className="text-l font-extrabold text-gray-800">$ 150</span>
-                                <div className="flex flex-col items-center ml-2" style={{marginBottom: '8px'}}>
+                                <div className="flex flex-col items-center ml-2" style={{marginBottom: '3px'}}>
                                     <div className="flex gap-4">
                                         <span className="w-4 h-4 rounded-full block" style={{background:'#38cfd9'}}></span>
                                     </div>
@@ -356,7 +356,7 @@ export default function Parallax() {
                             </div>
                             <div className="flex items-end gap-6 min-w-[120px]">
                                 <span className="text-l font-extrabold text-gray-800">$ 150</span>
-                                <div className="flex flex-col items-center ml-2" style={{marginBottom: '8px'}}>
+                                <div className="flex flex-col items-center ml-2" style={{marginBottom: '3px'}}>
                                     <div className="flex gap-4">
                                         <span className="w-4 h-4 rounded-full block" style={{background:'#38cfd9'}}></span>
                                     </div>
@@ -374,7 +374,7 @@ export default function Parallax() {
                             </div>
                             <div className="flex items-end gap-6 min-w-[120px]">
                                 <span className="text-l font-extrabold text-gray-800">$ 150</span>
-                                <div className="flex flex-col items-center ml-2" style={{marginBottom: '8px'}}>
+                                <div className="flex flex-col items-center ml-2" style={{marginBottom: '3px'}}>
                                     <div className="flex gap-4">
                                         <span className="w-4 h-4 rounded-full block" style={{background:'#38cfd9'}}></span>
                                     </div>
@@ -392,7 +392,7 @@ export default function Parallax() {
                             </div>
                             <div className="flex items-end gap-6 min-w-[120px]">
                                 <span className="text-l font-extrabold text-gray-800">$ 160</span>
-                                <div className="flex flex-col items-center ml-2" style={{marginBottom: '8px'}}>
+                                <div className="flex flex-col items-center ml-2" style={{marginBottom: '3px'}}>
                                     <div className="flex gap-4">
                                         <span className="w-4 h-4 rounded-full block" style={{background:'#38cfd9'}}></span>
                                     </div>
@@ -410,7 +410,7 @@ export default function Parallax() {
                             </div>
                             <div className="flex items-end gap-6 min-w-[120px]">
                                 <span className="text-l font-extrabold text-gray-800">$ 160</span>
-                                <div className="flex flex-col items-center ml-2" style={{marginBottom: '8px'}}>
+                                <div className="flex flex-col items-center ml-2" style={{marginBottom: '3px'}}>
                                     <div className="flex gap-4">
                                         <span className="w-4 h-4 rounded-full block" style={{background:'#38cfd9'}}></span>
                                     </div>
@@ -453,7 +453,7 @@ export default function Parallax() {
                             </div>
                             <div className="flex items-end gap-6 min-w-[120px]">
                                 <span className="text-l font-extrabold text-gray-800">$ 75</span>
-                                <div className="flex flex-col items-center ml-2" style={{marginBottom: '8px'}}>
+                                <div className="flex flex-col items-center ml-2" style={{marginBottom: '3px'}}>
                                     <div className="flex gap-4 mb-1">
                                         <span className="text-xs font-bold text-gray-700">ICE</span>
                                         <span className="text-xs font-bold text-gray-700">HOT</span>
@@ -479,7 +479,7 @@ export default function Parallax() {
                             </div>
                             <div className="flex items-end gap-6 min-w-[120px]">
                                 <span className="text-l font-extrabold text-gray-800">$ 85</span>
-                                <div className="flex flex-col items-center ml-2" style={{marginBottom: '8px'}}>
+                                <div className="flex flex-col items-center ml-2" style={{marginBottom: '3px'}}>
                                     <div className="flex gap-4 mb-1">
                                         <span className="text-xs font-bold text-gray-700">ICE</span>
                                         <span className="text-xs font-bold text-gray-700">HOT</span>
@@ -502,7 +502,7 @@ export default function Parallax() {
                             </div>
                             <div className="flex items-end gap-6 min-w-[120px]">
                                 <span className="text-l font-extrabold text-gray-800">$ 100</span>
-                                <div className="flex flex-col items-center ml-2" style={{marginBottom: '8px'}}>
+                                <div className="flex flex-col items-center ml-2" style={{marginBottom: '3px'}}>
                                     <div className="flex gap-4 mb-1">
                                         <span className="text-xs font-bold text-gray-700">ICE</span>
                                         <span className="text-xs font-bold text-gray-700">HOT</span>
@@ -525,7 +525,7 @@ export default function Parallax() {
                             </div>
                             <div className="flex items-end gap-6 min-w-[120px]">
                                 <span className="text-l font-extrabold text-gray-800">$ 100</span>
-                                <div className="flex flex-col items-center ml-2" style={{marginBottom: '8px'}}>
+                                <div className="flex flex-col items-center ml-2" style={{marginBottom: '3px'}}>
                                     <div className="flex gap-4 mb-1">
                                         <span className="text-xs font-bold text-gray-700">ICE</span>
                                         <span className="text-xs font-bold text-gray-700">HOT</span>
@@ -548,7 +548,7 @@ export default function Parallax() {
                             </div>
                             <div className="flex items-end gap-6 min-w-[120px]">
                                 <span className="text-l font-extrabold text-gray-800">$ 100</span>
-                                <div className="flex flex-col items-center ml-2" style={{marginBottom: '8px'}}>
+                                <div className="flex flex-col items-center ml-2" style={{marginBottom: '3px'}}>
                                     <div className="flex gap-4 mb-1">
                                         <span className="text-xs font-bold text-gray-700">ICE</span>
                                         <span className="text-xs font-bold text-gray-700">HOT</span>
@@ -590,7 +590,7 @@ export default function Parallax() {
                             </div>
                             <div className="flex items-end gap-6 min-w-[120px]">
                                 <span className="text-l font-extrabold text-gray-800">$ 65</span>
-                                <div className="flex flex-col items-center ml-2" style={{marginBottom: '8px'}}>
+                                <div className="flex flex-col items-center ml-2" style={{marginBottom: '3px'}}>
                                     <div className="flex gap-4 mb-1">
                                         <span className="text-xs font-bold text-gray-700">ICE</span>
                                     </div>
@@ -613,7 +613,7 @@ export default function Parallax() {
                             </div>
                             <div className="flex items-end gap-6 min-w-[120px]">
                                 <span className="text-l font-extrabold text-gray-800">$ 70</span>
-                                <div className="flex flex-col items-center ml-2" style={{marginBottom: '8px'}}>
+                                <div className="flex flex-col items-center ml-2" style={{marginBottom: '3px'}}>
                                     
                                     <div className="flex gap-4">
                                         <span className="w-4 h-4 rounded-full block" style={{background:'#38cfd9'}}></span>
@@ -632,7 +632,7 @@ export default function Parallax() {
                             </div>
                             <div className="flex items-end gap-6 min-w-[120px]">
                                 <span className="text-l font-extrabold text-gray-800">$ 20</span>
-                                <div className="flex flex-col items-center ml-2" style={{marginBottom: '8px'}}>
+                                <div className="flex flex-col items-center ml-2" style={{marginBottom: '3px'}}>
                                     
                                     <div className="flex gap-4">
                                         <span className="w-4 h-4 rounded-full block" style={{background:'#38cfd9'}}></span>
