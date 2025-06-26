@@ -37,9 +37,9 @@ export default function Parallax() {
                     <div className="space-y-8">
                         {/* 90+ 美式 */}
                         <div className="flex items-start justify-between">
-                            <div className="flex-1 min-w-0">
+                            <div className="flex-1 min-w-0" >
                                 <div className="flex items-baseline gap-2 flex-col">
-                                    <span className="text-lg font-extrabold leading-tight">90+ 美式</span>
+                                    <span className="text-lg font-extrabold leading-tight" style={{marginTop: '10px'}}>90+ 美式</span>
                                     <span className="text-base text-gray-600 font-normal">Select Americano</span>
                                 </div>
                                 <div className="text-sm text-gray-700 mt-1">喜歡簡單直接的你</div>
@@ -146,7 +146,7 @@ export default function Parallax() {
                         <div className="flex items-start justify-between">
                             <div className="flex-1 min-w-0">
                                 <div className="flex items-baseline gap-2 flex-col">
-                                    <span className="text-lg font-extrabold leading-tight">山跟雲說 <span className='font-black'>高山烏龍</span></span>
+                                    <span className="text-lg font-extrabold leading-tight" style={{marginTop: '10px'}}>山跟雲說 <span className='font-black'>高山烏龍</span></span>
                                     <span className="text-base text-gray-600 font-normal">High Mountain Oolong</span>
                                 </div>
                                 <div className="text-sm text-gray-700 mt-1">喝一口雲就在你旁邊</div>
@@ -232,7 +232,7 @@ export default function Parallax() {
                         <div className="flex items-start justify-between">
                             <div className="flex-1 min-w-0">
                                 <div className="flex items-baseline gap-2 flex-col">
-                                    <span className="text-lg font-extrabold leading-tight">酸酸忍者龜 <span className='font-black'>抹茶</span></span>
+                                    <span className="text-lg font-extrabold leading-tight" style={{marginTop: '10px'}}>酸酸忍者龜 <span className='font-black'>抹茶</span></span>
                                     <span className="text-base text-gray-600 font-normal">Sour Ninja Turtle Matcha</span>
                                 </div>
                                 <div className="text-sm text-gray-700 mt-1">開始分泌唾液了</div>
@@ -310,7 +310,7 @@ export default function Parallax() {
                         <div className="flex items-start justify-between">
                             <div className="flex-1 min-w-0">
                                 <div className="flex items-baseline gap-2 flex-col">
-                                    <span className="text-lg font-extrabold leading-tight">大溪地 <span className='font-black'>香草</span></span>
+                                    <span className="text-lg font-extrabold leading-tight" style={{marginTop: '10px'}}>大溪地 <span className='font-black'>香草</span></span>
                                     <span className="text-base text-gray-600 font-normal">Tahiti vanilla</span>
                                 </div>
                                 <div className="text-sm text-gray-700 mt-1">口腔已融化</div>
@@ -423,15 +423,18 @@ export default function Parallax() {
                 {/* Silk Bloom 醇奶初雪 區塊 */}
                 <div className="bg-white rounded-3xl p-8 shadow-lg relative mt-10">
                     {/* 標題與480cc/360cc標籤 */}
-                    <div className="flex items-center justify-between mb-4">
+                    <div className="flex items-center justify-between ">
                         <div className="flex items-baseline gap-3">
                             <span className="text-xl font-extrabold leading-tight">Silk Bloom</span>
-                            <span className="text-lg font-semibold text-gray-700 tracking-wide">醇奶初雪</span>
                         </div>
+                        
                         <div className="flex items-center gap-2 flex-shrink-0">
                             <div className="w-12 h-12 rounded-full flex items-center justify-center text-white text-sm font-bold shadow-md" style={{ background: '#38cfd9', fontFamily: 'inherit' }}>480cc</div>
                             <div className="w-12 h-12 rounded-full flex items-center justify-center text-white text-sm font-bold shadow-md" style={{ background: '#d48bb9', fontFamily: 'inherit' }}>360cc</div>
                         </div>
+                    </div>
+                    <div className="flex items-baseline gap-3 mb-4">
+                            <span className="text-lg font-semibold text-gray-700 tracking-wide">醇奶初雪</span>
                     </div>
                     {/* 分隔線 */}
                     <div className="border-t border-gray-300 mb-6"></div>
@@ -440,13 +443,9 @@ export default function Parallax() {
                         {/* Best one 奶茶 */}
                         <div className="flex items-start justify-between">
                             <div className="flex-1 min-w-0">
-                                <div className="flex items-baseline gap-2 flex-col">
-                                    {/* 大拇指icon */}
-                            <div>
-                                        <img src="/626-mnue-04.png" width="24" />
-                                    </div>
+                                <div className="flex items-center gap-2" style={{marginTop: '10px'}}>
+                                    <img src="/626-mnue-04.png" width="24" />
                                     <span className="text-lg font-extrabold leading-tight">Best one <span className='font-black'>奶茶</span></span>
-                                    <span className="text-base text-gray-600 font-normal">Best One Milk Tea</span>
                                 </div>
                                 <div className="text-sm text-gray-700 mt-1">小心奶醉~~~</div>
                                 <div className="inline-block mt-2 px-3 py-1 text-xs font-bold text-white" style={{background:'#d48bb9', borderRadius:'0px 40px 40px 44px'}}>奶精所調製的風味奶茶</div>
