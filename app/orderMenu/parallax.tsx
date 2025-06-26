@@ -19,67 +19,108 @@ export default function Parallax() {
 
             {/* Menu Cards Container */}
             <div className="max-w-2xl mx-auto space-y-6">
-                {/* Coffee Section */}
+                {/* Coffee Section - 依設計圖調整 */}
                 <div className="bg-white rounded-3xl p-8 shadow-lg relative">
-                    <div className="menu-section-header" style={{position: 'relative'}}>
-                        <div className="menu-section-title">
-                            <h2>Coffee</h2>
-                            <span>聽咖啡</span>
+                    {/* 標題與360cc標籤 */}
+                    <div className="flex items-center justify-between mb-4">
+                        <div className="flex items-baseline gap-3">
+                            <span className="text-3xl font-extrabold leading-tight">Time Machine</span>
+                            <span className="text-xl font-semibold text-gray-700 tracking-wide">時空啡人</span>
                         </div>
-                        <div className="cc-badge" style={{position: 'absolute', top: '-10px', right: '-10px'}}>
-                            360cc
+                        <div className="flex-shrink-0">
+                            <div className="w-16 h-16 rounded-full flex items-center justify-center text-white text-lg font-bold shadow-md" style={{ background: '#7fbfb0', fontFamily: 'inherit' }}>360cc</div>
                         </div>
                     </div>
-                    <div className="space-y-6">
-                        <div className="flex items-center justify-between">
-                            <div>
-                                <p className="text-lg font-medium">90+ 美式</p>
-                                <p className="text-gray-500 text-sm">Select Americano</p>
+                    {/* 分隔線 */}
+                    <div className="border-t border-gray-300 mb-6"></div>
+                    {/* Menu List */}
+                    <div className="space-y-8">
+                        {/* 90+ 美式 */}
+                        <div className="flex items-start justify-between">
+                            <div className="flex-1 min-w-0">
+                                <div className="flex items-baseline gap-2">
+                                    <span className="text-lg font-extrabold leading-tight">90+ 美式</span>
+                                    <span className="text-base text-gray-600 font-normal">Select Americano</span>
+                                </div>
+                                <div className="text-sm text-gray-700 mt-1">喜歡簡單直接的你</div>
                             </div>
-                            <div className="flex items-center gap-4">
-                                <span className="text-xl font-bold">$70</span>
-                                <div className="flex gap-2">
-                                    <span className="w-4 h-4 rounded-full bg-cyan-400 relative before:content-['ICE'] before:absolute before:text-[10px] before:-top-4 before:left-1/2 before:-translate-x-1/2 before:text-gray-500"></span>
-                                    <span className="w-4 h-4 rounded-full bg-pink-400 relative before:content-['HOT'] before:absolute before:text-[10px] before:-top-4 before:left-1/2 before:-translate-x-1/2 before:text-gray-500"></span>
+                            <div className="flex items-end gap-6 min-w-[120px]">
+                                <span className="text-2xl font-extrabold text-gray-800">$ 70</span>
+                                <div className="flex flex-col items-center ml-2">
+                                    <div className="flex gap-4 mb-1">
+                                        <span className="text-xs font-bold text-gray-700">ICE</span>
+                                        <span className="text-xs font-bold text-gray-700">HOT</span>
+                                    </div>
+                                    <div className="flex gap-6">
+                                        <span className="w-4 h-4 rounded-full bg-cyan-400 block"></span>
+                                        <span className="w-4 h-4 rounded-full bg-pink-400 block"></span>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div className="flex items-center justify-between">
-                            <div>
-                                <p className="text-lg font-medium">蕭邦 拿鐵</p>
-                                <p className="text-gray-500 text-sm">Latte</p>
+                        {/* 蕭邦 拿鐵 */}
+                        <div className="flex items-start justify-between">
+                            <div className="flex-1 min-w-0">
+                                <div className="flex items-baseline gap-2">
+                                    <span className="text-lg font-extrabold leading-tight">蕭邦 拿鐵</span>
+                                    <span className="text-base text-gray-600 font-normal">Latte</span>
+                                </div>
+                                <div className="text-sm text-gray-700 mt-1">溫和、隨和的浪漫主義者</div>
                             </div>
-                            <div className="flex items-center gap-4">
-                                <span className="text-xl font-bold">$85</span>
-                                <div className="flex gap-2">
-                                    <span className="w-4 h-4 rounded-full bg-cyan-400"></span>
-                                    <span className="w-4 h-4 rounded-full bg-pink-400"></span>
+                            <div className="flex items-end gap-6 min-w-[120px]">
+                                <span className="text-2xl font-extrabold text-gray-800">$ 85</span>
+                                <div className="flex flex-col items-center ml-2">
+                                    <div className="flex gap-4 mb-1">
+                                        
+                                    </div>
+                                    <div className="flex gap-6">
+                                        <span className="w-4 h-4 rounded-full bg-cyan-400 block"></span>
+                                        <span className="w-4 h-4 rounded-full bg-pink-400 block"></span>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div className="flex items-center justify-between">
-                            <div>
-                                <p className="text-lg font-medium">海頓 卡布奇諾</p>
-                                <p className="text-gray-500 text-sm">Cappuccino</p>
+                        {/* 海頓 卡布奇諾 */}
+                        <div className="flex items-start justify-between">
+                            <div className="flex-1 min-w-0">
+                                <div className="flex items-baseline gap-2">
+                                    <span className="text-lg font-extrabold leading-tight">海頓 卡布奇諾</span>
+                                    <span className="text-base text-gray-600 font-normal">Cappuccino</span>
+                                </div>
+                                <div className="text-sm text-gray-700 mt-1">講究生活品味的片刻</div>
                             </div>
-                            <div className="flex items-center gap-4">
-                                <span className="text-xl font-bold">$95</span>
-                                <div className="flex gap-2">
-                                    <span className="w-4 h-4 rounded-full bg-cyan-400"></span>
-                                    <span className="w-4 h-4 rounded-full bg-pink-400"></span>
+                            <div className="flex items-end gap-6 min-w-[120px]">
+                                <span className="text-2xl font-extrabold text-gray-800">$ 95</span>
+                                <div className="flex flex-col items-center ml-2">
+                                    <div className="flex gap-4 mb-1">
+                                        
+                                    </div>
+                                    <div className="flex gap-6">
+                                        <span className="w-4 h-4 rounded-full bg-cyan-400 block"></span>
+                                        <span className="w-4 h-4 rounded-full bg-pink-400 block"></span>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div className="flex items-center justify-between">
-                            <div>
-                                <p className="text-lg font-medium">焦糖 瑪奇朵</p>
-                                <p className="text-gray-500 text-sm">Caramel Macchiato</p>
+                        {/* 焦糖 瑪奇朵 */}
+                        <div className="flex items-start justify-between">
+                            <div className="flex-1 min-w-0">
+                                <div className="flex items-baseline gap-2">
+                                    <span className="text-lg font-extrabold leading-tight">焦糖 瑪奇朵</span>
+                                    <span className="text-base text-gray-600 font-normal">Caramel Macchiato</span>
+                                </div>
+                                <div className="text-sm text-gray-700 mt-1">成熟與童心未混合的瞬間</div>
                             </div>
-                            <div className="flex items-center gap-4">
-                                <span className="text-xl font-bold">$100</span>
-                                <div className="flex gap-2">
-                                    <span className="w-4 h-4 rounded-full bg-cyan-400"></span>
-                                    <span className="w-4 h-4 rounded-full bg-pink-400"></span>
+                            <div className="flex items-end gap-6 min-w-[120px]">
+                                <span className="text-2xl font-extrabold text-gray-800">$ 100</span>
+                                <div className="flex flex-col items-center ml-2">
+                                    <div className="flex gap-4 mb-1">
+                                        
+                                    </div>
+                                    <div className="flex gap-6">
+                                        <span className="w-4 h-4 rounded-full bg-cyan-400 block"></span>
+                                        <span className="w-4 h-4 rounded-full bg-pink-400 block"></span>
+                                    </div>
                                 </div>
                             </div>
                         </div>
