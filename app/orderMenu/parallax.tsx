@@ -28,7 +28,7 @@ export default function Parallax() {
                             <span className="text-lg font-semibold text-gray-700 tracking-wide">時空啡人</span>
                         </div>
                         <div className="flex-shrink-0">
-                            <div className="w-16 h-16 rounded-full flex items-center justify-center text-white text-lg font-bold shadow-md" style={{ background: '#7fbfb0', fontFamily: 'inherit' }}>360cc</div>
+                            <div className="w-12 h-12 rounded-full flex items-center justify-center text-white text-sm font-bold shadow-md" style={{ background: '#7fbfb0', fontFamily: 'inherit' }}>360cc</div>
                         </div>
                     </div>
                     {/* 分隔線 */}
@@ -135,7 +135,7 @@ export default function Parallax() {
                             <span className="text-lg font-semibold text-gray-700 tracking-wide">畫茶</span>
                         </div>
                         <div className="flex-shrink-0">
-                            <div className="w-16 h-16 rounded-full flex items-center justify-center text-white text-lg font-bold shadow-md" style={{ background: '#7fbfb0', fontFamily: 'inherit' }}>660cc</div>
+                            <div className="w-12 h-12 rounded-full flex items-center justify-center text-white text-sm font-bold shadow-md" style={{ background: '#7fbfb0', fontFamily: 'inherit' }}>660cc</div>
                         </div>
                     </div>
                     {/* 分隔線 */}
@@ -221,7 +221,7 @@ export default function Parallax() {
                             <span className="text-lg font-semibold text-gray-700 tracking-wide">優格絲絨</span>
                         </div>
                         <div className="flex-shrink-0">
-                            <div className="w-16 h-16 rounded-full flex items-center justify-center text-white text-lg font-bold shadow-md" style={{ background: '#7fbfb0', fontFamily: 'inherit' }}>480cc</div>
+                            <div className="w-12 h-12 rounded-full flex items-center justify-center text-white text-sm font-bold shadow-md" style={{ background: '#7fbfb0', fontFamily: 'inherit' }}>480cc</div>
                         </div>
                     </div>
                     {/* 分隔線 */}
@@ -299,7 +299,7 @@ export default function Parallax() {
                             <span className="text-lg font-semibold text-gray-700 tracking-wide">昔捲腦門</span>
                         </div>
                         <div className="flex-shrink-0">
-                            <div className="w-16 h-16 rounded-full flex items-center justify-center text-white text-lg font-bold shadow-md" style={{ background: '#7fbfb0', fontFamily: 'inherit' }}>480cc</div>
+                            <div className="w-12 h-12 rounded-full flex items-center justify-center text-white text-sm font-bold shadow-md" style={{ background: '#7fbfb0', fontFamily: 'inherit' }}>480cc</div>
                         </div>
                     </div>
                     {/* 分隔線 */}
@@ -429,8 +429,8 @@ export default function Parallax() {
                             <span className="text-lg font-semibold text-gray-700 tracking-wide">醇奶初雪</span>
                         </div>
                         <div className="flex items-center gap-2 flex-shrink-0">
-                            <div className="w-16 h-16 rounded-full flex items-center justify-center text-white text-lg font-bold shadow-md" style={{ background: '#38cfd9', fontFamily: 'inherit' }}>480cc</div>
-                            <div className="w-16 h-16 rounded-full flex items-center justify-center text-white text-lg font-bold shadow-md" style={{ background: '#d48bb9', fontFamily: 'inherit' }}>360cc</div>
+                            <div className="w-12 h-12 rounded-full flex items-center justify-center text-white text-sm font-bold shadow-md" style={{ background: '#38cfd9', fontFamily: 'inherit' }}>480cc</div>
+                            <div className="w-12 h-12 rounded-full flex items-center justify-center text-white text-sm font-bold shadow-md" style={{ background: '#d48bb9', fontFamily: 'inherit' }}>360cc</div>
                         </div>
                     </div>
                     {/* 分隔線 */}
@@ -572,7 +572,7 @@ export default function Parallax() {
                             <span className="text-lg font-semibold text-gray-700 tracking-wide">生命之水</span>
                         </div>
                         <div className="flex-shrink-0">
-                            <div className="w-16 h-16 rounded-full flex items-center justify-center text-white text-lg font-bold shadow-md" style={{ background: '#7fbfb0', fontFamily: 'inherit' }}>660cc</div>
+                            <div className="w-12 h-12 rounded-full flex items-center justify-center text-white text-sm font-bold shadow-md" style={{ background: '#7fbfb0', fontFamily: 'inherit' }}>660cc</div>
                         </div>
                     </div>
                     {/* 分隔線 */}
