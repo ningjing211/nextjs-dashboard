@@ -24,7 +24,7 @@ export default function Parallax() {
                     {/* 標題與360cc標籤 */}
                     <div className="flex items-center justify-between mb-4">
                         <div className="flex items-baseline gap-3">
-                            <span className="text-3xl font-extrabold leading-tight">Time Machine</span>
+                            <span className="text-2xl font-extrabold leading-tight">Time Machine</span>
                             <span className="text-xl font-semibold text-gray-700 tracking-wide">時空啡人</span>
                         </div>
                         <div className="flex-shrink-0">
@@ -38,7 +38,7 @@ export default function Parallax() {
                         {/* 90+ 美式 */}
                         <div className="flex items-start justify-between">
                             <div className="flex-1 min-w-0">
-                                <div className="flex items-baseline gap-2">
+                                <div className="flex items-baseline gap-2 flex-col">
                                     <span className="text-lg font-extrabold leading-tight">90+ 美式</span>
                                     <span className="text-base text-gray-600 font-normal">Select Americano</span>
                                 </div>
@@ -61,7 +61,7 @@ export default function Parallax() {
                         {/* 蕭邦 拿鐵 */}
                         <div className="flex items-start justify-between">
                             <div className="flex-1 min-w-0">
-                                <div className="flex items-baseline gap-2">
+                                <div className="flex items-baseline gap-2 flex-col">
                                     <span className="text-lg font-extrabold leading-tight">蕭邦 拿鐵</span>
                                     <span className="text-base text-gray-600 font-normal">Latte</span>
                                 </div>
@@ -83,7 +83,7 @@ export default function Parallax() {
                         {/* 海頓 卡布奇諾 */}
                         <div className="flex items-start justify-between">
                             <div className="flex-1 min-w-0">
-                                <div className="flex items-baseline gap-2">
+                                <div className="flex items-baseline gap-2 flex-col">
                                     <span className="text-lg font-extrabold leading-tight">海頓 卡布奇諾</span>
                                     <span className="text-base text-gray-600 font-normal">Cappuccino</span>
                                 </div>
@@ -105,7 +105,7 @@ export default function Parallax() {
                         {/* 焦糖 瑪奇朵 */}
                         <div className="flex items-start justify-between">
                             <div className="flex-1 min-w-0">
-                                <div className="flex items-baseline gap-2">
+                                <div className="flex items-baseline gap-2 flex-col">
                                     <span className="text-lg font-extrabold leading-tight">焦糖 瑪奇朵</span>
                                     <span className="text-base text-gray-600 font-normal">Caramel Macchiato</span>
                                 </div>
@@ -131,7 +131,7 @@ export default function Parallax() {
                     {/* 標題與660cc標籤 */}
                     <div className="flex items-center justify-between mb-4">
                         <div className="flex items-baseline gap-3">
-                            <span className="text-3xl font-extrabold leading-tight">Paintings</span>
+                            <span className="text-2xl font-extrabold leading-tight">Paintings</span>
                             <span className="text-xl font-semibold text-gray-700 tracking-wide">畫茶</span>
                         </div>
                         <div className="flex-shrink-0">
@@ -145,7 +145,7 @@ export default function Parallax() {
                         {/* 山跟雲說 高山烏龍 */}
                         <div className="flex items-start justify-between">
                             <div className="flex-1 min-w-0">
-                                <div className="flex items-baseline gap-2">
+                                <div className="flex items-baseline gap-2 flex-col">
                                     <span className="text-lg font-extrabold leading-tight">山跟雲說 <span className='font-black'>高山烏龍</span></span>
                                     <span className="text-base text-gray-600 font-normal">High Mountain Oolong</span>
                                 </div>
@@ -168,7 +168,7 @@ export default function Parallax() {
                         {/* 柳染 四季春 */}
                         <div className="flex items-start justify-between">
                             <div className="flex-1 min-w-0">
-                                <div className="flex items-baseline gap-2">
+                                <div className="flex items-baseline gap-2 flex-col">
                                     <span className="text-lg font-extrabold leading-tight">柳染 <span className='font-black'>四季春</span></span>
                                     <span className="text-base text-gray-600 font-normal">Four Seasons Spring</span>
                                 </div>
@@ -191,7 +191,7 @@ export default function Parallax() {
                         {/* 敦鶴 紅玉 Ruby Red */}
                         <div className="flex items-start justify-between">
                             <div className="flex-1 min-w-0">
-                                <div className="flex items-baseline gap-2">
+                                <div className="flex items-baseline gap-2 flex-col">
                                     <span className="text-lg font-extrabold leading-tight">敦鶴 <span className='font-black'>紅玉</span></span>
                                     <span className="text-base text-gray-600 font-normal">Ruby Red</span>
                                 </div>
@@ -219,7 +219,7 @@ export default function Parallax() {
                     {/* 標題與480cc標籤 */}
                     <div className="flex items-center justify-between mb-4">
                         <div className="flex items-baseline gap-3">
-                            <span className="text-3xl font-extrabold leading-tight">Velvet yogurt</span>
+                            <span className="text-2xl font-extrabold leading-tight">Velvet yogurt</span>
                             <span className="text-xl font-semibold text-gray-700 tracking-wide">優格絲絨</span>
                         </div>
                         <div className="flex-shrink-0">
@@ -233,7 +233,7 @@ export default function Parallax() {
                         {/* 酸酸忍者龜 抹茶 */}
                         <div className="flex items-start justify-between">
                             <div className="flex-1 min-w-0">
-                                <div className="flex items-baseline gap-2">
+                                <div className="flex items-baseline gap-2 flex-col">
                                     <span className="text-lg font-extrabold leading-tight">酸酸忍者龜 <span className='font-black'>抹茶</span></span>
                                     <span className="text-base text-gray-600 font-normal">Sour Ninja Turtle Matcha</span>
                                 </div>
@@ -254,7 +254,7 @@ export default function Parallax() {
                         {/* 甜甜大芒人 芒果 */}
                         <div className="flex items-start justify-between">
                             <div className="flex-1 min-w-0">
-                                <div className="flex items-baseline gap-2">
+                                <div className="flex items-baseline gap-2 flex-col">
                                     <span className="text-lg font-extrabold leading-tight">甜甜大芒人 <span className='font-black'>芒果</span></span>
                                     <span className="text-base text-gray-600 font-normal">Mr. Mango on the Go</span>
                                 </div>
@@ -273,7 +273,7 @@ export default function Parallax() {
                         {/* 沒你哪是愛 草莓 */}
                         <div className="flex items-start justify-between">
                             <div className="flex-1 min-w-0">
-                                <div className="flex items-baseline gap-2">
+                                <div className="flex items-baseline gap-2 flex-col">
                                     <span className="text-lg font-extrabold leading-tight">沒你哪是愛 <span className='font-black'>草莓</span></span>
                                     <span className="text-base text-gray-600 font-normal">Ain't Love Ain't You</span>
                                 </div>
@@ -297,7 +297,7 @@ export default function Parallax() {
                     {/* 標題與480cc/360cc標籤 */}
                     <div className="flex items-center justify-between mb-4">
                         <div className="flex items-baseline gap-3">
-                            <span className="text-3xl font-extrabold leading-tight">AMZ Milkshake</span>
+                            <span className="text-2xl font-extrabold leading-tight">AMZ Milkshake</span>
                             <span className="text-xl font-semibold text-gray-700 tracking-wide">昔捲腦門</span>
                         </div>
                         <div className="flex-shrink-0">
@@ -311,7 +311,7 @@ export default function Parallax() {
                         {/* 大溪地 香草 Tahiti vanilla */}
                         <div className="flex items-start justify-between">
                             <div className="flex-1 min-w-0">
-                                <div className="flex items-baseline gap-2">
+                                <div className="flex items-baseline gap-2 flex-col">
                                     <span className="text-lg font-extrabold leading-tight">大溪地 <span className='font-black'>香草</span></span>
                                     <span className="text-base text-gray-600 font-normal">Tahiti vanilla</span>
                                 </div>
@@ -332,7 +332,7 @@ export default function Parallax() {
                         {/* 黑露露 巧克力 Darky chocolate */}
                         <div className="flex items-start justify-between">
                             <div className="flex-1 min-w-0">
-                                <div className="flex items-baseline gap-2">
+                                <div className="flex items-baseline gap-2 flex-col">
                                     <span className="text-lg font-extrabold leading-tight">黑露露 <span className='font-black'>巧克力</span></span>
                                     <span className="text-base text-gray-600 font-normal">Darky chocolate</span>
                                 </div>
@@ -350,7 +350,7 @@ export default function Parallax() {
                         {/* 菲菲 草莓 Fairy strawberry */}
                         <div className="flex items-start justify-between">
                             <div className="flex-1 min-w-0">
-                                <div className="flex items-baseline gap-2">
+                                <div className="flex items-baseline gap-2 flex-col">
                                     <span className="text-lg font-extrabold leading-tight">菲菲 <span className='font-black'>草莓</span></span>
                                     <span className="text-base text-gray-600 font-normal">Fairy strawberry</span>
                                 </div>
@@ -368,7 +368,7 @@ export default function Parallax() {
                         {/* 西西里 開心果 Sicilian Pistachio */}
                         <div className="flex items-start justify-between">
                             <div className="flex-1 min-w-0">
-                                <div className="flex items-baseline gap-2">
+                                <div className="flex items-baseline gap-2 flex-col">
                                     <span className="text-lg font-extrabold leading-tight">西西里 <span className='font-black'>開心果</span></span>
                                     <span className="text-base text-gray-600 font-normal">Sicilian Pistachio</span>
                                 </div>
@@ -386,7 +386,7 @@ export default function Parallax() {
                         {/* 曼巴精神 咖啡 Mamba Coffee */}
                         <div className="flex items-start justify-between">
                             <div className="flex-1 min-w-0">
-                                <div className="flex items-baseline gap-2">
+                                <div className="flex items-baseline gap-2 flex-col">
                                     <span className="text-lg font-extrabold leading-tight">曼巴精神 <span className='font-black'>咖啡</span></span>
                                     <span className="text-base text-gray-600 font-normal">Mamba Coffee</span>
                                 </div>
@@ -404,7 +404,7 @@ export default function Parallax() {
                         {/* 碧波 抹茶 Bibo Matcha */}
                         <div className="flex items-start justify-between">
                             <div className="flex-1 min-w-0">
-                                <div className="flex items-baseline gap-2">
+                                <div className="flex items-baseline gap-2 flex-col">
                                     <span className="text-lg font-extrabold leading-tight">碧波 <span className='font-black'>抹茶</span></span>
                                     <span className="text-base text-gray-600 font-normal">Bibo Matcha</span>
                                 </div>
@@ -427,7 +427,7 @@ export default function Parallax() {
                     {/* 標題與480cc/360cc標籤 */}
                     <div className="flex items-center justify-between mb-4">
                         <div className="flex items-baseline gap-3">
-                            <span className="text-3xl font-extrabold leading-tight">Silk Bloom</span>
+                            <span className="text-2xl font-extrabold leading-tight">Silk Bloom</span>
                             <span className="text-xl font-semibold text-gray-700 tracking-wide">醇奶初雪</span>
                         </div>
                         <div className="flex items-center gap-2 flex-shrink-0">
@@ -442,7 +442,7 @@ export default function Parallax() {
                         {/* Best one 奶茶 */}
                         <div className="flex items-start justify-between">
                             <div className="flex-1 min-w-0">
-                                <div className="flex items-baseline gap-2">
+                                <div className="flex items-baseline gap-2 flex-col">
                                     {/* 大拇指icon */}
                             <div>
                                         <img src="/626-mnue-04.png" width="24" />
@@ -474,8 +474,9 @@ export default function Parallax() {
                                     {/* ONEONE 標籤 */}
                                     <span className="inline-flex items-center mr-1 align-middle"><span className="px-2 py-1 rounded bg-[#38cfd9] text-black text-xs font-bold" style={{letterSpacing:'1px', borderRadius:'0 10px 12px 12px', padding: '4 12px'}}>ONEONE</span></span>
                                     <span className="text-lg font-extrabold leading-tight" style={{marginRight: '4px'}}>鮮奶茶</span>
-                                    <span className="text-base text-gray-600 font-normal">ONE ONE Milk Tea</span>
+                                    
                                 </div>
+                                <div className="text-base text-gray-700 font-normal">ONE ONE Milk Tea</div>
                                 <div className="text-sm text-gray-700 mt-1">小農家最熱情的那隻母牛提供</div>
                             </div>
                             <div className="flex items-end gap-6 min-w-[120px]">
@@ -495,7 +496,7 @@ export default function Parallax() {
                         {/* 侏羅紀可可 巧克力牛奶 */}
                         <div className="flex items-start justify-between">
                             <div className="flex-1 min-w-0">
-                                <div className="flex items-baseline gap-2">
+                                <div className="flex items-baseline gap-2 flex-col">
                                     <span className="text-lg font-extrabold leading-tight">侏羅紀可可 <span className='font-black'>巧克力牛奶</span></span>
                                     <span className="text-base text-gray-600 font-normal">Jurassic Cocoa</span>
                                 </div>
@@ -518,7 +519,7 @@ export default function Parallax() {
                         {/* 綠野仙蹤 抹茶牛奶 */}
                         <div className="flex items-start justify-between">
                             <div className="flex-1 min-w-0">
-                                <div className="flex items-baseline gap-2">
+                                <div className="flex items-baseline gap-2 flex-col">
                                     <span className="text-lg font-extrabold leading-tight">綠野仙蹤 <span className='font-black'>抹茶牛奶</span></span>
                                     <span className="text-base text-gray-600 font-normal">Matcha Milk</span>
                                 </div>
@@ -541,7 +542,7 @@ export default function Parallax() {
                         {/* 白色烤箱 堅果牛奶 */}
                         <div className="flex items-start justify-between">
                             <div className="flex-1 min-w-0">
-                                <div className="flex items-baseline gap-2">
+                                <div className="flex items-baseline gap-2 flex-col">
                                     <span className="text-lg font-extrabold leading-tight">白色烤箱 <span className='font-black'>堅果牛奶</span></span>
                                     <span className="text-base text-gray-600 font-normal">Nut Milk</span>
                                 </div>
@@ -569,7 +570,7 @@ export default function Parallax() {
                     {/* 標題與480cc標籤 */}
                     <div className="flex items-center justify-between mb-4">
                         <div className="flex items-baseline gap-3">
-                            <span className="text-3xl font-extrabold leading-tight">Soul Drip</span>
+                            <span className="text-2xl font-extrabold leading-tight">Soul Drip</span>
                             <span className="text-xl font-semibold text-gray-700 tracking-wide">生命之水</span>
                         </div>
                         <div className="flex-shrink-0">
@@ -583,7 +584,7 @@ export default function Parallax() {
                         {/* 酸酸忍者龜 抹茶 */}
                         <div className="flex items-start justify-between">
                             <div className="flex-1 min-w-0">
-                                <div className="flex items-baseline gap-2">
+                                <div className="flex items-baseline gap-2 flex-col">
                                     <span className="text-lg font-extrabold leading-tight">樹上椰子水</span>
                                     <span className="text-base text-gray-600 font-normal">Tree-Top Coconut</span>
                                 </div>
@@ -625,7 +626,7 @@ export default function Parallax() {
                         {/* 沒你哪是愛 草莓 */}
                         <div className="flex items-start justify-between">
                             <div className="flex-1 min-w-0">
-                                <div className="flex items-baseline gap-2">
+                                <div className="flex items-baseline gap-2 flex-col">
                                     <span className="text-lg font-extrabold leading-tight">心痛的感覺 </span>
                                     <span className="text-base text-gray-600 font-normal">Ouch. That hurts.</span>
                                 </div>
