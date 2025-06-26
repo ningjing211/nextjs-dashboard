@@ -582,7 +582,7 @@ export default function Parallax() {
                         <div className="flex items-start justify-between">
                             <div className="flex-1 min-w-0">
                                 <div className="flex items-baseline gap-2 flex-col">
-                                    <span className="text-lg font-extrabold leading-tight">樹上椰子水</span>
+                                    <span className="text-lg font-extrabold leading-tight" style={{marginTop: '12px'}}>樹上椰子水</span>
                                     <span className="text-base text-gray-600 font-normal">Tree-Top Coconut</span>
                                 </div>
                                 <div className="text-sm text-gray-700 mt-1">火大來一杯</div>
