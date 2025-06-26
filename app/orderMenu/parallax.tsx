@@ -39,7 +39,7 @@ export default function Parallax() {
                         <div className="flex items-start justify-between">
                             <div className="flex-1 min-w-0" >
                                 <div className="flex items-baseline gap-2 flex-col">
-                                    <span className="text-base font-extrabold leading-tight" style={{marginTop: '12px'}}>90+ 美式</span>
+                                    <span className="text-base font-extrabold leading-tight" style={{marginTop: '14px'}}>90+ 美式</span>
                                     <span className="text-base text-gray-600 font-normal">Select Americano</span>
                                 </div>
                                 <div className="text-sm text-gray-700 mt-1">喜歡簡單直接的你</div>
@@ -146,7 +146,7 @@ export default function Parallax() {
                         <div className="flex items-start justify-between">
                             <div className="flex-1 min-w-0">
                                 <div className="flex items-baseline gap-2 flex-col">
-                                    <span className="text-base font-extrabold leading-tight" style={{marginTop: '12px'}}>山跟雲說 <span className='font-black'>高山烏龍</span></span>
+                                    <span className="text-base font-extrabold leading-tight" style={{marginTop: '14px'}}>山跟雲說 <span className='font-black'>高山烏龍</span></span>
                                     <span className="text-base text-gray-600 font-normal">High Mountain Oolong</span>
                                 </div>
                                 <div className="text-sm text-gray-700 mt-1">喝一口雲就在你旁邊</div>
@@ -232,7 +232,7 @@ export default function Parallax() {
                         <div className="flex items-start justify-between">
                             <div className="flex-1 min-w-0">
                                 <div className="flex items-baseline gap-2 flex-col">
-                                    <span className="text-base font-extrabold leading-tight" style={{marginTop: '12px'}}>酸酸忍者龜 <span className='font-black'>抹茶</span></span>
+                                    <span className="text-base font-extrabold leading-tight" style={{marginTop: '14px'}}>酸酸忍者龜 <span className='font-black'>抹茶</span></span>
                                     <span className="text-base text-gray-600 font-normal">Sour Ninja Turtle Matcha</span>
                                 </div>
                                 <div className="text-sm text-gray-700 mt-1">開始分泌唾液了</div>
@@ -310,7 +310,7 @@ export default function Parallax() {
                         <div className="flex items-start justify-between">
                             <div className="flex-1 min-w-0">
                                 <div className="flex items-baseline gap-2 flex-col">
-                                    <span className="text-base font-extrabold leading-tight" style={{marginTop: '12px'}}>大溪地 <span className='font-black'>香草</span></span>
+                                    <span className="text-base font-extrabold leading-tight" style={{marginTop: '14px'}}>大溪地 <span className='font-black'>香草</span></span>
                                     <span className="text-base text-gray-600 font-normal">Tahiti vanilla</span>
                                 </div>
                                 <div className="text-sm text-gray-700 mt-1">口腔已融化</div>
@@ -443,7 +443,7 @@ export default function Parallax() {
                         {/* Best one 奶茶 */}
                         <div className="flex items-start justify-between">
                             <div className="flex-1 min-w-0">
-                                <div className="flex items-center gap-2" style={{marginTop: '12px'}}>
+                                <div className="flex items-center gap-2" style={{marginTop: '14px'}}>
                                     <img src="/626-mnue-04.png" width="24" />
                                     <span className="text-base font-extrabold leading-tight">Best one <span className='font-black'>奶茶</span></span>
                                 </div>
@@ -582,7 +582,7 @@ export default function Parallax() {
                         <div className="flex items-start justify-between">
                             <div className="flex-1 min-w-0">
                                 <div className="flex items-baseline gap-2 flex-col">
-                                    <span className="text-base font-extrabold leading-tight" style={{marginTop: '12px'}}>樹上椰子水</span>
+                                    <span className="text-base font-extrabold leading-tight" style={{marginTop: '14px'}}>樹上椰子水</span>
                                     <span className="text-base text-gray-600 font-normal">Tree-Top Coconut</span>
                                 </div>
                                 <div className="text-sm text-gray-700 mt-1">火大來一杯</div>
