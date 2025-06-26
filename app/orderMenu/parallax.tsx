@@ -154,12 +154,12 @@ export default function Parallax() {
                             <div className="flex items-end gap-6 min-w-[120px]">
                                 <span className="text-l font-extrabold text-gray-800">$ 40</span>
                                 <div className="flex flex-col items-center ml-2" style={{marginBottom: '3px'}}>
-                                    <div className="flex gap-4 mb-1" style={{marginLeft: '-7px'}}>
+                                    <div className="flex gap-4 mb-1" style={{marginLeft: '-8px'}}>
                                         <span className="text-xs font-bold text-gray-700">ICE</span>
                                         <span className="text-xs font-bold text-gray-700">HOT</span>
                                     </div>
                                     <div className="flex gap-4">
-                                        <span className="w-4 h-4 rounded-full block" style={{background:'#38cfd9'}}></span>
+                                        <span className="w-4 h-4 rounded-full block" style={{background:'#38cfd9', marginLeft: '-12px', marginRight: '4px'}}></span>
                                         <span className="w-4 h-4 rounded-full block" style={{background:'#d48bb9'}}></span>
                                     </div>
                                 </div>
@@ -181,7 +181,7 @@ export default function Parallax() {
                                         
                                     </div>
                                     <div className="flex gap-4">
-                                        <span className="w-4 h-4 rounded-full block" style={{background:'#38cfd9'}}></span>
+                                        <span className="w-4 h-4 rounded-full block" style={{background:'#38cfd9', marginLeft: '-12px', marginRight: '4px'}}></span>
                                         <span className="w-4 h-4 rounded-full block" style={{background:'#d48bb9'}}></span>
                                     </div>
                                 </div>
@@ -203,7 +203,7 @@ export default function Parallax() {
                                         
                                     </div>
                                     <div className="flex gap-4">
-                                        <span className="w-4 h-4 rounded-full block" style={{background:'#38cfd9'}}></span>
+                                        <span className="w-4 h-4 rounded-full block" style={{background:'#38cfd9', marginLeft: '-12px', marginRight: '4px'}}></span>
                                         <span className="w-4 h-4 rounded-full block" style={{background:'#d48bb9'}}></span>
                                     </div>
                                 </div>
