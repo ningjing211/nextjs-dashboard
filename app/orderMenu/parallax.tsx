@@ -24,8 +24,8 @@ export default function Parallax() {
                     {/* 標題與360cc標籤 */}
                     <div className="flex items-center justify-between mb-4">
                         <div className="flex items-baseline gap-3">
-                            <span className="text-lg font-extrabold leading-tight">Time Machine</span>
-                            <span className="text-l font-semibold text-gray-700 tracking-wide">時空啡人</span>
+                            <span className="text-xl font-extrabold leading-tight">Time Machine</span>
+                            <span className="text-lg font-semibold text-gray-700 tracking-wide">時空啡人</span>
                         </div>
                         <div className="flex-shrink-0">
                             <div className="w-16 h-16 rounded-full flex items-center justify-center text-white text-lg font-bold shadow-md" style={{ background: '#7fbfb0', fontFamily: 'inherit' }}>360cc</div>
@@ -131,8 +131,8 @@ export default function Parallax() {
                     {/* 標題與660cc標籤 */}
                     <div className="flex items-center justify-between mb-4">
                         <div className="flex items-baseline gap-3">
-                            <span className="text-lg font-extrabold leading-tight">Paintings</span>
-                            <span className="text-l font-semibold text-gray-700 tracking-wide">畫茶</span>
+                            <span className="text-xl font-extrabold leading-tight">Paintings</span>
+                            <span className="text-lg font-semibold text-gray-700 tracking-wide">畫茶</span>
                         </div>
                         <div className="flex-shrink-0">
                             <div className="w-16 h-16 rounded-full flex items-center justify-center text-white text-lg font-bold shadow-md" style={{ background: '#7fbfb0', fontFamily: 'inherit' }}>660cc</div>
@@ -217,8 +217,8 @@ export default function Parallax() {
                     {/* 標題與480cc標籤 */}
                     <div className="flex items-center justify-between mb-4">
                         <div className="flex items-baseline gap-3">
-                            <span className="text-lg font-extrabold leading-tight">Velvet yogurt</span>
-                            <span className="text-l font-semibold text-gray-700 tracking-wide">優格絲絨</span>
+                            <span className="text-xl font-extrabold leading-tight">Velvet yogurt</span>
+                            <span className="text-lg font-semibold text-gray-700 tracking-wide">優格絲絨</span>
                         </div>
                         <div className="flex-shrink-0">
                             <div className="w-16 h-16 rounded-full flex items-center justify-center text-white text-lg font-bold shadow-md" style={{ background: '#7fbfb0', fontFamily: 'inherit' }}>480cc</div>
@@ -295,8 +295,8 @@ export default function Parallax() {
                     {/* 標題與480cc/360cc標籤 */}
                     <div className="flex items-center justify-between mb-4">
                         <div className="flex items-baseline gap-3">
-                            <span className="text-lg font-extrabold leading-tight">AMZ Milkshake</span>
-                            <span className="text-l font-semibold text-gray-700 tracking-wide">昔捲腦門</span>
+                            <span className="text-xl font-extrabold leading-tight">AMZ Milkshake</span>
+                            <span className="text-lg font-semibold text-gray-700 tracking-wide">昔捲腦門</span>
                         </div>
                         <div className="flex-shrink-0">
                             <div className="w-16 h-16 rounded-full flex items-center justify-center text-white text-lg font-bold shadow-md" style={{ background: '#7fbfb0', fontFamily: 'inherit' }}>480cc</div>
@@ -425,8 +425,8 @@ export default function Parallax() {
                     {/* 標題與480cc/360cc標籤 */}
                     <div className="flex items-center justify-between mb-4">
                         <div className="flex items-baseline gap-3">
-                            <span className="text-lg font-extrabold leading-tight">Silk Bloom</span>
-                            <span className="text-l font-semibold text-gray-700 tracking-wide">醇奶初雪</span>
+                            <span className="text-xl font-extrabold leading-tight">Silk Bloom</span>
+                            <span className="text-lg font-semibold text-gray-700 tracking-wide">醇奶初雪</span>
                         </div>
                         <div className="flex items-center gap-2 flex-shrink-0">
                             <div className="w-16 h-16 rounded-full flex items-center justify-center text-white text-lg font-bold shadow-md" style={{ background: '#38cfd9', fontFamily: 'inherit' }}>480cc</div>
@@ -568,8 +568,8 @@ export default function Parallax() {
                     {/* 標題與480cc標籤 */}
                     <div className="flex items-center justify-between mb-4">
                         <div className="flex items-baseline gap-3">
-                            <span className="text-lg font-extrabold leading-tight">Soul Drip</span>
-                            <span className="text-l font-semibold text-gray-700 tracking-wide">生命之水</span>
+                            <span className="text-xl font-extrabold leading-tight">Soul Drip</span>
+                            <span className="text-lg font-semibold text-gray-700 tracking-wide">生命之水</span>
                         </div>
                         <div className="flex-shrink-0">
                             <div className="w-16 h-16 rounded-full flex items-center justify-center text-white text-lg font-bold shadow-md" style={{ background: '#7fbfb0', fontFamily: 'inherit' }}>660cc</div>
