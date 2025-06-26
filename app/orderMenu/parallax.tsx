@@ -52,8 +52,8 @@ export default function Parallax() {
                                         <span className="text-xs font-bold text-gray-700">HOT</span>
                                     </div>
                                     <div className="flex gap-6">
-                                        <span className="w-4 h-4 rounded-full bg-cyan-400 block"></span>
-                                        <span className="w-4 h-4 rounded-full bg-pink-400 block"></span>
+                                        <span className="w-4 h-4 rounded-full block" style={{background:'#38cfd9'}}></span>
+                                        <span className="w-4 h-4 rounded-full block" style={{background:'#d48bb9'}}></span>
                                     </div>
                                 </div>
                             </div>
@@ -74,8 +74,8 @@ export default function Parallax() {
                                         
                                     </div>
                                     <div className="flex gap-6">
-                                        <span className="w-4 h-4 rounded-full bg-cyan-400 block"></span>
-                                        <span className="w-4 h-4 rounded-full bg-pink-400 block"></span>
+                                        <span className="w-4 h-4 rounded-full block" style={{background:'#38cfd9'}}></span>
+                                        <span className="w-4 h-4 rounded-full block" style={{background:'#d48bb9'}}></span>
                                     </div>
                                 </div>
                             </div>
@@ -96,8 +96,8 @@ export default function Parallax() {
                                         
                                     </div>
                                     <div className="flex gap-6">
-                                        <span className="w-4 h-4 rounded-full bg-cyan-400 block"></span>
-                                        <span className="w-4 h-4 rounded-full bg-pink-400 block"></span>
+                                        <span className="w-4 h-4 rounded-full block" style={{background:'#38cfd9'}}></span>
+                                        <span className="w-4 h-4 rounded-full block" style={{background:'#d48bb9'}}></span>
                                     </div>
                                 </div>
                             </div>
@@ -118,8 +118,8 @@ export default function Parallax() {
                                         
                                     </div>
                                     <div className="flex gap-6">
-                                        <span className="w-4 h-4 rounded-full bg-cyan-400 block"></span>
-                                        <span className="w-4 h-4 rounded-full bg-pink-400 block"></span>
+                                        <span className="w-4 h-4 rounded-full block" style={{background:'#38cfd9'}}></span>
+                                        <span className="w-4 h-4 rounded-full block" style={{background:'#d48bb9'}}></span>
                                     </div>
                                 </div>
                             </div>
@@ -127,79 +127,95 @@ export default function Parallax() {
                     </div>
                 </div>
 
-                {/* Tea Section */}
-                <div className="bg-white rounded-3xl p-8 shadow-lg">
-                    <div className="mb-10" style={{position: 'relative'}}>
-                        <h2 className="text-2xl font-bold inline-block mr-3">Tea</h2>
-                        <span className="text-gray-600">說茶</span>
-                        <div className="cc-badge" style={{position: 'absolute', top: '-10px', right: '-10px'}}>
-                            660cc
+                <div className="bg-white rounded-3xl p-8 shadow-lg relative">
+                    {/* 標題與660cc標籤 */}
+                    <div className="flex items-center justify-between mb-4">
+                        <div className="flex items-baseline gap-3">
+                            <span className="text-3xl font-extrabold leading-tight">Paintings</span>
+                            <span className="text-xl font-semibold text-gray-700 tracking-wide">畫茶</span>
+                        </div>
+                        <div className="flex-shrink-0">
+                            <div className="w-16 h-16 rounded-full flex items-center justify-center text-white text-lg font-bold shadow-md" style={{ background: '#7fbfb0', fontFamily: 'inherit' }}>660cc</div>
                         </div>
                     </div>
-                    
-                    <div className="space-y-6">
-                        <div className="flex items-center justify-between">
-                            <div>
-                                <p className="text-lg font-medium">山跟雲說 高山烏龍</p>
-                                <p className="text-gray-500 text-sm">High Mountain Oolong</p>
+                    {/* 分隔線 */}
+                    <div className="border-t border-gray-300 mb-6"></div>
+                    {/* Menu List */}
+                    <div className="space-y-8">
+                        {/* 山跟雲說 高山烏龍 */}
+                        <div className="flex items-start justify-between">
+                            <div className="flex-1 min-w-0">
+                                <div className="flex items-baseline gap-2">
+                                    <span className="text-lg font-extrabold leading-tight">山跟雲說 <span className='font-black'>高山烏龍</span></span>
+                                    <span className="text-base text-gray-600 font-normal">High Mountain Oolong</span>
+                                </div>
+                                <div className="text-sm text-gray-700 mt-1">喝一口雲就在你旁邊</div>
                             </div>
-                            <div className="flex items-center gap-4">
-                                <span className="text-xl font-bold">$40</span>
-                                <div className="flex gap-1">
-                                    <span className="w-4 h-4 rounded-full bg-cyan-400"></span>
+                            <div className="flex items-end gap-6 min-w-[120px]">
+                                <span className="text-2xl font-extrabold text-gray-800">$ 40</span>
+                                <div className="flex flex-col items-center ml-2">
+                                    <div className="flex gap-4 mb-1">
+                                        <span className="text-xs font-bold text-gray-700">ICE</span>
+                                        <span className="text-xs font-bold text-gray-700">HOT</span>
+                                    </div>
+                                    <div className="flex gap-4">
+                                        <span className="w-4 h-4 rounded-full block" style={{background:'#38cfd9'}}></span>
+                                        <span className="w-4 h-4 rounded-full block" style={{background:'#d48bb9'}}></span>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        
-                        <div className="flex items-center justify-between">
-                            <div>
-                                <p className="text-lg font-medium">柳染 四季春</p>
-                                <p className="text-gray-500 text-sm">Four Seasons Spring</p>
+                        {/* 柳染 四季春 */}
+                        <div className="flex items-start justify-between">
+                            <div className="flex-1 min-w-0">
+                                <div className="flex items-baseline gap-2">
+                                    <span className="text-lg font-extrabold leading-tight">柳染 <span className='font-black'>四季春</span></span>
+                                    <span className="text-base text-gray-600 font-normal">Four Seasons Spring</span>
+                                </div>
+                                <div className="text-sm text-gray-700 mt-1">今天的口氣芳香淡雅</div>
                             </div>
-                            <div className="flex items-center gap-4">
-                                <span className="text-xl font-bold">$40</span>
-                                <div className="flex gap-1">
-                                    <span className="w-4 h-4 rounded-full bg-cyan-400"></span>
+                            <div className="flex items-end gap-6 min-w-[120px]">
+                                <span className="text-2xl font-extrabold text-gray-800">$ 40</span>
+                                <div className="flex flex-col items-center ml-2">
+                                    <div className="flex gap-4 mb-1">
+                                        <span className="text-xs font-bold text-gray-700">ICE</span>
+                                        <span className="text-xs font-bold text-gray-700">HOT</span>
+                                    </div>
+                                    <div className="flex gap-4">
+                                        <span className="w-4 h-4 rounded-full block" style={{background:'#38cfd9'}}></span>
+                                        <span className="w-4 h-4 rounded-full block" style={{background:'#d48bb9'}}></span>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-
-                        <div className="flex items-center justify-between">
-                            <div>
-                                <p className="text-lg font-medium">敦鶴 紅玉</p>
-                                <p className="text-gray-500 text-sm">Black Tea</p>
-                            </div>
-                            <div className="flex items-center gap-4">
-                                <span className="text-xl font-bold">$50</span>
-                                <div className="flex gap-1">
-                                    <span className="w-4 h-4 rounded-full bg-cyan-400"></span>
+                        {/* 敦鶴 紅玉 Ruby Red */}
+                        <div className="flex items-start justify-between">
+                            <div className="flex-1 min-w-0">
+                                <div className="flex items-baseline gap-2">
+                                    <span className="text-lg font-extrabold leading-tight">敦鶴 <span className='font-black'>紅玉</span></span>
+                                    <span className="text-base text-gray-600 font-normal">Ruby Red</span>
                                 </div>
+                                <div className="text-sm text-gray-700 mt-1">不加糖都著迷的紅茶</div>
                             </div>
-                        </div>
-                        
-                        <div className="mb-10" style={{position: 'relative', marginTop: '48px', marginBottom: '36px'}}>
-                            <h2 className="text-2xl font-bold inline-block mr-3">Milk Tea</h2>
-                            <span className="text-gray-600">嚼奶茶</span>
-                            <div className="cc-badge" style={{position: 'absolute', top: '-10px', right: '-10px'}}>
-                                480cc
-                            </div>
-                        </div>
-                        <div className="space-y-6">
-                        <div className="flex items-center justify-between">
-                            <div>
-                                <p className="text-lg font-medium">鑛式 奶茶</p>
-                                <p className="text-gray-500 text-sm">Crown Style Milk Tea</p>
-                            </div>
-                            <div className="flex items-center gap-4">
-                                <span className="text-xl font-bold">$70</span>
-                                <div className="flex gap-1">
-                                    <span className="w-4 h-4 rounded-full bg-cyan-400"></span>
+                            <div className="flex items-end gap-6 min-w-[120px]">
+                                <span className="text-2xl font-extrabold text-gray-800">$ 50</span>
+                                <div className="flex flex-col items-center ml-2">
+                                    <div className="flex gap-4 mb-1">
+                                        <span className="text-xs font-bold text-gray-700">ICE</span>
+                                        <span className="text-xs font-bold text-gray-700">HOT</span>
+                                    </div>
+                                    <div className="flex gap-4">
+                                        <span className="w-4 h-4 rounded-full block" style={{background:'#38cfd9'}}></span>
+                                        <span className="w-4 h-4 rounded-full block" style={{background:'#d48bb9'}}></span>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
+
+            
+                
 
             {/* Video Section */}
             <div 
